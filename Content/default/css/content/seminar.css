@@ -1,0 +1,148 @@
+/* set global config vars */
+/* defualt page width setting(PC) */
+/* off canvas menu width *eg. 70px or 70% */
+/* main slide margin top */
+/* header height */
+/* footer height */
+/* global body setting */
+/* default font family */
+/* text sizing multiplier */
+/* text sizing */
+/* default theme color */
+/* special theme */
+/* insert special theme for this website */
+/* text sizing */
+@font-face {
+  font-family: 'webfont-med';
+  src: url("../../../../fonts/PSLKittithadaProBold.eot");
+  src: url("../../../../fonts/PSLKittithadaProBold.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSLKittithadaProBold.woff") format("woff"), url("../../../../fonts/PSLKittithadaProBold.ttf") format("truetype"), url("../../../../fonts/PSLKittithadaProBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'webfont-regular';
+  src: url("../../../../fonts/PSLKittithadaPro.eot");
+  src: url("../../../../fonts/PSLKittithadaPro.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSLKittithadaPro.woff") format("woff"), url("../../../../fonts/PSLKittithadaPro.ttf") format("truetype"), url("../../../../fonts/PSLKittithadaPro.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* note : for IE8,7 need css3pie helper*/
+.seminar-wrapper {
+  padding-top: 48px; }
+  .seminar-wrapper .tabs-wrapper {
+    margin-bottom: 32px; }
+    .seminar-wrapper .tabs-wrapper .nav-tabs {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border-bottom: 0; }
+      .seminar-wrapper .tabs-wrapper .nav-tabs > li {
+        float: none;
+        display: inline-block;
+        width: auto !important;
+        margin-bottom: 0;
+        padding: 0 10px;
+        border: 0;
+        border-bottom: 5px solid transparent; }
+        .seminar-wrapper .tabs-wrapper .nav-tabs > li a {
+          color: #999;
+          font-size: 26px;
+          font-weight: 300;
+          background-color: transparent;
+          border: 0;
+          margin-right: 0;
+          padding: 5px 0;
+          padding-right: 15px;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          border-radius: 0;
+          -pie-border-radius: 0;
+          behavior: url(pie/PIE.htc); }
+          .seminar-wrapper .tabs-wrapper .nav-tabs > li a:hover {
+            color: #00AC4A; }
+        .seminar-wrapper .tabs-wrapper .nav-tabs > li.active {
+          border: 0;
+          border-bottom: 5px solid #00AC4A; }
+          .seminar-wrapper .tabs-wrapper .nav-tabs > li.active a {
+            color: #00AC4A;
+            background-color: transparent;
+            background-image: url("../../../../Images/icons/icon-tab-red.fw.png");
+            background-repeat: no-repeat;
+            background-position: center right 15px;
+            background-position-y: center;
+            background-position-x: 100%;
+            border: 0; }
+  .seminar-wrapper .seminar-detail {
+    padding-bottom: 50px;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 40px; }
+    .seminar-wrapper .seminar-detail h3 {
+      font-size: 30px;
+      line-height: 40px;
+      font-weight: 300;
+      margin: 0; }
+    .seminar-wrapper .seminar-detail p {
+      font-size: 22px;
+      line-height: 40px; }
+    .seminar-wrapper .seminar-detail ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      .seminar-wrapper .seminar-detail ul li {
+        list-style-position: inside;
+        list-style-type: disc; }
+  .seminar-wrapper .seminar-banner-wrapper {
+    width: 100%;
+    top: 0;
+    overflow: hidden; }
+    .seminar-wrapper .seminar-banner-wrapper .seminar-banner-outer {
+      float: left;
+      width: 100%;
+      position: relative;
+      display: block; }
+      .seminar-wrapper .seminar-banner-wrapper .seminar-banner-outer img {
+        display: block;
+        width: 100%;
+        height: auto;
+        vertical-align: top; }
+      .seminar-wrapper .seminar-banner-wrapper .seminar-banner-outer .caption-outer {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%; }
+      .seminar-wrapper .seminar-banner-wrapper .seminar-banner-outer .caption-inner {
+        display: table;
+        width: 100%;
+        height: 100%;
+        padding: 0 10%; }
+      .seminar-wrapper .seminar-banner-wrapper .seminar-banner-outer .caption {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 2;
+        text-decoration: none; }
+        .seminar-wrapper .seminar-banner-wrapper .seminar-banner-outer .caption .title {
+          font-size: 40px;
+          line-height: 40px;
+          font-weight: 300;
+          color: #fff;
+          text-transform: uppercase; }
+        .seminar-wrapper .seminar-banner-wrapper .seminar-banner-outer .caption .description {
+          font-size: 30px;
+          line-height: 40px;
+          font-weight: 300;
+          color: #fff; }
+        .seminar-wrapper .seminar-banner-wrapper .seminar-banner-outer .caption .btn-outer {
+          margin-top: 22px;
+          margin-bottom: 22px; }
+      @media screen and (max-width: 767px) {
+        .seminar-wrapper .seminar-banner-wrapper .seminar-banner-outer img {
+          width: auto; } }
+
+.footer .index-box-header {
+  display: none; }
+
+.footer .contact-wrapper .academy-information {
+  display: none; }

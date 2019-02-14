@@ -1,0 +1,150 @@
+/* set global config vars */
+/* defualt page width setting(PC) */
+/* off canvas menu width *eg. 70px or 70% */
+/* main slide margin top */
+/* header height */
+/* footer height */
+/* global body setting */
+/* default font family */
+/* text sizing multiplier */
+/* text sizing */
+/* default theme color */
+/* special theme */
+/* insert special theme for this website */
+/* text sizing */
+@font-face {
+  font-family: 'webfont-med';
+  src: url("../../../../fonts/PSLKittithadaProBold.eot");
+  src: url("../../../../fonts/PSLKittithadaProBold.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSLKittithadaProBold.woff") format("woff"), url("../../../../fonts/PSLKittithadaProBold.ttf") format("truetype"), url("../../../../fonts/PSLKittithadaProBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'webfont-regular';
+  src: url("../../../../fonts/PSLKittithadaPro.eot");
+  src: url("../../../../fonts/PSLKittithadaPro.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSLKittithadaPro.woff") format("woff"), url("../../../../fonts/PSLKittithadaPro.ttf") format("truetype"), url("../../../../fonts/PSLKittithadaPro.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* note : for IE8,7 need css3pie helper*/
+/*#page-member {
+    .foo-item {
+
+        .caption-outer {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .caption-inner {
+            display: table;
+            width: 100%;
+            height: 100%;
+            padding: 10%;
+        }
+
+        .caption {
+            display: table-cell;
+            vertical-align: top;
+            text-align: left;
+            color: #fff;
+            width: 100%;
+            z-index: 2;
+            text-decoration: none;
+
+            .title {
+                font-size: $text-x-large;
+                line-height: $text-x-large;
+                font-weight: 300;
+                color: $color-white;
+                text-transform: uppercase;
+            }
+
+            .description {
+                font-size: $text-small;
+                line-height: $text-x-large;
+                font-weight: 300;
+                color: $color-white;
+            }
+
+            .btn-outer {
+                margin-top: 22px;
+                margin-bottom: 22px;
+            }
+
+            &.color-text {
+                color: $color-text;
+
+                .title {
+                    color: $color-text;
+                }
+
+                .description {
+                    color: $color-text;
+                }
+            }
+        }
+    }
+}*/
+.media-wrapper {
+  position: relative;
+  padding-top: 0;
+  margin-top: -300px; }
+  .media-wrapper .audio-wrapper {
+    min-height: 250px;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(41, 61, 105, 0.75);
+    /*.caption-outer {
+            position: relative;
+
+            .caption-inner {
+                position: relative;
+                padding: 10px;
+                padding-top: 80px;
+                background-color: rgba(41, 61, 105, 0.75);
+
+                .caption {
+                    text-align: center;
+
+                    h3 {
+                        font-weight: 300;
+                        line-height: $text-large;
+                        color: $color-white;
+                    }
+                }
+
+                .caption-icon {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+
+                    i {
+                        font-size: $text-x-small;
+                        color: $color-white;
+                    }
+                }
+            }
+        }*/ }
+    .media-wrapper .audio-wrapper .title {
+      margin-bottom: 20px;
+      color: #fff; }
+      .media-wrapper .audio-wrapper .title h3 {
+        font-weight: 300;
+        margin: 0;
+        margin-bottom: 10px; }
+      .media-wrapper .audio-wrapper .title p {
+        font-weight: 300; }
+    .media-wrapper .audio-wrapper .jp-jplayer {
+      display: none; }
+    .media-wrapper .audio-wrapper .jp-video-270p {
+      width: 100%; }
+    .media-wrapper .audio-wrapper .jp-audio, .media-wrapper .audio-wrapper .jp-audio-stream, .media-wrapper .audio-wrapper .jp-video {
+      border: 0; }
+
+.footer .index-box-header {
+  display: none; }
+
+.footer .contact-wrapper .academy-information {
+  display: none; }

@@ -1,0 +1,428 @@
+/* set global config vars */
+/* defualt page width setting(PC) */
+/* off canvas menu width *eg. 70px or 70% */
+/* main slide margin top */
+/* header height */
+/* footer height */
+/* global body setting */
+/* default font family */
+/* text sizing multiplier */
+/* text sizing */
+/* default theme color */
+/* special theme */
+/* insert special theme for this website */
+/* text sizing */
+@font-face {
+  font-family: 'webfont-med';
+  src: url("../../../../fonts/PSLKittithadaProBold.eot");
+  src: url("../../../../fonts/PSLKittithadaProBold.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSLKittithadaProBold.woff") format("woff"), url("../../../../fonts/PSLKittithadaProBold.ttf") format("truetype"), url("../../../../fonts/PSLKittithadaProBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'webfont-regular';
+  src: url("../../../../fonts/PSLKittithadaPro.eot");
+  src: url("../../../../fonts/PSLKittithadaPro.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSLKittithadaPro.woff") format("woff"), url("../../../../fonts/PSLKittithadaPro.ttf") format("truetype"), url("../../../../fonts/PSLKittithadaPro.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* note : for IE8,7 need css3pie helper*/
+#page-member .foo-item .caption-outer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%; }
+
+#page-member .foo-item .caption-inner {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 10%; }
+
+#page-member .foo-item .caption {
+  display: table-cell;
+  vertical-align: top;
+  text-align: left;
+  color: #fff;
+  width: 100%;
+  z-index: 2;
+  text-decoration: none; }
+  #page-member .foo-item .caption .title {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase; }
+  #page-member .foo-item .caption .description {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 300;
+    color: #fff; }
+  #page-member .foo-item .caption .btn-outer {
+    margin-top: 22px;
+    margin-bottom: 22px; }
+  #page-member .foo-item .caption.color-text {
+    color: #999; }
+    #page-member .foo-item .caption.color-text .title {
+      color: #999; }
+    #page-member .foo-item .caption.color-text .description {
+      color: #999; }
+
+.member-wrapper {
+  padding-top: 0; }
+  .member-wrapper .knowledge {
+    position: relative;
+    min-height: 265px;
+    margin-top: -265px; }
+    .member-wrapper .knowledge .knowledge-popup {
+      position: static; }
+    .member-wrapper .knowledge .popup-content {
+      position: absolute;
+      background: #fff;
+      min-width: 100%;
+      border: 1px solid #a9a9a9;
+      right: 0;
+      top: 0;
+      opacity: 0;
+      z-index: -1;
+      text-align: left;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+      margin-top: 10px;
+      padding: 25px 100px 25px 50px;
+      visibility: hidden; }
+      .member-wrapper .knowledge .popup-content h3 {
+        color: #999;
+        line-height: 34px;
+        font-weight: 400; }
+      .member-wrapper .knowledge .popup-content p, .member-wrapper .knowledge .popup-content span {
+        font-weight: 300; }
+      .member-wrapper .knowledge .popup-content a {
+        color: #293D69;
+        font-weight: 400;
+        text-decoration: underline; }
+        .member-wrapper .knowledge .popup-content a:hover {
+          color: #00AC4A; }
+      .member-wrapper .knowledge .popup-content ul {
+        padding: 0;
+        margin: 0;
+        width: 75%; }
+        .member-wrapper .knowledge .popup-content ul li {
+          font-weight: 300;
+          list-style: none;
+          line-height: 26px;
+          margin-bottom: 10px; }
+      .member-wrapper .knowledge .popup-content .btn-close {
+        position: absolute;
+        top: 25px;
+        right: 30px;
+        width: 43px;
+        height: 40px;
+        font-size: 30px;
+        line-height: 40px;
+        color: #232323;
+        border: 1px solid #232323;
+        padding: 0;
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        text-decoration: none;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        z-index: 20; }
+        .member-wrapper .knowledge .popup-content .btn-close:hover {
+          color: #00AC4A;
+          border-color: #00AC4A; }
+    .member-wrapper .knowledge .active .popup-content {
+      opacity: 1;
+      z-index: 200;
+      margin-top: 0;
+      visibility: visible;
+      overflow: visible !important; }
+    .member-wrapper .knowledge .caption-outer {
+      position: relative; }
+      .member-wrapper .knowledge .caption-outer .caption-inner {
+        position: relative;
+        padding: 20px;
+        padding-top: 80px;
+        background-color: rgba(41, 61, 105, 0.75); }
+        .member-wrapper .knowledge .caption-outer .caption-inner .caption {
+          text-align: center; }
+          .member-wrapper .knowledge .caption-outer .caption-inner .caption h3 {
+            font-weight: 300;
+            line-height: 34px;
+            color: #fff; }
+        .member-wrapper .knowledge .caption-outer .caption-inner .caption-icon {
+          position: absolute;
+          top: 10px;
+          right: 10px; }
+          .member-wrapper .knowledge .caption-outer .caption-inner .caption-icon i {
+            font-size: 26px;
+            color: #fff; }
+    @media screen and (max-width: 1199px) {
+      .member-wrapper .knowledge {
+        margin-top: -125px;
+        margin-bottom: 30px; }
+        .member-wrapper .knowledge .caption-outer .caption-inner {
+          background-color: #293D69; } }
+    @media screen and (max-width: 999px) {
+      .member-wrapper .knowledge {
+        margin-top: 0;
+        margin-bottom: 30px; }
+        .member-wrapper .knowledge .caption-outer .caption-inner {
+          padding-top: 20px;
+          margin-bottom: 15px; } }
+  .member-wrapper .account {
+    position: relative;
+    /*min-height: 300px;*/ }
+    .member-wrapper .account .account-outer {
+      background-image: url("../../../../Images/bg/bg-account.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 90px 0 45px 0; }
+      .member-wrapper .account .account-outer h3 {
+        font-size: 34px;
+        font-weight: 300;
+        line-height: 40px;
+        color: #fff;
+        margin: 0; }
+      .member-wrapper .account .account-outer .login input[type="text"] {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -pie-border-radius: 0;
+        behavior: url(pie/PIE.htc);
+        border-color: #ccc; }
+      .member-wrapper .account .account-outer .login input[type="password"] {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -pie-border-radius: 0;
+        behavior: url(pie/PIE.htc);
+        border-color: #ccc; }
+      .member-wrapper .account .account-outer .btn-outer {
+        text-align: right; }
+        .member-wrapper .account .account-outer .btn-outer .btn-login {
+          width: 43px;
+          height: 40px;
+          margin: 7px 0;
+          display: inline-block;
+          text-indent: -9999px;
+          background-image: url("../../../../Images/icons/arrow-login.jpg");
+          background-repeat: no-repeat;
+          background-position: center center; }
+    .member-wrapper .account .my-account {
+      position: relative;
+      text-align: center;
+      padding: 35px 0 35px 0; }
+      .member-wrapper .account .my-account a.register {
+        position: relative;
+        display: inline-block;
+        text-decoration: none; }
+        .member-wrapper .account .my-account a.register i {
+          font-size: 40px;
+          line-height: 40px;
+          color: #666; }
+        .member-wrapper .account .my-account a.register h3 {
+          font-size: 34px;
+          font-weight: 300;
+          line-height: 40px;
+          color: #666;
+          margin: 0; }
+        .member-wrapper .account .my-account a.register:hover i, .member-wrapper .account .my-account a.register:hover h3 {
+          color: #00AC4A; }
+      .member-wrapper .account .my-account a.forgot-password {
+        display: inline-block;
+        text-decoration: none; }
+        .member-wrapper .account .my-account a.forgot-password i {
+          font-size: 40px;
+          line-height: 40px;
+          color: #666; }
+        .member-wrapper .account .my-account a.forgot-password h3 {
+          font-size: 34px;
+          font-weight: 300;
+          line-height: 40px;
+          color: #666;
+          margin: 0; }
+        .member-wrapper .account .my-account a.forgot-password:hover i, .member-wrapper .account .my-account a.forgot-password:hover h3 {
+          color: #00AC4A; }
+      .member-wrapper .account .my-account .account-popup {
+        position: static; }
+      .member-wrapper .account .my-account .popup-content {
+        position: absolute;
+        background: #fff;
+        min-width: 100%;
+        border: 1px solid #a9a9a9;
+        right: 0;
+        top: 0;
+        opacity: 0;
+        z-index: -1;
+        text-align: left;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        margin-top: 10px;
+        padding: 25px 100px 25px 50px;
+        visibility: hidden; }
+        .member-wrapper .account .my-account .popup-content h3 {
+          color: #999;
+          line-height: 34px;
+          font-weight: 400; }
+        .member-wrapper .account .my-account .popup-content p, .member-wrapper .account .my-account .popup-content span {
+          font-weight: 300; }
+        .member-wrapper .account .my-account .popup-content a {
+          color: #293D69;
+          font-weight: 400;
+          text-decoration: underline; }
+          .member-wrapper .account .my-account .popup-content a:hover {
+            color: #00AC4A; }
+        .member-wrapper .account .my-account .popup-content ul {
+          padding: 0;
+          margin: 0;
+          width: 75%; }
+          .member-wrapper .account .my-account .popup-content ul li {
+            font-weight: 300;
+            list-style: none;
+            line-height: 26px;
+            margin-bottom: 10px; }
+        .member-wrapper .account .my-account .popup-content .btn-close {
+          position: absolute;
+          top: 25px;
+          right: 30px;
+          width: 43px;
+          height: 40px;
+          font-size: 30px;
+          line-height: 40px;
+          color: #232323;
+          border: 1px solid #232323;
+          padding: 0;
+          text-align: center;
+          display: block;
+          cursor: pointer;
+          text-decoration: none;
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+          z-index: 20; }
+          .member-wrapper .account .my-account .popup-content .btn-close:hover {
+            color: #00AC4A;
+            border-color: #00AC4A; }
+      .member-wrapper .account .my-account .active .popup-content {
+        opacity: 1;
+        z-index: 200;
+        margin-top: 0;
+        visibility: visible;
+        overflow: visible !important; }
+      .member-wrapper .account .my-account .caption-outer {
+        position: relative; }
+        .member-wrapper .account .my-account .caption-outer .caption-inner {
+          position: relative;
+          padding: 20px;
+          padding-top: 80px;
+          background-color: rgba(41, 61, 105, 0.75); }
+          .member-wrapper .account .my-account .caption-outer .caption-inner .caption {
+            text-align: center; }
+            .member-wrapper .account .my-account .caption-outer .caption-inner .caption h3 {
+              font-weight: 300;
+              line-height: 34px;
+              color: #fff; }
+          .member-wrapper .account .my-account .caption-outer .caption-inner .caption-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px; }
+            .member-wrapper .account .my-account .caption-outer .caption-inner .caption-icon i {
+              font-size: 26px;
+              color: #fff; }
+      @media screen and (max-width: 1199px) {
+        .member-wrapper .account .my-account {
+          margin-top: -125px;
+          margin-bottom: 30px; }
+          .member-wrapper .account .my-account .caption-outer .caption-inner {
+            background-color: #293D69; } }
+      @media screen and (max-width: 999px) {
+        .member-wrapper .account .my-account {
+          margin-top: 0;
+          margin-bottom: 30px; }
+          .member-wrapper .account .my-account .caption-outer .caption-inner {
+            padding-top: 20px;
+            margin-bottom: 15px; } }
+    @media screen and (max-width: 999px) {
+      .member-wrapper .account .account-outer .login {
+        margin-top: 20px; } }
+  .member-wrapper .confirm-outer {
+    position: relative;
+    text-align: center;
+    margin-bottom: 125px; }
+    .member-wrapper .confirm-outer .fill-list {
+      position: relative;
+      display: block;
+      margin: 15px auto;
+      overflow: hidden; }
+      .member-wrapper .confirm-outer .fill-list p, .member-wrapper .confirm-outer .fill-list span {
+        font-weight: 300; }
+    .member-wrapper .confirm-outer .confirm-list {
+      display: inline-block;
+      margin: 0 5px; }
+      .member-wrapper .confirm-outer .confirm-list.text-short {
+        width: 85px; }
+      .member-wrapper .confirm-outer .confirm-list.text-long {
+        width: 125px; }
+    .member-wrapper .confirm-outer .btn-outer {
+      margin-top: 50px; }
+  .member-wrapper .notation-outer {
+    position: relative;
+    margin-bottom: 90px; }
+    .member-wrapper .notation-outer .notation {
+      display: block;
+      padding-left: 100px;
+      background-image: url("../../../../Images/bg/bg-notation.jpg");
+      background-position: left center;
+      background-repeat: no-repeat; }
+      .member-wrapper .notation-outer .notation h3 {
+        color: #999;
+        font-weight: 400;
+        margin: 0;
+        margin-bottom: 5px; }
+      .member-wrapper .notation-outer .notation p, .member-wrapper .notation-outer .notation span {
+        font-weight: 300;
+        line-height: 30px; }
+      .member-wrapper .notation-outer .notation a {
+        color: #293D69;
+        font-weight: 400;
+        text-decoration: underline; }
+        .member-wrapper .notation-outer .notation a:hover {
+          color: #00AC4A; }
+
+.footer .index-box-header {
+  display: none; }
+
+.footer .contact-wrapper .academy-information {
+  display: none; }
+
+.account-text {
+  display: block; }
+  .account-text h3 {
+    color: #666;
+    line-height: 30px;
+    font-weight: 400; }
+  .account-text a {
+    color: #293D69;
+    font-weight: 400;
+    text-decoration: underline; }
+    .account-text a:hover {
+      color: #E12228; }
+  .account-text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .account-text ul li {
+      font-weight: 300;
+      list-style: none;
+      line-height: 18px;
+      margin-bottom: 10px; }

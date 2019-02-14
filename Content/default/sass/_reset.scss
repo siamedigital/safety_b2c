@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html,
+body {
+    font-family: $default-font-family;
+    font-weight: normal;
+}
+
+.clearfix {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+ol, ul{
+	list-style: none;
+}
+/* remove link outline */
+
+h1, h2, h3, h4, h5, h6 {
+    
+    font-weight: normal;
+}
+
+p, span, a {
+    
+}
+
+h1, h2, h3{
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+h1{
+  font-size: $text-x-large;
+}
+
+h2{
+  font-size: $text-large;
+}
+
+h3{
+  font-size: $text-small;
+}
+
+p {
+    font-size: $text-x-small;
+}
+
+a{
+    text-decoration: none;
+    outline: 0;
+    outline-style: none;
+      &:hover{
+        text-decoration: none;
+        outline: 0;
+        outline-style: none;
+      }
+      &:focus{
+        text-decoration: none;
+        outline: 0;
+        outline-style: none;
+      }
+      &:active{
+        text-decoration: none;
+        outline: 0;
+        outline-style: none;
+      }
+}

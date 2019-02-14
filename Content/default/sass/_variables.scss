@@ -1,0 +1,64 @@
+/* set global config vars */
+
+/* defualt page width setting(PC) */
+$page-max-width: 1440px;
+$page-min-width: 320px; //minimum screen support
+
+//for disable responsive layout in old browser
+$page-oldbrowser-width: 1000px;
+
+/* off canvas menu width *eg. 70px or 70% */
+$offcanvas-width: 240px;
+$offcanvas-bgColor: #00295A;
+
+/* main slide margin top */
+$main-slide-marginTop: 134px;
+$main-slide-imageHeight: 741px;
+
+/* header height */
+$header-height: 117px;
+
+/* footer height */
+$footer-marginTop: 20px; //for adjust whitespace between content and footer
+$footer-height: 130px;
+$footer-bg: #fff;
+
+/* global body setting */
+$body-bg: #f7f7f7;
+$page-lineheight: 1em;
+$base-fontsize: 18px;
+
+/* default font family */
+$font-regular: "webfont-regular";
+$font-med: "webfont-med";
+$default-font-family: Arial;
+
+/* text sizing multiplier */
+$text-multiplier: 0.0625; // different between sizing (1px)
+
+/* text sizing */
+$text-content: 22px; //1.14rem
+$text-content-small: $text-content - $text-multiplier;
+$text-content-large: $text-content + $text-multiplier;
+
+/* default theme color */
+$color-primary: #00AC4A;
+$color-secondary: #1E1537;
+
+$color-title: #777;
+$color-text: #999;
+
+$color-white: #fff;
+$color-gray: #bfbfbf;
+$color-black: #000;
+$color-red: #d80000;
+$color-blue: #293D69;
+$color-hover: #232323;
+
+/* special theme */
+/* insert special theme for this website */
+/* text sizing */
+$text-x-large: 40px; 
+$text-large: 34px; 
+$text-small: 30px; 
+$text-x-small: 26px; 
