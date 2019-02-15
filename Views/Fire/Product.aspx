@@ -71,7 +71,7 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="social-wrapper">
-                                    <div class="txt-shared">ส่งต่อให้เพื่อน</div>
+                                    <div class="txt-shared">ส่งต่อให้เพื่อนss</div>
                                     <div class="facebook">
                                         <div class="fb-share-button fb_iframe_widget" data-href="https://www.mticonnect.com/%E0%B8%9C%E0%B8%A5%E0%B8%B4%E0%B8%95%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%96%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%991" data-layout="button" data-size="small" data-mobile-iframe="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=25&amp;href=https%3A%2F%2Fwww.mticonnect.com%2F%25E0%25B8%259C%25E0%25B8%25A5%25E0%25B8%25B4%25E0%25B8%2595%25E0%25B8%25A0%25E0%25B8%25B1%25E0%25B8%2593%25E0%25B8%2591%25E0%25B9%258C%2F%25E0%25B8%259B%25E0%25B8%25A3%25E0%25B8%25B0%25E0%25B8%2581%25E0%25B8%25B1%25E0%25B8%2599%25E0%25B8%25A3%25E0%25B8%2596%25E0%25B8%25A2%25E0%25B8%2599%25E0%25B8%2595%25E0%25B9%258C%25E0%25B8%258A%25E0%25B8%25B1%25E0%25B9%2589%25E0%25B8%25991&amp;layout=button&amp;locale=th_TH&amp;mobile_iframe=true&amp;sdk=joey&amp;size=small">
                                             <span style="vertical-align: bottom; width: 53px; height: 20px;">
