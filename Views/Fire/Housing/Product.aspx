@@ -66,6 +66,22 @@
 
         <div class="maincontainer-wrapper" id="maincontainer-wrapper">
             <div class="product-wrapper">
+                <div class="sub-product-wrapper">
+                    <ul>
+                        <li>
+                            <a href="/Fire/Product_Tenement">ประกันภัยบ้านอยู่อาศัย</a>
+                        </li>
+                        <li class="active">
+                            <a href="/Fire/Product_Housing">ประกันอัคคีภัยสำหรับที่อยู่อาศัย</a>
+                        </li>
+                        <li>
+                            <a href="#">ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ</a>
+                        </li>
+                        <li>
+                            <a href="#">ประกันอัคคีภัยสำหรับบ้านร่มฉัตร</a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="product-detail-wrapper">
                     <div class="container">
                         <div class="row">
@@ -111,79 +127,163 @@
                                                             <tr>
                                                                 <th>ความคุ้มครอง</th>
                                                                 <th>จำนวนเงินเอาประกันภัย</th>
-                                                                <th>เบี้ยประกันภัย* ต่อจำนวนเงินเอาประกันภัย</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
                                                             <tr class="topic">
-                                                                <td>1. อัคคีภัย**</td>
-                                                                <td>สูงสุดไม่เกิน 25,000,000 บาท ต่อหลัง</td>
-                                                                <td>แสนละ 90 บาท</td>
+                                                                <td>1. อัคคีภัย</td>
+                                                                <td>&nbsp;</td>
                                                             </tr>
                                                             <tr class="topic">
-                                                                <td>2. พิเศษ</td>
-                                                                <td>&nbsp;</td>
-                                                                <td>&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
                                                                 <td>
                                                                     <ul class="list-styled">
-                                                                        <li><span>ค่าเช่าสำหรับที่พักอาศัยชั่วคราว กรณีเสียหายจากหมวด 1 หรือ 2 จนไม่สามารถอยู่อาศัยได้</span></li>
+                                                                        <li><span>ไฟไหม้</span></li>
                                                                     </ul>
                                                                 </td>
                                                                 <td>
                                                                     <ul class="list-none">
-                                                                        <li>10% ของจำนวนเงินที่เลือกซื้อตามหมวกที่ 1-2 แต่ไม่เกิน 50,000 บาท
-                                                                        </li>
-                                                                    </ul>
-                                                                </td>
-                                                                <td>
-                                                                    <ul class="list-none">
-                                                                        <li>ฟรี
+                                                                        <li>เต็มทุนประกัน
                                                                         </li>
                                                                     </ul>
                                                                 </td>
                                                             </tr>
                                                             <tr class="topic">
-                                                                <td>3. พิเศษ</td>
-                                                                <td>&nbsp;</td>
-                                                                <td>&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
                                                                 <td>
                                                                     <ul class="list-styled">
-                                                                        <li><span>การขนย้ายซากทรัพย์สิน</span></li>
-                                                                        <li><span>ค่าวิชาชีพ</span></li>
-                                                                        <li><span>ค่าใช้จ่ายในการดับเพลิง</span></li>
+                                                                        <li><span>ฟ้าผ่า (รวมถึงความเสียหายต่อเครื่องใช้ไฟฟ้า และอุปกรณ์ไฟฟ้าที่เกิดจากการลัดวงจรฟ้าผ่า)</span></li>
                                                                     </ul>
                                                                 </td>
                                                                 <td>
                                                                     <ul class="list-none">
-                                                                        <li>ไม่เกิน 20,000 บาท
+                                                                        <li>เต็มทุนประกัน
                                                                         </li>
-                                                                        <li>ไม่เกิน 20,000 บาท
-                                                                        </li>
-                                                                        <li>ไม่เกิน 50,000 บาท
-                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>
+                                                                    <ul class="list-styled">
+                                                                        <li><span>ภัยระเบิด</span></li>
                                                                     </ul>
                                                                 </td>
                                                                 <td>
                                                                     <ul class="list-none">
-                                                                        <li>ฟรี
+                                                                        <li>เต็มทุนประกัน
                                                                         </li>
-                                                                        <li>ฟรี
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>
+                                                                    <ul class="list-styled">
+                                                                        <li><span>ภัยจากการเฉี่ยว และหรือการชนของยานพาหนะ หรือสัตว์พาหนะ</span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>เต็มทุนประกัน
                                                                         </li>
-                                                                        <li>ฟรี
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>
+                                                                    <ul class="list-styled">
+                                                                        <li><span>ภัยจากอากาศยาน และหรือวัตถุที่ตกจากอากาศยาน</span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>เต็มทุนประกัน
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>
+                                                                    <ul class="list-styled">
+                                                                        <li><span>ภัยเนื่องจากน้ำ</span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>&nbsp;
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>2. ภัยธรรมชาติ</td>
+                                                                <td>20,000 บาท</td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>
+                                                                    <ul class="list-styled">
+                                                                        <li><span>ภัยลมพายุ</span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>&nbsp;
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>
+                                                                    <ul class="list-styled">
+                                                                        <li><span>ภัยท้ำท่วม</span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>&nbsp;
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>
+                                                                    <ul class="list-styled">
+                                                                        <li><span>ภัยแผ่นดินไหว หรือภูเขาไฟระเบิด หรือคลื่นใต้น้ำ หรือสึนามิ</span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>&nbsp;
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>
+                                                                    <ul class="list-styled">
+                                                                        <li><span>ภัยลูกเห็บ</span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>&nbsp;
                                                                         </li>
                                                                     </ul>
                                                                 </td>
                                                             </tr>
                                                             <tr class="summary">
-                                                                <td>ทุนประกันภัย 1,000,000 บาท
+                                                                <td>ทุนประกันภัย
+                                                                </td>
+                                                                <td>20,000 บาท
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="summary">
+                                                                <td>เบี้ยประกันภัย
+                                                                </td>
+                                                                <td>100 บาท
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="summary">
+                                                                <td>เบี้ยประกันภัย รวมภาษีและอากร
                                                                 </td>
                                                                 <td>&nbsp;
-                                                                </td>
-                                                                <td>1,020.78 บาท
                                                                 </td>
                                                             </tr>
                                                         </tbody>
@@ -235,6 +335,25 @@
                                         </div>
                                         <%--ดาวน์โหลดเอกสาร--%>
                                     </div>
+
+                                    <div class="calculate-insurance">
+                                        <div class="note-wrapper">
+                                            <p class="color-red">การทำประกันภัยทรัพย์สินต่ำกว่ามูลค่าที่แท้จริง</p>
+                                            <div class="btn-calculate">
+                                                <div class="gen-button inline-block">
+                                                    <a href="#" class="btn-med btn-icon-right btn-primary" title="คำนวนทุนประกัน">
+                                                        <img src="../../../Images/icon/icon-calculate.png" alt="icon"/> คำนวนทุนประกัน <i class="fas fa-angle-right" aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <p>หากจำนวนเงินเอาประกันภัยต่ำกว่าร้อยละ 70 ของมูลค่าแท้จริงของทรัพย์สินที่เอาประกันภัยในขณะเกิดความเสียหาย อันเนื่องมาจากภัยที่ได้รับความคุ้มครองตามกรมธรรม์ประกันภัยฉบับนี้                                                ให้ถือกว่าผู้เอาประกันภัยเป็นผู้รับประกันภัยตนเองในส่วนที่แตกต่างกันกับมูลค่าที่แท้จริงของทรัพย์สินที่เอาประกันภัย 
+                                                และในการคำนวนค่าสินไหมทดแทนผู้เอาประกันภัยจะต้องรับภาระส่วนเฉลี่ยความเสียหายไปตามส่วนในทุกรายการ
+                                            </p>
+                                        </div>
+                                    </div>
+                                    
+
+
                                     <div class="btn-wrapper txt-center">
                                         <div class="gen-button inline-block">
                                             <a href="#nogo" class="btn-med btn-icon-right btn-dark" title="สอบถามข้อมูลซื้อประกัน!">สอบถามข้อมูลซื้อประกัน <i class="fas fa-angle-right" aria-hidden="true"></i></a>

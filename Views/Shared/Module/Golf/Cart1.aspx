@@ -157,16 +157,11 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="gen-input">
-                                    <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
 
-                <%--<div class="row form-row">
+                <div class="row form-row">
                     <div class="col-sm-4">
                         <div class="txt-label">
                             <span>รหัสไปรษณีย์</span>
@@ -177,7 +172,7 @@
                             <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
                         </div>
                     </div>
-                </div>--%>
+                </div>
 
                 <div class="row form-row">
                     <div class="col-sm-4">

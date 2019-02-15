@@ -4,6 +4,68 @@
 
 .product-wrapper {
     display: block;
+    position: relative;
+
+    .sub-product-wrapper{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: -70px;
+        ul{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            li{
+                list-style: none;
+                display: inline-block;
+                background-color: #F7F7F7;
+                opacity: 0.8;
+                width: 250px;
+                text-align: center;
+                position: relative;
+                a{
+                    text-decoration: none;
+                    display: inline-block;
+                    font-family: $font-med;
+                    font-size: 24px;
+                    line-height: 24px;
+                    color: #777777;
+                    padding: 15px 10px 25px;
+                }
+                &:hover{
+                    background-color: $color-primary;
+                    opacity: 1;
+                    a{
+                        color: #ffffff;
+                    }
+                }
+            }
+            li.active{
+                background-color: $color-primary;
+                opacity: 1;
+                a{
+                    color: #ffffff;
+                    position: relative;
+                    top: -8px;
+                    &::after {
+                        position: absolute;
+                        width: 100%;
+                        font-size: $text-x-small;
+                        line-height: $text-x-small;
+                        text-align: center;
+                        bottom: -3px;
+                        right: 0;
+                        z-index: 2;
+                        pointer-events: none;
+                        content: url('../../../../Images/icon/small-angle-down.png');
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
 
     .product-detail-wrapper {
         display: block;
@@ -11,6 +73,38 @@
         .tab-wrapper {
             padding-bottom: 60px;
             background-color: $color-white;
+
+            .calculate-insurance{
+                padding: 0 25px;
+            }
+            .note-wrapper {
+                font-family: $font-med;
+                font-size: $text-content;
+                line-height: $text-x-small;
+                padding-left: 40px;
+                margin-bottom: 30px;
+                background-image: url('../../../../Images/icon/icon-tooltip.png');
+                background-position: left top;
+                background-repeat: no-repeat;
+
+                p {
+                    font-size: $text-content;
+                    line-height: $text-x-small;
+                }
+                .btn-calculate{
+                    .gen-button.inline-block{
+                        margin: 15px 0;
+                        img{
+                            position: relative;
+                            top: -1px;
+                            left: -5px;
+                        }
+                    }
+                }
+                .color-red {
+                    color: $color-red;
+                }
+            }
         }
 
         .transformer-tabs {
@@ -26,7 +120,6 @@
 
             li {
                 display: inline-block;
-                padding: 0;
                 padding: 0;
                 vertical-align: bottom;
                 /*&:nth-child(1) .active {
@@ -327,13 +420,6 @@
                     color: $color-primary;
                 }
             }
-
-            .date {
-                font-family: $font-med;
-                font-size: $text-content;
-                line-height: $text-x-large;
-                color: $color-title;
-            }
         }
 
         .content-form {
@@ -496,22 +582,6 @@
                 text-align: center;
                 background-color: #6fae28;
 
-                &.business {
-                    background-color: #0069bc;
-
-                    .price {
-                        .title {
-                            color: #00a9e1
-                        }
-                    }
-
-                    .detail {
-                        .title {
-                            color: #00a9e1
-                        }
-                    }
-                }
-
                 .price {
                     display: inline-block;
                     width: 260px;
@@ -596,7 +666,20 @@
                         color: $color-white;
                     }
                 }
+                &.fire {
+                    background-color: #B64926;
 
+                    .price {
+                        .title {
+                            color: #6D2D16;
+                        }
+                    }
+                    .detail{
+                        .title{
+                            color: #6D2D16;
+                        }
+                    }
+                }
                 @media screen and (max-width: 767px) {
                     .detail {
                         padding: 20px 0;
@@ -915,118 +998,6 @@
                     color: $color-primary;
 
                     span {
-                        color: $color-primary;
-                    }
-                }
-            }
-
-            .complete-wrapper {
-                display: block;
-                padding: 30px 0;
-
-                .status-wrapper {
-                    margin-bottom: 30px;
-                    font-family: $font-med;
-                    text-align: center;
-
-                    .txt-title {
-                        font-size: $text-x-large;
-                        line-height: $text-x-large;
-                        color: $color-text;
-                        margin-bottom: 15px;
-
-                        &.success {
-                            color: $color-primary;
-                        }
-
-                        &.failed {
-                            color: $color-red
-                        }
-
-                        span {
-                            padding-right: 10px;
-                            font-size: $text-small;
-                            line-height: $text-x-large;
-                        }
-                    }
-
-                    .txt-description {
-                        font-size: $text-small;
-                        line-height: $text-small;
-                        color: #333;
-
-                        span {
-                            font-size: $text-small;
-                            line-height: $text-small;
-                            color: $color-primary;
-                        }
-                    }
-                }
-
-                .order-wrapper {
-                    /*margin-bottom: 30px;*/
-                    font-family: $font-med;
-
-                    .order-number {
-                        display: block;
-                        padding: 30px;
-                        margin-bottom: 30px;
-                        text-align: center;
-                        border: 1px dotted $color-gray;
-                        background-image: url('../../../../Images/icon/icon-complete-insure.png');
-                        background-position: 30px center;
-                        background-repeat: no-repeat;
-
-                        .txt-title {
-                            font-size: $text-x-small;
-                            line-height: $text-large;
-                            color: #333;
-                        }
-
-                        .txt-number {
-                            font-size: $text-x-small;
-                            line-height: $text-large;
-                            color: $color-primary;
-                        }
-                    }
-
-                    .order-note {
-                        display: block;
-                        padding: 0 20px;
-                        text-align: center;
-
-                        .txt-note {
-                            font-size: $text-x-small;
-                            line-height: $text-large;
-                            color: $color-text;
-                        }
-                    }
-                }
-            }
-
-            .note-wrapper {
-                display: block;
-                padding: 30px 0;
-                font-family: $font-med;
-                font-size: $text-x-small;
-                line-height: $text-small;
-
-                .txt-title {
-                    margin: 0;
-                    margin-bottom: 15px;
-                    font-size: $text-small;
-                    line-height: $text-small;
-
-                    &.red {
-                        color: $color-red;
-                    }
-                }
-
-                .txt-note {
-                    font-size: $text-x-small;
-                    line-height: $text-small;
-
-                    &.green {
                         color: $color-primary;
                     }
                 }

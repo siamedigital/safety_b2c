@@ -40,6 +40,7 @@ D:\Asp.net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.csprojResolveAssemblyRefer
 D:\Asp.net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.csproj.CoreCompileInputs.cache
 D:\Asp.net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.dll
 D:\Asp.net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.pdb
+D:\Net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.csproj.CoreCompileInputs.cache
 D:\Net\safety_b2c\safety_b2c\bin\ApplicationInsights.config
 D:\Net\safety_b2c\safety_b2c\bin\safety_b2c.dll.config
 D:\Net\safety_b2c\safety_b2c\bin\safety_b2c.dll
@@ -78,8 +79,7 @@ D:\Net\safety_b2c\safety_b2c\bin\Microsoft.AI.DependencyCollector.xml
 D:\Net\safety_b2c\safety_b2c\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\Net\safety_b2c\safety_b2c\bin\Microsoft.AI.WindowsServer.xml
 D:\Net\safety_b2c\safety_b2c\bin\Microsoft.AI.Web.xml
-D:\Net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.csprojAssemblyReference.cache
-D:\Net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.csproj.CoreCompileInputs.cache
 D:\Net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.csproj.CopyComplete
 D:\Net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.dll
 D:\Net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.pdb
+D:\Net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.csprojAssemblyReference.cache
