@@ -29,12 +29,86 @@
 
 /* note : for IE8,7 need css3pie helper*/
 .product-wrapper {
-  display: block; }
+  display: block;
+  position: relative; }
+  .product-wrapper .sub-product-wrapper {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: -70px; }
+    .product-wrapper .sub-product-wrapper ul {
+      margin: 0;
+      padding: 0;
+      text-align: center; }
+      .product-wrapper .sub-product-wrapper ul li {
+        list-style: none;
+        display: inline-block;
+        background-color: #F7F7F7;
+        opacity: 0.8;
+        width: 250px;
+        text-align: center;
+        position: relative; }
+        .product-wrapper .sub-product-wrapper ul li a {
+          text-decoration: none;
+          display: inline-block;
+          font-family: "webfont-med";
+          font-size: 24px;
+          line-height: 24px;
+          color: #777777;
+          padding: 15px 10px 25px; }
+        .product-wrapper .sub-product-wrapper ul li:hover {
+          background-color: #00AC4A;
+          opacity: 1; }
+          .product-wrapper .sub-product-wrapper ul li:hover a {
+            color: #ffffff; }
+      .product-wrapper .sub-product-wrapper ul li.active {
+        background-color: #00AC4A;
+        opacity: 1; }
+        .product-wrapper .sub-product-wrapper ul li.active a {
+          color: #ffffff;
+          position: relative;
+          top: -8px; }
+          .product-wrapper .sub-product-wrapper ul li.active a::after {
+            position: absolute;
+            width: 100%;
+            font-size: 26px;
+            line-height: 26px;
+            text-align: center;
+            bottom: -3px;
+            right: 0;
+            z-index: 2;
+            pointer-events: none;
+            content: url("../../../../Images/icon/small-angle-down.png");
+            display: inline-block;
+            vertical-align: middle; }
   .product-wrapper .product-detail-wrapper {
     display: block; }
     .product-wrapper .product-detail-wrapper .tab-wrapper {
       padding-bottom: 60px;
       background-color: #fff; }
+      .product-wrapper .product-detail-wrapper .tab-wrapper .calculate-insurance {
+        padding: 0 25px; }
+      .product-wrapper .product-detail-wrapper .tab-wrapper .note-wrapper {
+        font-family: "webfont-med";
+        font-size: 22px;
+        line-height: 26px;
+        padding-left: 40px;
+        margin-bottom: 30px;
+        background-image: url("../../../../Images/icon/icon-tooltip.png");
+        background-position: left top;
+        background-repeat: no-repeat; }
+        .product-wrapper .product-detail-wrapper .tab-wrapper .note-wrapper p {
+          font-size: 22px;
+          line-height: 26px; }
+        .product-wrapper .product-detail-wrapper .tab-wrapper .note-wrapper .btn-calculate .gen-button.inline-block {
+          margin: 15px 0; }
+          .product-wrapper .product-detail-wrapper .tab-wrapper .note-wrapper .btn-calculate .gen-button.inline-block img {
+            position: relative;
+            top: -1px;
+            left: -5px; }
+        .product-wrapper .product-detail-wrapper .tab-wrapper .note-wrapper .color-red {
+          color: #d80000; }
     .product-wrapper .product-detail-wrapper .transformer-tabs {
       font-family: webfont-med;
       background-color: #f7f7f7; }
@@ -44,7 +118,6 @@
         margin: 0; }
       .product-wrapper .product-detail-wrapper .transformer-tabs li {
         display: inline-block;
-        padding: 0;
         padding: 0;
         vertical-align: bottom;
         /*&:nth-child(1) .active {
@@ -255,11 +328,6 @@
         color: #777; }
         .module-wrapper .form-content-wrapper .title-form h3 span {
           color: #00AC4A; }
-      .module-wrapper .form-content-wrapper .title-form .date {
-        font-family: "webfont-med";
-        font-size: 22px;
-        line-height: 40px;
-        color: #777; }
     .module-wrapper .form-content-wrapper .content-form {
       margin: 0 auto;
       margin-bottom: 30px;
@@ -359,12 +427,6 @@
         padding: 20px;
         text-align: center;
         background-color: #6fae28; }
-        .module-wrapper .form-content-wrapper .content-review .summary-plan.business {
-          background-color: #0069bc; }
-          .module-wrapper .form-content-wrapper .content-review .summary-plan.business .price .title {
-            color: #00a9e1; }
-          .module-wrapper .form-content-wrapper .content-review .summary-plan.business .detail .title {
-            color: #00a9e1; }
         .module-wrapper .form-content-wrapper .content-review .summary-plan .price {
           display: inline-block;
           width: 260px;
@@ -434,6 +496,12 @@
             font-size: 30px;
             line-height: 30px;
             color: #fff; }
+        .module-wrapper .form-content-wrapper .content-review .summary-plan.fire {
+          background-color: #B64926; }
+          .module-wrapper .form-content-wrapper .content-review .summary-plan.fire .price .title {
+            color: #6D2D16; }
+          .module-wrapper .form-content-wrapper .content-review .summary-plan.fire .detail .title {
+            color: #6D2D16; }
         @media screen and (max-width: 767px) {
           .module-wrapper .form-content-wrapper .content-review .summary-plan .detail {
             padding: 20px 0; } }
@@ -638,80 +706,6 @@
       .module-wrapper .form-content-wrapper.summary-wrapper .title-form h3 {
         color: #00AC4A; }
         .module-wrapper .form-content-wrapper.summary-wrapper .title-form h3 span {
-          color: #00AC4A; }
-    .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper {
-      display: block;
-      padding: 30px 0; }
-      .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .status-wrapper {
-        margin-bottom: 30px;
-        font-family: "webfont-med";
-        text-align: center; }
-        .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .status-wrapper .txt-title {
-          font-size: 40px;
-          line-height: 40px;
-          color: #999;
-          margin-bottom: 15px; }
-          .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .status-wrapper .txt-title.success {
-            color: #00AC4A; }
-          .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .status-wrapper .txt-title.failed {
-            color: #d80000; }
-          .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .status-wrapper .txt-title span {
-            padding-right: 10px;
-            font-size: 30px;
-            line-height: 40px; }
-        .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .status-wrapper .txt-description {
-          font-size: 30px;
-          line-height: 30px;
-          color: #333; }
-          .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .status-wrapper .txt-description span {
-            font-size: 30px;
-            line-height: 30px;
-            color: #00AC4A; }
-      .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .order-wrapper {
-        /*margin-bottom: 30px;*/
-        font-family: "webfont-med"; }
-        .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .order-wrapper .order-number {
-          display: block;
-          padding: 30px;
-          margin-bottom: 30px;
-          text-align: center;
-          border: 1px dotted #bfbfbf;
-          background-image: url("../../../../Images/icon/icon-complete-insure.png");
-          background-position: 30px center;
-          background-repeat: no-repeat; }
-          .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .order-wrapper .order-number .txt-title {
-            font-size: 26px;
-            line-height: 34px;
-            color: #333; }
-          .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .order-wrapper .order-number .txt-number {
-            font-size: 26px;
-            line-height: 34px;
-            color: #00AC4A; }
-        .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .order-wrapper .order-note {
-          display: block;
-          padding: 0 20px;
-          text-align: center; }
-          .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .order-wrapper .order-note .txt-note {
-            font-size: 26px;
-            line-height: 34px;
-            color: #999; }
-    .module-wrapper .form-content-wrapper.summary-wrapper .note-wrapper {
-      display: block;
-      padding: 30px 0;
-      font-family: "webfont-med";
-      font-size: 26px;
-      line-height: 30px; }
-      .module-wrapper .form-content-wrapper.summary-wrapper .note-wrapper .txt-title {
-        margin: 0;
-        margin-bottom: 15px;
-        font-size: 30px;
-        line-height: 30px; }
-        .module-wrapper .form-content-wrapper.summary-wrapper .note-wrapper .txt-title.red {
-          color: #d80000; }
-      .module-wrapper .form-content-wrapper.summary-wrapper .note-wrapper .txt-note {
-        font-size: 26px;
-        line-height: 30px; }
-        .module-wrapper .form-content-wrapper.summary-wrapper .note-wrapper .txt-note.green {
           color: #00AC4A; }
     .module-wrapper .form-content-wrapper.summary-wrapper .content-form .status-wrapper {
       margin-bottom: 30px; }

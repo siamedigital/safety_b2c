@@ -68,7 +68,18 @@
             <div class="product-wrapper">
                 <div class="sub-product-wrapper">
                     <ul>
-                        <li>ประกันภัยบ้านอยู่อาศัย</li>
+                        <li class="active">
+                            <a href="/Fire/Product_Tenement">ประกันภัยบ้านอยู่อาศัย</a>
+                        </li>
+                        <li>
+                            <a href="/Fire/Product_Housing">ประกันอัคคีภัยสำหรับที่อยู่อาศัย</a>
+                        </li>
+                        <li>
+                            <a href="#">ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ</a>
+                        </li>
+                        <li>
+                            <a href="#">ประกันอัคคีภัยสำหรับบ้านร่มฉัตร</a>
+                        </li>
                     </ul>
                 </div>
 
