@@ -65,7 +65,7 @@
                                             <div class="cell">
                                                 <div class="row">
                                                     <div class="col-md-6 col-sm-6">
-                                                        <a href="/Fire/Product" class="widget-item current">
+                                                        <a href="/Fire/Product_Tenement" class="widget-item current">
                                                             <img src="../../Images/fire/banner-fire-insurance1.jpg" alt="ประกันภัยบ้านอยู่อาศัย"/>
                                                             <div class="caption-outer">
                                                                 <div class="caption-inner">
@@ -89,7 +89,7 @@
                                                         </a>
                                                     </div>
                                                     <div class="col-md-6 col-sm-6">
-                                                        <a href="#" class="widget-item current">
+                                                        <a href="/Fire/Product_Housing" class="widget-item current">
                                                             <img src="../../Images/fire/banner-fire-insurance3.jpg" alt="ประกันอัคคีภัยสำหรับที่อยู่อาศัย"/>
                                                             <div class="caption-outer">
                                                                 <div class="caption-inner">
