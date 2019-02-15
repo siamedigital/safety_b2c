@@ -65,7 +65,7 @@
                                             <div class="plan matchHeight">
                                                 <div class="table">
                                                     <div class="cell">
-                                                        <p>แบบที่ 1</p>
+                                                        <p>แบบที่ 1 ทดสอบ Git</p>
                                                     </div>
                                                 </div>
                                             </div>
