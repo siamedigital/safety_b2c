@@ -6166,6 +6166,13 @@ if it's not present, don't show loader */
   .row.row-no-gutters [class*="col-xs"] {
     padding: 0 !important; }
 
+.line-dotted {
+  clear: both;
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dotted #bfbfbf; }
+
 .sprite {
   background-image: url("../../../images/spritesheet.png");
   background-repeat: no-repeat;

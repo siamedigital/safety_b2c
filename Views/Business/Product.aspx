@@ -111,9 +111,9 @@
                                                         <thead>
                                                             <tr>
                                                                 <th style="width: 40%;">ความคุ้มครอง</th>
-                                                                <th style="width: 20%;">แผน 1</th>
-                                                                <th style="width: 20%;">แผน 2</th>
-                                                                <th style="width: 20%;">แผน 3</th>
+                                                                <th style="width: 20%;">กลุ่ม 1</th>
+                                                                <th style="width: 20%;">กลุ่ม 2</th>
+                                                                <th style="width: 20%;">กลุ่ม 3</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>

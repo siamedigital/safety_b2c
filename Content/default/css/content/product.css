@@ -45,6 +45,7 @@
       .product-wrapper .product-detail-wrapper .transformer-tabs li {
         display: inline-block;
         padding: 0;
+        padding: 0;
         vertical-align: bottom;
         /*&:nth-child(1) .active {
                     color: lighten(#9b59b6, 20%);
@@ -254,6 +255,11 @@
         color: #777; }
         .module-wrapper .form-content-wrapper .title-form h3 span {
           color: #00AC4A; }
+      .module-wrapper .form-content-wrapper .title-form .date {
+        font-family: "webfont-med";
+        font-size: 22px;
+        line-height: 40px;
+        color: #777; }
     .module-wrapper .form-content-wrapper .content-form {
       margin: 0 auto;
       margin-bottom: 30px;
@@ -353,6 +359,12 @@
         padding: 20px;
         text-align: center;
         background-color: #6fae28; }
+        .module-wrapper .form-content-wrapper .content-review .summary-plan.business {
+          background-color: #0069bc; }
+          .module-wrapper .form-content-wrapper .content-review .summary-plan.business .price .title {
+            color: #00a9e1; }
+          .module-wrapper .form-content-wrapper .content-review .summary-plan.business .detail .title {
+            color: #00a9e1; }
         .module-wrapper .form-content-wrapper .content-review .summary-plan .price {
           display: inline-block;
           width: 260px;
@@ -408,22 +420,22 @@
             border-radius: 100%;
             -pie-border-radius: 100%;
             behavior: url(pie/PIE.htc); }
-        .module-wrapper .form-content-wrapper .content-review .summary-plan .golf-club {
+        .module-wrapper .form-content-wrapper .content-review .summary-plan .detail {
           padding: 40px 0;
           text-align: center; }
-          .module-wrapper .form-content-wrapper .content-review .summary-plan .golf-club .title {
+          .module-wrapper .form-content-wrapper .content-review .summary-plan .detail .title {
             font-size: 30px;
             line-height: 30px;
             color: #336600; }
-          .module-wrapper .form-content-wrapper .content-review .summary-plan .golf-club img {
+          .module-wrapper .form-content-wrapper .content-review .summary-plan .detail img {
             max-width: 100%;
             margin: 20px 0; }
-          .module-wrapper .form-content-wrapper .content-review .summary-plan .golf-club .unit {
+          .module-wrapper .form-content-wrapper .content-review .summary-plan .detail .unit {
             font-size: 30px;
             line-height: 30px;
             color: #fff; }
         @media screen and (max-width: 767px) {
-          .module-wrapper .form-content-wrapper .content-review .summary-plan .golf-club {
+          .module-wrapper .form-content-wrapper .content-review .summary-plan .detail {
             padding: 20px 0; } }
       .module-wrapper .form-content-wrapper .content-review .summary-table {
         display: block; }
@@ -626,6 +638,80 @@
       .module-wrapper .form-content-wrapper.summary-wrapper .title-form h3 {
         color: #00AC4A; }
         .module-wrapper .form-content-wrapper.summary-wrapper .title-form h3 span {
+          color: #00AC4A; }
+    .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper {
+      display: block;
+      padding: 30px 0; }
+      .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .status-wrapper {
+        margin-bottom: 30px;
+        font-family: "webfont-med";
+        text-align: center; }
+        .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .status-wrapper .txt-title {
+          font-size: 40px;
+          line-height: 40px;
+          color: #999;
+          margin-bottom: 15px; }
+          .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .status-wrapper .txt-title.success {
+            color: #00AC4A; }
+          .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .status-wrapper .txt-title.failed {
+            color: #d80000; }
+          .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .status-wrapper .txt-title span {
+            padding-right: 10px;
+            font-size: 30px;
+            line-height: 40px; }
+        .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .status-wrapper .txt-description {
+          font-size: 30px;
+          line-height: 30px;
+          color: #333; }
+          .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .status-wrapper .txt-description span {
+            font-size: 30px;
+            line-height: 30px;
+            color: #00AC4A; }
+      .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .order-wrapper {
+        /*margin-bottom: 30px;*/
+        font-family: "webfont-med"; }
+        .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .order-wrapper .order-number {
+          display: block;
+          padding: 30px;
+          margin-bottom: 30px;
+          text-align: center;
+          border: 1px dotted #bfbfbf;
+          background-image: url("../../../../Images/icon/icon-complete-insure.png");
+          background-position: 30px center;
+          background-repeat: no-repeat; }
+          .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .order-wrapper .order-number .txt-title {
+            font-size: 26px;
+            line-height: 34px;
+            color: #333; }
+          .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .order-wrapper .order-number .txt-number {
+            font-size: 26px;
+            line-height: 34px;
+            color: #00AC4A; }
+        .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .order-wrapper .order-note {
+          display: block;
+          padding: 0 20px;
+          text-align: center; }
+          .module-wrapper .form-content-wrapper.summary-wrapper .complete-wrapper .order-wrapper .order-note .txt-note {
+            font-size: 26px;
+            line-height: 34px;
+            color: #999; }
+    .module-wrapper .form-content-wrapper.summary-wrapper .note-wrapper {
+      display: block;
+      padding: 30px 0;
+      font-family: "webfont-med";
+      font-size: 26px;
+      line-height: 30px; }
+      .module-wrapper .form-content-wrapper.summary-wrapper .note-wrapper .txt-title {
+        margin: 0;
+        margin-bottom: 15px;
+        font-size: 30px;
+        line-height: 30px; }
+        .module-wrapper .form-content-wrapper.summary-wrapper .note-wrapper .txt-title.red {
+          color: #d80000; }
+      .module-wrapper .form-content-wrapper.summary-wrapper .note-wrapper .txt-note {
+        font-size: 26px;
+        line-height: 30px; }
+        .module-wrapper .form-content-wrapper.summary-wrapper .note-wrapper .txt-note.green {
           color: #00AC4A; }
     .module-wrapper .form-content-wrapper.summary-wrapper .content-form .status-wrapper {
       margin-bottom: 30px; }

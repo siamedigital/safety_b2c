@@ -590,7 +590,6 @@
     }
 }
 
-
 .icon-tooltip {
     position: relative;
     cursor: pointer;
@@ -1228,6 +1227,15 @@
             padding: 0 !important;
         }
     }
+}
+
+//Style for Line
+.line-dotted {
+    clear: both;
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dotted $color-gray
 }
 
 .sprite {
