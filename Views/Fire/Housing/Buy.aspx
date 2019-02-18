@@ -1,6 +1,6 @@
 ﻿<!--#include file="../../Shared/start.aspx"-->
 <!-- addition meta tag -->
-<title>ประกันภัยผู้เล่นกอล์ฟ : Safety Insurance</title>
+<title>ประกันอัคคีภัยสำหรับที่อยู่อาศัย : Safety Insurance</title>
 <link href="../../Content/default/css/content/product.css" rel="stylesheet" />
 </head>
 
@@ -51,7 +51,7 @@
                     <ol class="breadcrumb">
                         <li><span>หน้าแรก</span></li>
                         <li><span>ประกันภัยบ้าน</span></li>
-                        <li class="active"><span>ประกันภัยบ้านอยู่อาศัย</span></li>
+                        <li class="active"><span>ประกันอัคคีภัยสำหรับที่อยู่อาศัย</span></li>
                     </ol>
                 </div>
             </div>
@@ -80,27 +80,27 @@
                                 if (Request.QueryString["p"] == "1")
                                 {
                             %>
-                            <!-- #include file ="../../Shared/Module/Fire/tenement/Plan.aspx" -->
+                            <!-- #include file ="../../Shared/Module/Fire/housing/Plan.aspx" -->
                             <%        }
                                 else if (Request.QueryString["p"] == "2")
                                 {
                             %>
-                            <!-- #include file ="../../Shared/Module/Fire/tenement/Cart1.aspx" -->
+                            <!-- #include file ="../../Shared/Module/Fire/housing/Cart1.aspx" -->
                             <%        }
                                 else if (Request.QueryString["p"] == "3")
                                 {
                             %>
-                            <!-- #include file ="../../Shared/Module/Fire/tenement/Cart2.aspx" -->
+                            <!-- #include file ="../../Shared/Module/Fire/housing/Cart2.aspx" -->
                             <%        }
                                 else if (Request.QueryString["p"] == "4")
                                 {
                             %>
-                            <!-- #include file ="../../Shared/Module/Fire/tenement/Checkout.aspx" -->
+                            <!-- #include file ="../../Shared/Module/Fire/housing/Checkout.aspx" -->
                             <%        }
                                 else if (Request.QueryString["p"] == "5")
                                 {
                             %>
-                            <!-- #include file ="../../Shared/Module/Fire/tenement/Payment.aspx" -->
+                            <!-- #include file ="../../Shared/Module/Fire/housing/Payment.aspx" -->
                             <%        }
                                 else if (Request.QueryString["p"] == "6")
                                 {

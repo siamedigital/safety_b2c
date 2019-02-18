@@ -5387,6 +5387,12 @@ if it's not present, don't show loader */
       line-height: 40px;
       color: #999; }
 
+.line-dotted {
+  width: 100%;
+  border-top: 1px dotted #bfbfbf;
+  height: 1px;
+  margin-bottom: 30px; }
+
 .index-slider {
   width: 100%;
   top: 0;
@@ -7173,6 +7179,10 @@ a:active {
   margin: 0 auto;
   margin-bottom: 20px;
   background-color: #fff; }
+  .btn-wrapper .gen-button a img {
+    position: relative;
+    top: -1px;
+    left: -5px; }
   .btn-wrapper.txt-center {
     text-align: center; }
 
@@ -7379,6 +7389,10 @@ a:active {
   height: auto;
   margin-bottom: 30px;
   overflow: hidden; }
+  .custom-radio.text-center span.content-rdo-inline {
+    max-width: 100%;
+    float: none;
+    text-align: center; }
   .custom-radio input[type=radio] {
     display: none; }
   .custom-radio input[type=radio] + label {
@@ -7390,6 +7404,27 @@ a:active {
     width: 32px;
     display: block;
     float: left;
+    padding: 0;
+    margin-right: 10px;
+    cursor: pointer; }
+  .custom-radio input[type=radio] + .type-rdo-line {
+    background-image: url("../../../Images/icon/icon-rdo-line.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 28px;
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 0;
+    margin-right: 10px;
+    cursor: pointer; }
+  .custom-radio input[type=radio]:checked + .type-rdo-line {
+    background-image: url("../../../Images/icon/icon-rdo-lined.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 28px;
+    width: 100%;
+    display: block;
     padding: 0;
     margin-right: 10px;
     cursor: pointer; }

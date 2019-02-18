@@ -1,6 +1,6 @@
 ﻿<!--#include file="../Shared/start.aspx"-->
 <!-- addition meta tag -->
-<title>ประกันภัยบ้านอยู่อาศัย : Safety Insurance</title>
+<title>ประกันภัยบ้าน : Safety Insurance</title>
 <link href="../../Content/default/css/content/default.css" rel="stylesheet" />
 </head>
 

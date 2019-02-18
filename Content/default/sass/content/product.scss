@@ -567,6 +567,14 @@
                 }
             }
 
+            .text-note{
+                font-family: $font-med;
+                font-size: 26px;
+                line-height: 26px;
+                color: #999999;
+                margin-bottom: 30px;
+            }
+
             @media screen and (max-width: 999px) {
                 .form-group {
                     .item-insure {
@@ -683,11 +691,24 @@
                         line-height: $text-small;
                         color: $color-white;
                     }
+
+                    .price-insured {
+                        display: inline-block;
+                        width: 100px;
+                        height: 100px;
+                        padding: 40px 0;
+                        text-align: center;
+                        border: 2px solid $color-white;
+                        margin: 8px 0;
+                        font-family: $font-med;
+                        font-size: 34px;
+                        color: #ffffff;
+                        @include round-corner(100%);
+                    }
                 }
 
                 &.fire {
                     background-color: #B64926;
-
                     .price {
                         .title {
                             color: #6D2D16;
@@ -700,6 +721,21 @@
                         }
                     }
                 }
+                &.fire-housing {
+                    background-color: #00AC4A;
+                    .price {
+                        .title {
+                            color: #006229;
+                        }
+                    }
+
+                    .detail {
+                        .title {
+                            color: #006229;
+                        }
+                    }
+                }
+
 
                 @media screen and (max-width: 767px) {
                     .detail {

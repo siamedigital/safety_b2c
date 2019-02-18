@@ -392,11 +392,11 @@
     <Content Include="Views\Shared\Module\Business\Checkout.aspx" />
     <Content Include="Views\Shared\Module\Business\Payment.aspx" />
     <Content Include="Views\Shared\Module\Business\Plan.aspx" />
-    <Content Include="Views\Shared\Module\Fire\Cart1.aspx" />
-    <Content Include="Views\Shared\Module\Fire\Cart2.aspx" />
-    <Content Include="Views\Shared\Module\Fire\Checkout.aspx" />
-    <Content Include="Views\Shared\Module\Fire\Payment.aspx" />
-    <Content Include="Views\Shared\Module\Fire\Plan.aspx" />
+    <Content Include="Views\Shared\Module\Fire\tenement\Cart1.aspx" />
+    <Content Include="Views\Shared\Module\Fire\tenement\Cart2.aspx" />
+    <Content Include="Views\Shared\Module\Fire\tenement\Checkout.aspx" />
+    <Content Include="Views\Shared\Module\Fire\tenement\Payment.aspx" />
+    <Content Include="Views\Shared\Module\Fire\tenement\Plan.aspx" />
     <Content Include="Views\Shared\Module\Golf\Cart1.aspx" />
     <Content Include="Views\Shared\Module\Golf\Cart2.aspx" />
     <Content Include="Views\Shared\Module\Golf\Checkout.aspx" />
