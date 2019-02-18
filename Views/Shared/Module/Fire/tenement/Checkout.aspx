@@ -23,11 +23,11 @@
 
     <div class="form-content-wrapper">
         <div class="title-form">
-            <h3><span>เลือกแบบประกัน</span> : ประกันภัยผู้เล่นกอล์ฟ แผนที่ 1</h3>
+            <h3><span>เลือกแบบประกัน</span> : ประกันภัยบ้านอยู่อาศัย บ้านสบายใจ</h3>
         </div>
 
         <div class="content-review">
-            <div class="summary-plan">
+            <div class="summary-plan fire">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="row">
@@ -47,7 +47,7 @@
                                 <div class="type matchHeight">
                                     <div class="table">
                                         <div class="cell">
-                                            <p>แผนที่ 1</p>
+                                            <p>บ้านสบายใจ</p>
                                         </div>
                                     </div>
                                 </div>
@@ -56,24 +56,24 @@
                     </div>
 
                     <div class="col-md-3 col-sm-6">
-                        <div class="golf-club matchHeight">
+                        <div class="detail matchHeight">
                             <p class="title">
-                                ไม้กอล์ฟ
+                                อยู่อาศัยในฐานะ
                             </p>
-                            <img src="../../../../Images/golf/icon-golf.png" />
+                            <img src="../../../../Images/fire/icon-live-status.png" alt="icon"/>
                             <p class="unit">
-                                เหล็ก 4 , ไม้ 2
+                                เจ้าของ
                             </p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
-                        <div class="golf-club matchHeight">
+                        <div class="detail matchHeight">
                             <p class="title">
-                                พัตเตอร์ ยี่ห้อ
+                                ลักษณะสิ่งปลูกสร้าง
                             </p>
-                            <img src="../../../../Images/golf/icon-golf-club.png" />
+                            <img src="../../../../Images/fire/icon-typebuilding.png" alt="icon" />
                             <p class="unit">
-                                Scotty Cameron
+                                บ้านหลังเดี่ยว
                             </p>
                         </div>
                     </div>
@@ -84,98 +84,95 @@
                     <table class="table table-bordered">
                         <tbody>
                             <tr>
-                                <th>ผลิตภัณฑ์</th>
+                                <th colspan="2">ผลิตภัณฑ์</th>
                                 <th>วันที่คุ้มครอง</th>
-                                <th>พัตเตอร์ ยี่ห้อ</th>
-                                <th>ถุงกอล์ฟ ยี่ห้อ</th>
+                                <th>พื้นที่ภายในอาคาร</th>
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="../../../../Images/icon/icon-tooltip.png" /> ประกันภัยผู้เล่นกอล์ฟ แผนที่ 1</td>
+                                    <img src="../../../../Images/icon/icon-tooltip.png" alt="icon"/> ประกันภัยบ้านอยู่อาศัยบ้านสบายใจ
+                                </td>
                                 <td>
                                     09/10/2561 - 09/10/2562
                                 </td>
                                 <td>
-                                    Scotty Cameron
+                                    รวมพื้นที่ 1 ตารางเมตร
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ผนัง</th>
+                                <th>พื้นชั้นบน</th>
+                                <th>โครงหลังคา</th>
+                                <th>หลังคา</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    -
                                 </td>
                                 <td>
-                                    Scotty Cameron
+                                    คอนกรีต
+                                </td>
+                                <td>
+                                    เหล็ก
+                                </td>
+                                <td>
+                                    ดาดฟ้า
                                 </td>
                             </tr>
                             <tr>
+                                <th>จำนวนคูหา/หลัง</th>
+                                <th>จำนวนชั้น</th>
                                 <th>หมายเลขบัตรประชาชน</th>
                                 <th>ชื่อ - สกุล</th>
-                                <th>วันเกิด</th>
-                                <th>อาชีพ</th>
                             </tr>
                             <tr>
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    2
+                                </td>
                                 <td>
                                     1568844488517
                                 </td>
                                 <td>
                                     นาย องอาจ อำนาจ
                                 </td>
+                            </tr>                        
+                            <tr>
+                                <th>วันเกิด</th>
+                                <th>บัตรหมดอายุ</th>
+                                <th colspan="2">ที่อยู่</th>
+                            </tr>
+                            <tr>
                                 <td>
                                     10/07/2530
                                 </td>
                                 <td>
-                                    พนักงานบริษัท
+                                    10/07/2570
                                 </td>
-                            </tr>                        
-                            <tr>
-                                <th colspan="2">ที่อยู่</th>
-                                <th>เบอร์โทรศัพท์</th>
-                                <th>เบอร์โทรศัพท์มือถือ</th>
-                            </tr>
-                            <tr>
                                 <td colspan="2">
                                     14/55 ซ.อ่อนนุช 50 ถ.สุขุมวิท77 ข.พหลโยธิน ข.ถาวรวัฒนา กรุงเทพมหานคร 62190 
                                 </td>
+                            </tr>
+                            <tr>
+                                <th>เบอร์โทรศัพท์</th>
+                                <th>เบอร์โทรศัพท์มือถือ</th>
+                                <th>อีเมล</th>
+                                <th>อาชีพ</th>
+                            </tr>
+                            <tr>
                                 <td>
                                     -
                                 </td>
                                 <td>
                                     0895153174
                                 </td>
-                            </tr>
-                            <tr>
-                                <th colspan="2">อีเมล</th>
-                                <th>ผู้รับผลประโยชน์</th>
-                                <th>ความสัมพันธ์</th>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
+                                <td>
                                     ongarj@gmail.com
                                 </td>
                                 <td>
-                                    นาง อำมร อำนาจ
-                                </td>
-                                <td>
-                                    คู่สมรส
-                                </td>
-                            </tr>
-                            <tr>
-                                <th colspan="2">ชื่อและสถานที่ของสนามกอล์ฟที่ท่านเป็นสมาชิกอยู่</th>
-                                <th colspan="2">ท่านเป็นนักกอล์ฟอาชีพ</th>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    -
-                                </td>
-                                <td colspan="2">
-                                    -
-                                </td>
-                            </tr>
-                            <tr>
-                                <th colspan="2">ขอเอาประกันภัยผู้เล่นกอล์ฟไว้กับบริษัทอื่น</th>
-                                <th colspan="2">จัดส่งเอกสาร</th>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    -
-                                </td>
-                                <td colspan="2">
-                                    อีเมล
+                                    พนักงานบริษัท
                                 </td>
                             </tr>
                             <tr>
@@ -184,18 +181,10 @@
                             </tr>
                             <tr>
                                 <td colspan="2" class="amount">
-                                    ประกันภัยผู้เล่นกอล์ฟ แผนที่ 1
+                                    ประกันภัยบ้านอยู่อาศัย บ้านสบายใจ
                                 </td>
                                 <td colspan="2" class="amount txt-right">
                                     <h3>850.00 <span class="unit">บาท</span></h3>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2" class="amount">
-                                    อากรแสตมป์และภาษีมูลค่าเพิ่ม
-                                </td>
-                                <td colspan="2" class="amount txt-right">
-                                    <h3>63.78 <span class="unit">บาท</span></h3>
                                 </td>
                             </tr>
                             <tr>
@@ -235,21 +224,21 @@
                     <div class="col-sm-4">
                         <div class="btn-wrapper">
                             <div class="gen-button">
-                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Golf/Buy?p=3'">แก้ไขข้อมูล <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Fire/Buy?p=3'">แก้ไขข้อมูล <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="btn-wrapper">
                             <div class="gen-button">
-                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Golf/Buy?p=2'">ติดต่อเจ้าหน้าที่ <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Fire/Buy?p=2'">ติดต่อเจ้าหน้าที่ <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="btn-wrapper">
                             <div class="gen-button">
-                                <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Golf/Buy?p=5'">NEXT STEP <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                                <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Fire/Buy?p=5'">NEXT STEP <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>
