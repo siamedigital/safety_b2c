@@ -320,6 +320,7 @@
     <Content Include="Images\logo\logo.png" />
     <Content Include="Images\logo\logo2.png" />
     <Content Include="Images\logo\logo_print.png" />
+    <Content Include="Images\spritesheet.png" />
     <Content Include="Scripts\bootstrap-select.js" />
     <Content Include="Scripts\bootstrap-select.min.js" />
     <Content Include="Scripts\ie8\css3-mediaqueries.js" />
