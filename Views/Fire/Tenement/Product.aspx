@@ -1,6 +1,6 @@
 ﻿<!--#include file="../../Shared/start.aspx"-->
 <!-- addition meta tag -->
-<title>ประกันภัยผู้เล่นกอล์ฟ : Safety Insurance</title>
+<title>ประกันภัยบ้านอยู่อาศัย : Safety Insurance</title>
 <link href="../../Content/default/css/content/product.css" rel="stylesheet" />
 </head>
 

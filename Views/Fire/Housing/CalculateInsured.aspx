@@ -1,6 +1,6 @@
 ﻿<!--#include file="../../Shared/start.aspx"-->
 <!-- addition meta tag -->
-<title>ประกันภัยบ้านอยู่อาศัย : Safety Insurance</title>
+<title>ประกันอัคคีภัยสำหรับที่อยู่อาศัย : Safety Insurance</title>
 <link href="../../Content/default/css/content/product.css" rel="stylesheet" />
 </head>
 
@@ -51,7 +51,7 @@
                     <ol class="breadcrumb">
                         <li><span>หน้าแรก</span></li>
                         <li><span>ประกันภัยบ้าน</span></li>
-                        <li class="active"><span>ประกันภัยบ้านอยู่อาศัย</span></li>
+                        <li class="active"><span>ประกันอัคคีภัยสำหรับที่อยู่อาศัย</span></li>
                     </ol>
                 </div>
             </div>
@@ -67,9 +67,9 @@
                             <div class="page-widget-wrapper">
                                 <div class="title-wrapper matchHeight">
                                     <%--<img src="../../Images/default/txt-title-large.png" />--%>
-                                    <h2 class="title">ซื้อประกันออนไลน์
+                                    <h2 class="title">
+                                        YOUR<br /> LIVING<br /> <span>PARTNER</span>
                                     </h2>
-                                    <h3 class="description">ช่วยคุณเลือกซื้อแบบประกันที่เหมาะสม</h3>
                                 </div>
                             </div>
                         </div>
@@ -80,37 +80,17 @@
                                 if (Request.QueryString["p"] == "1")
                                 {
                             %>
-                            <!-- #include file ="../../Shared/Module/Fire/tenement/Plan.aspx" -->
+                            <!-- #include file ="../../Shared/Module/Fire/housing/Calculate1.aspx" -->
                             <%        }
                                 else if (Request.QueryString["p"] == "2")
                                 {
                             %>
-                            <!-- #include file ="../../Shared/Module/Fire/tenement/Cart1.aspx" -->
-                            <%        }
-                                else if (Request.QueryString["p"] == "3")
-                                {
-                            %>
-                            <!-- #include file ="../../Shared/Module/Fire/tenement/Cart2.aspx" -->
-                            <%        }
-                                else if (Request.QueryString["p"] == "4")
-                                {
-                            %>
-                            <!-- #include file ="../../Shared/Module/Fire/tenement/Checkout.aspx" -->
-                            <%        }
-                                else if (Request.QueryString["p"] == "5")
-                                {
-                            %>
-                            <!-- #include file ="../../Shared/Module/Fire/tenement/Payment.aspx" -->
-                            <%        }
-                                else if (Request.QueryString["p"] == "6")
-                                {
-                            %>
-                            <!-- #include file ="../../Shared/Module/Transaction.aspx" -->
+                            <!-- #include file ="../../Shared/Module/Fire/housing/Calculate2.aspx" -->
                             <%        }
                                 else
                                 {
                             %>
-                            <!-- #include file ="../../Shared/Module/Fire/tenement/Plan.aspx" -->
+                            <!-- #include file ="../../Shared/Module/Fire/housing/Calculate1.aspx" -->
                             <%        }
                             %>
                         </div>

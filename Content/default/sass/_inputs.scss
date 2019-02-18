@@ -282,6 +282,16 @@
     margin-bottom: 20px;
     background-color: $color-white;
 
+    .gen-button {
+        a {
+            img {
+                position: relative;
+                top: -1px;
+                left: -5px;
+            }
+        }
+    }
+
     &.txt-center {
         text-align: center;
     }
@@ -466,6 +476,14 @@
     height: auto;
     margin-bottom: 30px;
     overflow: hidden;
+
+    &.text-center {
+        span.content-rdo-inline {
+            max-width: 100%;
+            float: none;
+            text-align: center;
+        }
+    }
     // Radio
     input[type=radio] {
         display: none;
@@ -480,6 +498,33 @@
         width: 32px;
         display: block;
         float: left;
+        padding: 0;
+        margin-right: 10px;
+        // vertical-align: top;
+        cursor: pointer;
+    }
+
+    input[type=radio] + .type-rdo-line {
+        background-image: url('../../../Images/icon/icon-rdo-line.png');
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        height: 28px;
+        width: 100%;
+        display: block;
+        float: left;
+        padding: 0;
+        margin-right: 10px;
+        // vertical-align: top;
+        cursor: pointer;
+    }
+
+    input[type=radio]:checked + .type-rdo-line {
+        background-image: url('../../../Images/icon/icon-rdo-lined.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 28px;
+        width: 100%;
+        display: block;
         padding: 0;
         margin-right: 10px;
         // vertical-align: top;

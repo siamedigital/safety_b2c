@@ -1,6 +1,6 @@
 ﻿<!--#include file="../../Shared/start.aspx"-->
 <!-- addition meta tag -->
-<title>ประกันภัยผู้เล่นกอล์ฟ : Safety Insurance</title>
+<title>ประกันอัคคีภัยสำหรับที่อยู่อาศัย : Safety Insurance</title>
 <link href="../../Content/default/css/content/product.css" rel="stylesheet" />
 </head>
 
@@ -20,7 +20,7 @@
             <div class="index-slider slider-container">
                 <div id="foo">
                     <div class="foo-item">
-                        <img src="../../Images/bg/bg-fire-house.jpg" alt="ประกันภัยบ้านอยู่อาศัย"/>
+                        <img src="../../Images/bg/bg-fire-house.jpg" alt="ประกันภัยบ้าน"/>
                     </div>
                 </div>
                 <div class="slider-controller">
@@ -37,7 +37,8 @@
                 <div class="container">
                     <ol class="breadcrumb">
                         <li><span>หน้าแรก</span></li>
-                        <li class="active"><span>ประกันภัยบ้านอยู่อาศัย</span></li>
+                        <li><span>ประกันภัยบ้าน</span></li>
+                        <li class="active"><span>ประกันอัคคีภัยสำหรับที่อยู่อาศัย</span></li>
                     </ol>
                 </div>
             </div>
@@ -52,7 +53,7 @@
                                         <h2 class="title">
                                             YOUR<br /> LIVING<br /> <span>PARTNER</span>
                                         </h2>
-                                        <h3 class="description">ประกันภัยบ้านอยู่อาศัย</h3>
+                                        <h3 class="description">ประกันอัคคีภัยสำหรับที่อยู่อาศัย</h3>
                                     </div>
                                 </div>
                             </div>
@@ -103,8 +104,8 @@
                             </div>
                             <div class="col-xs-12">
                                 <div class="title-wrapper">
-                                    <h3 class="title">ประกันภัยบ้านอยู่อาศัย บ้านสบายใจ</h3>
-                                    <p class="description">ปกป้องตัวคุณและอุปกรณ์กอล์ฟจากเหตุไม่คาดฝัน</p>
+                                    <h3 class="title">ประกันอัคคีภัยสำหรับที่อยู่อาศัย</h3>
+                                    <p class="description">ปกป้องตัวคุณและทรัพย์สินภายในบ้านจากเหตุไม่คาดฝัน</p>
                                 </div>
                             </div>
                             <div class="col-xs-12">
@@ -341,7 +342,7 @@
                                             <p class="color-red">การทำประกันภัยทรัพย์สินต่ำกว่ามูลค่าที่แท้จริง</p>
                                             <div class="btn-calculate">
                                                 <div class="gen-button inline-block">
-                                                    <a href="#" class="btn-med btn-icon-right btn-primary" title="คำนวนทุนประกัน">
+                                                    <a href="/Fire/CalculateInsured_Housing" class="btn-med btn-icon-right btn-primary" title="คำนวนทุนประกัน">
                                                         <img src="../../../Images/icon/icon-calculate.png" alt="icon"/> คำนวนทุนประกัน <i class="fas fa-angle-right" aria-hidden="true"></i>
                                                     </a>
                                                 </div>

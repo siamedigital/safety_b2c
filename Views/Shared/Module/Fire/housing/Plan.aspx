@@ -65,7 +65,7 @@
                                             <div class="plan matchHeight">
                                                 <div class="table">
                                                     <div class="cell">
-                                                        <p>ทุนประกัน 1,000,000 บาท</p>
+                                                        <p>ทุนประกัน 100,000 บาท</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -73,7 +73,7 @@
                                         <div class="col-md-7 col-md-pull-5">
                                             <div class="insure matchHeight">
                                                 <p>เบี้ยประกันภัยต่อท่าน</p>
-                                                <h4 class="value">1,020.78</h4>
+                                                <h4 class="value">6,550.00</h4>
                                                 <p class="unit">บาท</p>
                                             </div>
                                         </div>
@@ -88,7 +88,7 @@
                 <div class="col-sm-4 col-sm-offset-4">
                     <div class="btn-wrapper">
                         <div class="gen-button">
-                            <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Fire/Buy?p=2'">NEXT STEP <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                            <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Fire/Buy_Housing?p=2'">NEXT STEP <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                         </div>
                     </div>
                 </div>

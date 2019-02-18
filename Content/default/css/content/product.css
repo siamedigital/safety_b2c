@@ -420,6 +420,12 @@
         padding-right: 0; }
         .module-wrapper .form-content-wrapper .content-form .btn-wrapper .inline-block {
           margin: 0; }
+      .module-wrapper .form-content-wrapper .content-form .text-note {
+        font-family: "webfont-med";
+        font-size: 26px;
+        line-height: 26px;
+        color: #999999;
+        margin-bottom: 30px; }
       @media screen and (max-width: 999px) {
         .module-wrapper .form-content-wrapper .content-form .form-group .item-insure .plan {
           padding-top: 0;
@@ -502,12 +508,34 @@
             font-size: 30px;
             line-height: 30px;
             color: #fff; }
+          .module-wrapper .form-content-wrapper .content-review .summary-plan .detail .price-insured {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            padding: 40px 0;
+            text-align: center;
+            border: 2px solid #fff;
+            margin: 8px 0;
+            font-family: "webfont-med";
+            font-size: 34px;
+            color: #ffffff;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            -pie-border-radius: 100%;
+            behavior: url(pie/PIE.htc); }
         .module-wrapper .form-content-wrapper .content-review .summary-plan.fire {
           background-color: #B64926; }
           .module-wrapper .form-content-wrapper .content-review .summary-plan.fire .price .title {
             color: #6D2D16; }
           .module-wrapper .form-content-wrapper .content-review .summary-plan.fire .detail .title {
             color: #6D2D16; }
+        .module-wrapper .form-content-wrapper .content-review .summary-plan.fire-housing {
+          background-color: #00AC4A; }
+          .module-wrapper .form-content-wrapper .content-review .summary-plan.fire-housing .price .title {
+            color: #006229; }
+          .module-wrapper .form-content-wrapper .content-review .summary-plan.fire-housing .detail .title {
+            color: #006229; }
         @media screen and (max-width: 767px) {
           .module-wrapper .form-content-wrapper .content-review .summary-plan .detail {
             padding: 20px 0; } }
