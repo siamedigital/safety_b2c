@@ -65,7 +65,7 @@
                                             <div class="plan matchHeight">
                                                 <div class="table">
                                                     <div class="cell">
-                                                        <p>แบบที่ 1 ทดสอบ Git</p>
+                                                        <p>แบบที่ 1</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -144,7 +144,7 @@
                 <div class="col-sm-4 col-sm-offset-4">
                     <div class="btn-wrapper">
                         <div class="gen-button">
-                            <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Golf/Buy?p=2'">NEXT STEP <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                            <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Business/Buy?p=2'">NEXT STEP <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                         </div>
                     </div>
                 </div>

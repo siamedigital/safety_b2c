@@ -23,7 +23,8 @@
 
     <div class="form-content-wrapper">
         <div class="title-form">
-            <h3><span>เลือกแบบประกัน</span> : ประกันภัยผู้เล่นกอล์ฟ แผนที่ 1</h3>
+            <h3><span>เลือกแบบประกัน</span> : ประกันภัยธุรกิจขนาดย่อม กลุ่มที่ 1</h3>
+            <p class="date">วันที่คุ้มครอง 09/10/2561 - 09/10/2562</p>
         </div>
 
         <div class="payment-wrapper">

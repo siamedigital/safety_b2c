@@ -11,7 +11,7 @@
                 <span class="title">STEP 2 กรอกข้อมูล</span>
                 <span class="label">&nbsp;</span>
             </div>
-            <span class="bar active"></span>
+            <span class="bar"></span>
 
             <div class="circle">
                 <span class="title">STEP 3 สั่งซื้อ</span>
@@ -23,7 +23,7 @@
 
     <div class="form-content-wrapper">
         <div class="title-form">
-            <h3><span>เลือกแบบประกัน</span> : ประกันภัยผู้เล่นกอล์ฟ แผนที่ 1</h3>
+            <h3><span>เลือกแบบประกัน</span> : ประกันภัยธุรกิจขนาดย่อม กลุ่มที่ 1</h3>
         </div>
 
         <div class="content-form">
@@ -157,19 +157,12 @@
                                     </select>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="txt-label">
-                            <span>รหัสไปรษณีย์</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="gen-input">
-                            <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
+                            <div class="col-sm-6">
+                                <div class="gen-input">
+                                    <input class="" id="" name="" placeholder="ระบุรหัสไปรษณีย์" value="" autocomplete="off" type="text">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -212,18 +205,18 @@
                             <input class="" id="" name="emailaddress" placeholder="ระบุ" value="" autocomplete="off" type="email">
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <%--<div class="col-sm-4">
                         <div class="icon-tooltip">
                             <a class="mail" href="mailto:" data-toggle="modal" data-target="#SendMailModal"><i class="fas fa-angle-right"></i>&nbsp;คลิก</a>
                         </div>
-                    </div>
+                    </div>--%>
                 </div>
 
 
                 <div class="row form-row">
                     <div class="col-sm-4">
                         <div class="txt-label">
-                            *<span>รหัสยืนยันอีเมล</span>
+                            *<span>ยืนยันอีเมล</span>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -259,7 +252,7 @@
                     <div class="col-sm-4 col-sm-offset-4">
                         <div class="btn-wrapper">
                             <div class="gen-button">
-                                <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Golf/Buy?p=3'">NEXT STEP <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                                <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Business/Buy?p=3'">NEXT STEP <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>
@@ -326,7 +319,7 @@
         $(document).ready(function () {
             $('.tooltip').tooltipster({
                 theme: 'tooltipster-light',
-                trigger: 'click'
+                //trigger: 'click'
             });
         });
     })
