@@ -171,40 +171,12 @@
     <Compile Include="Views\Business\Product.aspx.designer.cs">
       <DependentUpon>Product.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Views\Fire\Housing\Buy.aspx.cs">
-      <DependentUpon>Buy.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Views\Fire\Housing\Buy.aspx.designer.cs">
-      <DependentUpon>Buy.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Fire\Housing\Product.aspx.cs">
-      <DependentUpon>Product.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Views\Fire\Housing\Product.aspx.designer.cs">
-      <DependentUpon>Product.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Views\Fire\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Views\Fire\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Fire\Tenement\Buy.aspx.cs">
-      <DependentUpon>Buy.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Views\Fire\Tenement\Buy.aspx.designer.cs">
-      <DependentUpon>Buy.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Fire\Tenement\Product.aspx.cs">
-      <DependentUpon>Product.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Views\Fire\Tenement\Product.aspx.designer.cs">
-      <DependentUpon>Product.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Golf\Buy.aspx.cs">
       <DependentUpon>Buy.aspx</DependentUpon>
@@ -403,11 +375,7 @@
     <Content Include="Views\Business\Buy.aspx" />
     <Content Include="Views\Business\Index.aspx" />
     <Content Include="Views\Business\Product.aspx" />
-    <Content Include="Views\Fire\Housing\Buy.aspx" />
-    <Content Include="Views\Fire\Housing\Product.aspx" />
     <Content Include="Views\Fire\Index.aspx" />
-    <Content Include="Views\Fire\Tenement\Buy.aspx" />
-    <Content Include="Views\Fire\Tenement\Product.aspx" />
     <Content Include="Views\Golf\Buy.aspx" />
     <Content Include="Views\Golf\Index.aspx" />
     <Content Include="Views\Golf\Product.aspx" />
