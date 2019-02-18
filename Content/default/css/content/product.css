@@ -433,6 +433,10 @@
         padding: 20px;
         text-align: center;
         background-color: #6fae28; }
+        .module-wrapper .form-content-wrapper .content-review .summary-plan.business {
+          background-color: #00698c; }
+          .module-wrapper .form-content-wrapper .content-review .summary-plan.business .price .title, .module-wrapper .form-content-wrapper .content-review .summary-plan.business .detail .title {
+            color: #00a9e0; }
         .module-wrapper .form-content-wrapper .content-review .summary-plan .price {
           display: inline-block;
           width: 260px;

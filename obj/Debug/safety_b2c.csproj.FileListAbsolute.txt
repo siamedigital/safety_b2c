@@ -79,6 +79,7 @@ D:\Asp.net\safety_b2c\safety_b2c\bin\Microsoft.AI.DependencyCollector.xml
 D:\Asp.net\safety_b2c\safety_b2c\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\Asp.net\safety_b2c\safety_b2c\bin\Microsoft.AI.WindowsServer.xml
 D:\Asp.net\safety_b2c\safety_b2c\bin\Microsoft.AI.Web.xml
+D:\Asp.net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.csprojResolveAssemblyReference.cache
 D:\Asp.net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.csproj.CoreCompileInputs.cache
 D:\Asp.net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.dll
 D:\Asp.net\safety_b2c\safety_b2c\obj\Debug\safety_b2c.pdb
