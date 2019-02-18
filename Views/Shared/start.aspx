@@ -10,7 +10,7 @@
     <meta content="IE=9" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="../../favicon.ico">
     <meta charset="UTF-8">
 
     <link href="../../Content/default/css/main.css" rel="stylesheet" />
