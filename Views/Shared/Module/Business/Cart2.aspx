@@ -23,11 +23,315 @@
 
     <div class="form-content-wrapper">
         <div class="title-form">
-            <h3><span>เลือกแบบประกัน</span> : ประกันภัยผู้เล่นกอล์ฟ แผนที่ 1</h3>
+            <h3><span>เลือกแบบประกัน</span> : ประกันภัยธุรกิจขนาดย่อม กลุ่มที่ 1</h3>
         </div>
 
         <div class="content-form">
             <form>
+                <div class="row form-row">
+                    <div class="col-sm-12">
+                        <h3 class="title-head">สถานที่เอาประกันภัย</h3>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-4">
+                        <div class="txt-label">
+                            *<span>ที่อยู่</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="gen-input">
+                            <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-8 col-sm-offset-4">
+                        <div class="row form-row">
+                            <div class="col-sm-6">
+                                <div class="gen-slc">
+                                    <select class="selectpicker" data-live-search="true" title="จังหวัด">
+                                        <option data-tokens="ระบุ">ระบุ</option>
+                                        <option data-tokens="ระบุ">ระบุ</option>
+                                        <option data-tokens="ระบุ">ระบุ</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="gen-slc">
+                                    <select class="selectpicker" data-live-search="true" title="อำเภอ/เขต">
+                                        <option data-tokens="ระบุ">ระบุ</option>
+                                        <option data-tokens="ระบุ">ระบุ</option>
+                                        <option data-tokens="ระบุ">ระบุ</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row form-row">
+                            <div class="col-sm-6">
+                                <div class="gen-slc">
+                                    <select class="selectpicker" data-live-search="true" title="ตำบล/แขวง">
+                                        <option data-tokens="ระบุ">ระบุ</option>
+                                        <option data-tokens="ระบุ">ระบุ</option>
+                                        <option data-tokens="ระบุ">ระบุ</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="gen-input">
+                                    <input class="" id="" name="" placeholder="ระบุรหัสไปรษณีย์" value="" autocomplete="off" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-4">
+                        <div class="txt-label">
+                            <span>การใช้สถานที่หรือประเภทการค้า</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="gen-input">
+                            <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-4">
+                        <div class="txt-label">
+                            <span>&nbsp;</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="custom-radio">
+                            <input value="" id="rdo_building_1" name="rdo_building" type="radio">
+                            <label for="rdo_building_1"></label>
+                            <span class="content-rdo-inline-block">เป็นเจ้าของอาคาร</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="custom-radio">
+                            <input value="" id="rdo_building_2" name="rdo_building" type="radio">
+                            <label for="rdo_building_2"></label>
+                            <span class="content-rdo-inline-block">เป็นผู้เช่าอาคาร</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-4">
+                        <div class="txt-label">
+                            <span>ละติจูติ - ลองติจูด</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="gen-input">
+                            <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-4">
+                        <div class="txt-label">
+                            *<span>วันที่เริ่มคุ้มครอง</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="gen-input">
+                            <input class="dateinput" id="startDate" name="" placeholder="วัน/เดือน/ปี" value="" autocomplete="off" type="text">
+                        </div>
+                    </div>
+                    <%--<div class="col-sm-2">
+                        <div class="gen-input">
+                            <input class="" id="" name="" placeholder="เวลา" value="" autocomplete="off" type="text">
+                        </div>
+                    </div>--%>
+                </div>
+
+                <div class="row form-row">
+                    <div class="col-sm-4">
+                        <div class="txt-label">
+                            *<span>วันที่สิ้นสุด</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="gen-input">
+                            <input class="dateinput" id="expiredDate" name="" placeholder="วัน/เดือน/ปี" value="" autocomplete="off" type="text" disabled>
+                        </div>
+                    </div>
+                </div>
+                <%--สถานที่เอาประกันภัย--%>
+
+                <div class="row form-row">
+                    <div class="col-sm-12">
+                        <h3 class="title-head">ลักษณะสิ่งปลูกสร้างที่เอาประกันภัย</h3>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-4">
+                        <div class="txt-label">
+                            <span>ผนัง</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="custom-radio">
+                            <input value="" id="rdo_wall_1" name="rdo_wall" type="radio">
+                            <label for="rdo_wall_1"></label>
+                            <span class="content-rdo-inline-block">ก่ออิฐ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-4">
+                        <div class="txt-label">
+                            <span>พื้นชั้นบน</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="custom-radio">
+                            <input value="" id="rdo_floor_1" name="rdo_floor" type="radio">
+                            <label for="rdo_floor_1"></label>
+                            <span class="content-rdo-inline-block">คอนกรีต</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="custom-radio">
+                            <input value="" id="rdo_floor_2" name="rdo_floor" type="radio">
+                            <label for="rdo_floor_2"></label>
+                            <span class="content-rdo-inline-block">ไม้</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-4">
+                        <div class="txt-label">
+                            <span>โครงหลังคา</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="custom-radio">
+                                    <input value="" id="rdo_structure_1" name="rdo_structure" type="radio">
+                                    <label for="rdo_structure_1"></label>
+                                    <span class="content-rdo-inline-block">คอนกรีต</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="custom-radio">
+                                    <input value="" id="rdo_structure_2" name="rdo_structure" type="radio">
+                                    <label for="rdo_structure_2"></label>
+                                    <span class="content-rdo-inline-block">เหล็ก</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="custom-radio">
+                                    <input value="" id="rdo_structure_3" name="rdo_structure" type="radio">
+                                    <label for="rdo_structure_3"></label>
+                                    <span class="content-rdo-inline-block">ไม้</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-4">
+                        <div class="txt-label">
+                            <span>หลังคา</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="custom-radio">
+                                    <input value="" id="rdo_rooftop_1" name="rdo_rooftop" type="radio">
+                                    <label for="rdo_rooftop_1"></label>
+                                    <span class="content-rdo-inline-block">ดาดฟ้า</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="custom-radio">
+                                    <input value="" id="rdo_rooftop_2" name="rdo_rooftop" type="radio">
+                                    <label for="rdo_rooftop_2"></label>
+                                    <span class="content-rdo-inline-block">กระเบื้อง</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="custom-radio">
+                                    <input value="" id="rdo_rooftop_3" name="rdo_rooftop" type="radio">
+                                    <label for="rdo_rooftop_3"></label>
+                                    <span class="content-rdo-inline-block">ไม้</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-4">
+                        <div class="txt-label">
+                            <span>จำนวนคูหา/หลัง</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="gen-input">
+                            <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-4">
+                        <div class="txt-label">
+                            <span>จำนวนชั้น </span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="gen-input">
+                            <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="unit">
+                            ชั้น
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-4">
+                        <div class="txt-label">
+                            <span>พื้นที่ภายในอาคาร กว้าง</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="gen-input">
+                            <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="unit">
+                            เมตร
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-4">
+                        <div class="txt-label">
+                            <span>พื้นที่ภายในอาคาร ยาว</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="gen-input">
+                            <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="unit">
+                            เมตร
+                        </div>
+                    </div>
+                </div>
+                <%--ลักษณะสิ่งปลูกสร้างที่เอาประกันภัย--%>
+
                 <div class="row form-row">
                     <div class="col-sm-12">
                         <h3 class="title-head">ผู้รับผลประโยชน์</h3>
@@ -84,272 +388,7 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-12">
-                        <h3 class="title-head">ระยะเวลาเอาประกัน</h3>
-                    </div>
-                </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="txt-label">
-                            *<span>วันที่เริ่มคุ้มครอง</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="gen-input">
-                            <input class="dateinput" id="startDate" name="" placeholder="วัน/เดือน/ปี" value="" autocomplete="off" type="text">
-                        </div>
-                    </div>
-                    <%--<div class="col-sm-2">
-                        <div class="gen-input">
-                            <input class="" id="" name="" placeholder="เวลา" value="" autocomplete="off" type="text">
-                        </div>
-                    </div>--%>
-                </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="txt-label">
-                            *<span>วันที่สิ้นสุด</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="gen-input">
-                            <input class="dateinput" id="expiredDate" name="" placeholder="วัน/เดือน/ปี" value="" autocomplete="off" type="text" disabled>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-12">
-                        <h3 class="title-head">ข้อมูลเพิ่มเติม</h3>
-                    </div>
-                </div>
-
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="txt-label" style="line-height: 20px;">
-                            <span>โปรดระบุชื่อและสถานที่ของสนามกอล์ฟที่ท่านเป็นสมาชิกอยู่</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="gen-input">
-                            <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="txt-label">
-                            <span>ท่านเป็นนักกอล์ฟอาชีพหรือไม่</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="custom-radio">
-                            <input value="" id="rdo_golf_1" name="rdo_golf" type="radio">
-                            <label for="rdo_golf_1"></label>
-                            <span class="content-rdo-inline-block">ไม่เป็น</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="custom-radio">
-                            <input value="" id="rdo_golf_2" name="rdo_golf" type="radio">
-                            <label for="rdo_golf_2"></label>
-                            <span class="content-rdo-inline-block">เป็น</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="txt-label" style="line-height: 20px;">
-                            <span>ท่านมีหรือได้ขอเอาประกันภัยผู้เล่นกอล์ฟไว้กับบริษัทอื่นหรือไม่</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="custom-radio">
-                            <input value="" id="rdo_has_1" name="rdo_has" type="radio">
-                            <label for="rdo_has_1"></label>
-                            <span class="content-rdo-inline-block">ไม่มี</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="custom-radio">
-                            <input value="" id="rdo_has_2" name="rdo_has" type="radio">
-                            <label for="rdo_has_2"></label>
-                            <span class="content-rdo-inline-block">มี</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="txt-label">
-                            <span>โปรดระบุชื่อบริษัท</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="gen-input">
-                            <input class="" id="" name="company" placeholder="" value="" autocomplete="off" type="text" disabled>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-12">
-                        <h3 class="title-head">โปรดระบุจำนวนและรายละเอียดอุปกรณ์ที่ท่านเป็นเจ้าของในขณะที่เอาประกันภัย</h3>
-                    </div>
-                </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="custom-radio">
-                            <input type='checkbox' id="golf_club" name="golf_club" onchange="valueChanged1()">
-                            <label for="golf_club"></label>
-                            <span class="content-rdo-inline-block">เหล็ก</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="gen-input">
-                            <input class="" id="" name="golf_club_unit" placeholder="" value="" autocomplete="off" type="text" disabled>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="unit">
-                            อัน
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="txt-label">
-                            <span>เบอร์</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="gen-input">
-                            <input class="" id="" name="golf_club_unit" placeholder="" value="" autocomplete="off" type="text" disabled>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="txt-label">
-                            <span>ยี่ห้อ</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="gen-input">
-                            <input class="" id="" name="golf_club_unit" placeholder="" value="" autocomplete="off" type="text" disabled>
-                        </div>
-                    </div>
-                </div>
-                <%--Golf Club--%>
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="custom-radio">
-                            <input type='checkbox' id="golf_wood" name="golf_wood" onchange="valueChanged2()">
-                            <label for="golf_wood"></label>
-                            <span class="content-rdo-inline-block">ไม้</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="gen-input">
-                            <input class="" id="" name="golf_wood_unit" placeholder="" value="" autocomplete="off" type="text" disabled>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="unit">
-                            อัน
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="txt-label">
-                            <span>เบอร์</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="gen-input">
-                            <input class="" id="" name="golf_wood_unit" placeholder="" value="" autocomplete="off" type="text" disabled>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="txt-label">
-                            <span>ยี่ห้อ</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="gen-input">
-                            <input class="" id="" name="golf_wood_unit" placeholder="" value="" autocomplete="off" type="text" disabled>
-                        </div>
-                    </div>
-                </div>
-                <%--Golf Wood--%>
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="custom-radio">
-                            <input type='checkbox' id="golf_putter" name="golf_putter" onchange="valueChanged3()">
-                            <label for="golf_putter"></label>
-                            <span class="content-rdo-inline-block">พัตเตอร์ ยี่ห้อ</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="gen-input">
-                            <input class="" id="" name="golf_putter_unit" placeholder="" value="" autocomplete="off" type="text" disabled>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="custom-radio">
-                            <input type='checkbox' id="golf_bag" name="golf_bag" onchange="valueChanged4()">
-                            <label for="golf_bag"></label>
-                            <span class="content-rdo-inline-block">ถุงกอล์ฟ ยี่ห้อ</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="gen-input">
-                            <input class="" id="" name="golf_bag_unit" placeholder="" value="" autocomplete="off" type="text" disabled>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="txt-label">
-                            <span>จัดส่งเอกสาร</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="custom-radio">
-                            <input value="" id="rdo_document_1" name="rdo_document" type="checkbox">
-                            <label for="rdo_document_1"></label>
-                            <span class="content-rdo-inline-block">อีเมล</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="custom-radio">
-                            <input value="" id="rdo_document_2" name="rdo_document" type="checkbox">
-                            <label for="rdo_document_2"></label>
-                            <span class="content-rdo-inline-block">ไปรษณีย์</span>
-                        </div>
-                    </div>
-                </div>
+                <%--ผู้รับผลประโยชน์--%>
 
                 <div class="row form-row">
                     <div class="col-sm-12">
@@ -359,19 +398,19 @@
                         </div>
                     </div>
                 </div>
-              
+
                 <div class="row form-row">
                     <div class="col-sm-4 col-sm-offset-4">
                         <div class="btn-wrapper">
                             <div class="gen-button">
-                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Golf/Buy?p=2'">แก้ไขข้อมูล <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Business/Buy?p=2'">แก้ไขข้อมูล <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="btn-wrapper">
                             <div class="gen-button">
-                                <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Golf/Buy?p=4'">NEXT STEP <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                                <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Business/Buy?p=4'">NEXT STEP <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>

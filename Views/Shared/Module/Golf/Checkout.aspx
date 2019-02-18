@@ -56,7 +56,7 @@
                     </div>
 
                     <div class="col-md-3 col-sm-6">
-                        <div class="golf-club matchHeight">
+                        <div class="detail matchHeight">
                             <p class="title">
                                 ไม้กอล์ฟ
                             </p>
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
-                        <div class="golf-club matchHeight">
+                        <div class="detail matchHeight">
                             <p class="title">
                                 พัตเตอร์ ยี่ห้อ
                             </p>

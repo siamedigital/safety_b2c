@@ -27,7 +27,7 @@
         </div>
 
         <div class="content-review">
-            <div class="summary-plan">
+            <div class="summary-plan business">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="row">
@@ -56,24 +56,24 @@
                     </div>
 
                     <div class="col-md-3 col-sm-6">
-                        <div class="golf-club matchHeight">
+                        <div class="detail matchHeight">
                             <p class="title">
-                                ไม้กอล์ฟ
+                                สถานที่ประเภทการค้า
                             </p>
-                            <img src="../../../../Images/golf/icon-golf.png" />
+                            <img src="../../../../Images/building/icon-building1.png" />
                             <p class="unit">
-                                เหล็ก 4 , ไม้ 2
+                                คลินิก,<br />เป็นผู้เช่าอาคาร
                             </p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
-                        <div class="golf-club matchHeight">
+                        <div class="detail matchHeight">
                             <p class="title">
-                                พัตเตอร์ ยี่ห้อ
+                                จำนวนคูหา/หลัง
                             </p>
-                            <img src="../../../../Images/golf/icon-golf-club.png" />
+                            <img src="../../../../Images/building/icon-building2.png" />
                             <p class="unit">
-                                Scotty Cameron
+                               1 คูหา
                             </p>
                         </div>
                     </div>
@@ -86,27 +86,64 @@
                             <tr>
                                 <th>ผลิตภัณฑ์</th>
                                 <th>วันที่คุ้มครอง</th>
-                                <th>พัตเตอร์ ยี่ห้อ</th>
-                                <th>ถุงกอล์ฟ ยี่ห้อ</th>
+                                <th colspan="2">สถานที่เอาประกัน</th>
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="../../../../Images/icon/icon-tooltip.png" /> ประกันภัยผู้เล่นกอล์ฟ แผนที่ 1</td>
+                                    <img src="../../../../Images/icon/icon-tooltip.png" /> ประกันภัยธุรกิจขนาดย่อม กลุ่มที่ 1</td>
                                 <td>
                                     09/10/2561 - 09/10/2562
                                 </td>
+                                <td colspan="2">
+                                    14/55 ซ.อ่อนนุช 50 ถ.สุขุมวิท77 ข.พหลโยธิน ข.ถาวรวัฒนา กรุงเทพมหานคร 62190 
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ละติจูติ - ลองติจูด</th>
+                                <th>ผนัง</th>
+                                <th>พื้นชั้นบน</th>
+                                <th>โครงหลังคา</th>
+                            </tr>
+                            <tr>
                                 <td>
-                                    Scotty Cameron
+                                    13°33’14.2”N <br />99°49’13.1”E
                                 </td>
                                 <td>
-                                    Scotty Cameron
+                                    -
+                                </td>
+                                <td>
+                                    คอนกรีต
+                                </td>
+                                <td>
+                                    เหล็ก
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>หลังคา</th>
+                                <th>จำนวนชั้น</th>
+                                <th>พื้นที่ภายในอาคาร กว้าง</th>
+                                <th>พื้นที่ภายในอาคาร ยาว</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    ดาดฟ้า
+                                </td>
+                                <td>
+                                    -
+                                </td>
+                                <td>
+                                    -
+                                </td>
+                                <td>
+                                    -
                                 </td>
                             </tr>
                             <tr>
                                 <th>หมายเลขบัตรประชาชน</th>
                                 <th>ชื่อ - สกุล</th>
                                 <th>วันเกิด</th>
-                                <th>อาชีพ</th>
+                                <th>บัตรหมดอายุ</th>
+                                
                             </tr>
                             <tr>
                                 <td>
@@ -119,32 +156,38 @@
                                     10/07/2530
                                 </td>
                                 <td>
-                                    พนักงานบริษัท
+                                    10/07/2540
                                 </td>
+                                
                             </tr>                        
                             <tr>
+                                <th>อาชีพ</th>
                                 <th colspan="2">ที่อยู่</th>
                                 <th>เบอร์โทรศัพท์</th>
-                                <th>เบอร์โทรศัพท์มือถือ</th>
                             </tr>
                             <tr>
+                                <td>
+                                    พนักงานบริษัท
+                                </td>
                                 <td colspan="2">
                                     14/55 ซ.อ่อนนุช 50 ถ.สุขุมวิท77 ข.พหลโยธิน ข.ถาวรวัฒนา กรุงเทพมหานคร 62190 
                                 </td>
                                 <td>
                                     -
                                 </td>
-                                <td>
-                                    0895153174
-                                </td>
+                                
                             </tr>
                             <tr>
-                                <th colspan="2">อีเมล</th>
+                                <th>เบอร์โทรศัพท์มือถือ</th>
+                                <th>อีเมล</th>
                                 <th>ผู้รับผลประโยชน์</th>
                                 <th>ความสัมพันธ์</th>
                             </tr>
                             <tr>
-                                <td colspan="2">
+                                <td>
+                                    0895153174
+                                </td>
+                                <td>
                                     ongarj@gmail.com
                                 </td>
                                 <td>
@@ -155,36 +198,12 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th colspan="2">ชื่อและสถานที่ของสนามกอล์ฟที่ท่านเป็นสมาชิกอยู่</th>
-                                <th colspan="2">ท่านเป็นนักกอล์ฟอาชีพ</th>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    -
-                                </td>
-                                <td colspan="2">
-                                    -
-                                </td>
-                            </tr>
-                            <tr>
-                                <th colspan="2">ขอเอาประกันภัยผู้เล่นกอล์ฟไว้กับบริษัทอื่น</th>
-                                <th colspan="2">จัดส่งเอกสาร</th>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    -
-                                </td>
-                                <td colspan="2">
-                                    อีเมล
-                                </td>
-                            </tr>
-                            <tr>
                                 <th colspan="2">รายการ</th>
                                 <th colspan="2">เบี้ยประกันภัยสุทธิต่อปี</th>
                             </tr>
                             <tr>
                                 <td colspan="2" class="amount">
-                                    ประกันภัยผู้เล่นกอล์ฟ แผนที่ 1
+                                    ประกันภัยธุรกิจขนาดย่อม กลุ่มที่ 1
                                 </td>
                                 <td colspan="2" class="amount txt-right">
                                     <h3>850.00 <span class="unit">บาท</span></h3>
@@ -224,9 +243,15 @@
                             <input value="" id="rdo_condition_2" name="rdo_condition" type="checkbox">
                             <label for="rdo_condition_2"></label>
                             <span class="content-rdo-inline">
-                                1. ข้าพเจ้า/เรา ขอยืนยันว่าข้อมูลที่ได้ให้ไว้ ณ ที่นี้ เป็นความจริงทุกข้อ และให้ถือเป็นส่วนหนึ่งของสัญญาระหว่างข้าพเจ้า/เรา กับบริษัทฯ<br />
-                                2. ข้าพเจ้า/เรา ได้รับทราบและตกลงยินยอมที่จะปฏิบัติตามข้อกำหนด เงื่อนไขและข้อยกเว้นต่างๆ ที่ได้กำหนดไว้ในกรมธรรม์ประกันภัย
-                                ทุกประการ
+                                1. ข้าพเจ้า/เรา ขอรับรองว่า ข้าพเจ้ามีสุขภาพดี และปราศจากความพิการใด ทางร่างกาย<br />
+                                2. ข้าพเจ้า/เรา รับทราบว่า การบาทเจ็บหรือการเจ็บป่วยที่เป็นมาก่อนการรับประกันนี้จะไม่ได้ความคุ้มครองภายใต้กรมธรรม์<br />
+                                3. ข้าพเจ้า/เรา ขอยืนยันว่าข้อมูลที่ได้ให้ไว้ ณ ที่นี้ เป็นความจริงทุกข้อ และให้ถือเป็นส่วนหนึ่งของสัญญาระหว่างข้อพเจ้า/เรา กับบริษัทฯ<br />
+                                4. ข้าพเจ้า/เรา ได้รับทราบและตกลงยินยอมที่จะปฏิบัติตามข้อกำหนด เงื่อนไขและข้อยกเว้นต่างๆ ที่ได้กำหนดระหว่างในกรมธรรม์ประกันภัยทุกประการ<br />
+                                5. ข้าพเจ้า/เรา ตกลงยินยอมและอนุญาตให้สถานพยาบาล (รวมถึงโรงพยาบาลและคลินิก) เจ้าหน้าที่ของริษัทประกันภัย 
+                                หรือองค์กรที่เกี่ยวข้องเปิดเผยข้อมูลให้กับทางบริษัท ประกันคุ้มภัย จำกัด (มหาชน) เมื่อมีการร้องขอข้อมูลเกี่ยวกับผู้เดินทาง<br />
+                                6. ข้าพเจ้าขอรับรองข้อแถลงข้างต้น และข้าพเจ้าเข้าใจถึงความคุ้มครองที่จะได้รับภายใต้ข้อตกลง และเงื่อนไขของกรมธรรม์ประกันภัย 
+                                ทั้งนี้ข้าพเจ้ายินยอมให้บริษัท จัดเก็บ, ใช้ และเปิดเผยข้อเท็จจริงเกี่ยวกับสุขภาพและข้อมูลของข้าพเจ้า 
+                                ต่อสำนักงานคณะกรรมการกำกับและส่งเสริมการประกอบธุรกิจประกันภัยเพื่อประโยชน์ในการกำกับดูแลธุรกิจประกันภัย
                             </span>
                         </div>
                     </div>
@@ -235,21 +260,21 @@
                     <div class="col-sm-4">
                         <div class="btn-wrapper">
                             <div class="gen-button">
-                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Golf/Buy?p=3'">แก้ไขข้อมูล <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/business/Buy?p=3'">แก้ไขข้อมูล <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="btn-wrapper">
                             <div class="gen-button">
-                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Golf/Buy?p=2'">ติดต่อเจ้าหน้าที่ <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/business/Buy?p=2'">ติดต่อเจ้าหน้าที่ <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="btn-wrapper">
                             <div class="gen-button">
-                                <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Golf/Buy?p=5'">NEXT STEP <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                                <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/business/Buy?p=5'">NEXT STEP <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>
