@@ -5556,25 +5556,29 @@ if it's not present, don't show loader */
     .index-widget-wrapper {
       position: relative; }
       .index-widget-wrapper .table {
-        display: block; }
+        display: block;
+        margin-bottom: 0; }
         .index-widget-wrapper .table .cell {
           display: block; }
-      .index-widget-wrapper .title-wrapper .title {
-        font-size: 72px;
-        line-height: 72px;
-        color: #999; }
-        .index-widget-wrapper .title-wrapper .title br {
-          display: none; }
-        .index-widget-wrapper .title-wrapper .title span {
+          .index-widget-wrapper .table .cell .title-wrapper {
+            padding-bottom: 0; }
+      .index-widget-wrapper .title-wrapper {
+        padding: 30px 0; }
+        .index-widget-wrapper .title-wrapper .title {
           font-size: 72px;
-          line-height: 72px; }
-      .index-widget-wrapper .title-wrapper .description {
-        color: #999; }
-        .index-widget-wrapper .title-wrapper .description br {
-          display: none; }
+          line-height: 72px;
+          color: #999; }
+          .index-widget-wrapper .title-wrapper .title br {
+            display: none; }
+          .index-widget-wrapper .title-wrapper .title span {
+            font-size: 72px;
+            line-height: 72px; }
+        .index-widget-wrapper .title-wrapper .description {
+          color: #999; }
+          .index-widget-wrapper .title-wrapper .description br {
+            display: none; }
       .index-widget-wrapper .widget-menu {
-        padding: 0;
-        margin-top: 50px; } }
+        padding: 30px 0; } }
   @media screen and (max-width: 767px) {
     .index-widget-wrapper .title-wrapper .title {
       font-size: 40px;
@@ -5622,7 +5626,9 @@ if it's not present, don't show loader */
       margin: 0; }
   @media screen and (max-width: 999px) {
     .page-widget-wrapper {
-      position: relative; }
+      /*position: relative;*/
+      padding: 30px 0;
+      margin-bottom: 0; }
       .page-widget-wrapper .table {
         display: block; }
         .page-widget-wrapper .table .cell {
@@ -5771,8 +5777,8 @@ if it's not present, don't show loader */
   .icon-tooltip .tooltip {
     filter: alpha(opacity=100);
     opacity: 1;
-    position: relative;
-    top: 2px; }
+    /*position: relative;*/
+    top: 5px; }
 
 .tooltip_templates {
   display: none; }

@@ -28,7 +28,7 @@
                             class="panel-collapse collapse"
                             role="tabpanel"
                             aria-labelledby="corporate-head-01">
-                            <div class="partner-nav-wrapper">
+                            <%--<div class="partner-nav-wrapper">
                                 <div class="partner-box matchHeight">
                                     <a href="http://www.mrta.co.th/" title="http://www.mrta.co.th/" target="_blank" class="partner-link">
                                         <img src="../Images/partner/mrta.jpg" />
@@ -83,7 +83,7 @@
                                         <p>กรมการกงสุล</p>
                                     </a>
                                 </div>
-                            </div>
+                            </div>--%>
                         </div>
                         <%--</div>--%>
                     </div>

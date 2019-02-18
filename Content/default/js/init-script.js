@@ -559,61 +559,61 @@ $(window).load( function(){ bgslider_init(); });
 
 /* banner-slide */
  $('.banner-slider-container').show();
- $('#foo1').carouFredSel({
-     responsive: true,
-     infinite: false,
-     circular: false,
-     auto: false,
-     onCreate: null,
-     //width: '100%',
-       scroll: {
-         items   : 1,
-         pauseOnHover: true
-       },
-       swipe: {
-         onTouch: true
-       },
-       items: {
-        //width: 400,
-        height: '50%',  //  optionally resize item-height
-        visible: {
-          min: 1,
-          max: 4
-        }
-       },
-       auto: false,
-       align: "center",
-       prev: '#foo1_prev',
-       next: '#foo1_next'
- });
+ //$('#foo1').carouFredSel({
+ //    responsive: true,
+ //    infinite: false,
+ //    circular: false,
+ //    auto: false,
+ //    onCreate: null,
+ //    //width: '100%',
+ //      scroll: {
+ //        items   : 1,
+ //        pauseOnHover: true
+ //      },
+ //      swipe: {
+ //        onTouch: true
+ //      },
+ //      items: {
+ //       //width: 400,
+ //       height: '50%',  //  optionally resize item-height
+ //       visible: {
+ //         min: 1,
+ //         max: 4
+ //       }
+ //      },
+ //      auto: false,
+ //      align: "center",
+ //      prev: '#foo1_prev',
+ //      next: '#foo1_next'
+ //});
 
- $('#foo2').carouFredSel({
-     responsive: true,
-     infinite: false,
-     circular: false,
-     auto: false,
-     onCreate: null,
-     //width: '100%',
-     scroll: {
-         items: 1,
-         pauseOnHover: true
-     },
-     swipe: {
-         onTouch: true
-     },
-     items: {
-         //width: 400,
-         height: '90%',  //  optionally resize item-height
-         visible: {
-             min: 1,
-             max: 1
-         }
-     },
-     auto: false,
-     align: "center",
-     prev: '#foo2_prev',
-     next: '#foo2_next'
- });
+ //$('#foo2').carouFredSel({
+ //    responsive: true,
+ //    infinite: false,
+ //    circular: false,
+ //    auto: false,
+ //    onCreate: null,
+ //    //width: '100%',
+ //    scroll: {
+ //        items: 1,
+ //        pauseOnHover: true
+ //    },
+ //    swipe: {
+ //        onTouch: true
+ //    },
+ //    items: {
+ //        //width: 400,
+ //        height: '90%',  //  optionally resize item-height
+ //        visible: {
+ //            min: 1,
+ //            max: 1
+ //        }
+ //    },
+ //    auto: false,
+ //    align: "center",
+ //    prev: '#foo2_prev',
+ //    next: '#foo2_next'
+ //});
 /* end banner-slide */
 
 /* homepage content slide */

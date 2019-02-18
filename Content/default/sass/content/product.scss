@@ -598,6 +598,16 @@
                 text-align: center;
                 background-color: #6fae28;
 
+                &.business {
+                    background-color: #00698c;
+
+                    .price, .detail {
+                        .title {
+                            color: #00a9e0;
+                        }
+                    }
+                }
+
                 .price {
                     display: inline-block;
                     width: 260px;

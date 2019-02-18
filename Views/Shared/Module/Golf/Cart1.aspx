@@ -157,19 +157,12 @@
                                     </select>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row form-row">
-                    <div class="col-sm-4">
-                        <div class="txt-label">
-                            <span>รหัสไปรษณีย์</span>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="gen-input">
-                            <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
+                            <div class="col-sm-6">
+                                <div class="gen-input">
+                                    <input class="" id="" name="" placeholder="ระบุรหัสไปรษณีย์" value="" autocomplete="off" type="text">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -202,17 +195,17 @@
                 </div>
 
                 <div class="row form-row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-xs-12">
                         <div class="txt-label">
                             *<span>อีเมล</span>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-xs-9">
                         <div class="gen-input">
                             <input class="" id="" name="emailaddress" placeholder="ระบุ" value="" autocomplete="off" type="email">
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-xs-3">
                         <div class="icon-tooltip">
                             <a class="mail" href="mailto:" data-toggle="modal" data-target="#SendMailModal"><i class="fas fa-angle-right"></i>&nbsp;คลิก</a>
                         </div>
@@ -221,17 +214,17 @@
 
 
                 <div class="row form-row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-xs-12">
                         <div class="txt-label">
                             *<span>รหัสยืนยันอีเมล</span>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-xs-10">
                         <div class="gen-input">
                             <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-xs-2">
                         <div class="icon-tooltip">
                             <img src="../../../../Images/icon/icon-tooltip.png" class="tooltip" data-tooltip-content="#tooltip_content" />
                         </div>

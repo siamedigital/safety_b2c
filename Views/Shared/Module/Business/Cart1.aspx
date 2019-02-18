@@ -214,17 +214,17 @@
 
 
                 <div class="row form-row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-xs-12">
                         <div class="txt-label">
                             *<span>ยืนยันอีเมล</span>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-xs-10">
                         <div class="gen-input">
                             <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-xs-2">
                         <div class="icon-tooltip">
                             <img src="../../../../Images/icon/icon-tooltip.png" class="tooltip" data-tooltip-content="#tooltip_content" />
                         </div>
