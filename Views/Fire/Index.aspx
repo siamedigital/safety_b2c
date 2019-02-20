@@ -77,7 +77,7 @@
                                                         </a>
                                                     </div>
                                                     <div class="col-md-6 col-sm-6">
-                                                        <a href="#" class="widget-item current">
+                                                        <a href="/Fire/Product_Phitakhae" class="widget-item current">
                                                             <img src="../../Images/fire/banner-fire-insurance2.jpg" alt="ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ"/>
                                                             <div class="caption-outer">
                                                                 <div class="caption-inner">
@@ -101,7 +101,7 @@
                                                         </a>
                                                     </div>
                                                     <div class="col-md-6 col-sm-6">
-                                                        <a href="#" class="widget-item current">
+                                                        <a href="/Fire/Product_Romchat" class="widget-item current">
                                                             <img src="../../Images/fire/banner-fire-insurance4.jpg" alt="ประกันอัคคีภัยสำหรับบ้านร่มฉัตร"/>
                                                             <div class="caption-outer">
                                                                 <div class="caption-inner">
