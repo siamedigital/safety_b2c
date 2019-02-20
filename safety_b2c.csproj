@@ -199,6 +199,34 @@
     <Compile Include="Views\Fire\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\Fire\Phitakhae\Buy.aspx.cs">
+      <DependentUpon>Buy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fire\Phitakhae\Buy.aspx.designer.cs">
+      <DependentUpon>Buy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fire\Phitakhae\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fire\Phitakhae\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fire\Romchat\Buy.aspx.cs">
+      <DependentUpon>Buy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fire\Romchat\Buy.aspx.designer.cs">
+      <DependentUpon>Buy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fire\Romchat\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Fire\Romchat\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Fire\Tenement\Buy.aspx.cs">
       <DependentUpon>Buy.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -415,6 +443,10 @@
     <Content Include="Views\Fire\Housing\CalculateInsured.aspx" />
     <Content Include="Views\Fire\Housing\Product.aspx" />
     <Content Include="Views\Fire\Index.aspx" />
+    <Content Include="Views\Fire\Phitakhae\Buy.aspx" />
+    <Content Include="Views\Fire\Phitakhae\Product.aspx" />
+    <Content Include="Views\Fire\Romchat\Buy.aspx" />
+    <Content Include="Views\Fire\Romchat\Product.aspx" />
     <Content Include="Views\Fire\Tenement\Buy.aspx" />
     <Content Include="Views\Fire\Tenement\Product.aspx" />
     <Content Include="Views\Golf\Buy.aspx" />
@@ -439,6 +471,16 @@
     <Content Include="Views\Shared\Module\Fire\housing\Checkout.aspx" />
     <Content Include="Views\Shared\Module\Fire\housing\Payment.aspx" />
     <Content Include="Views\Shared\Module\Fire\housing\Plan.aspx" />
+    <Content Include="Views\Shared\Module\Fire\phitakhae\Cart1.aspx" />
+    <Content Include="Views\Shared\Module\Fire\phitakhae\Cart2.aspx" />
+    <Content Include="Views\Shared\Module\Fire\phitakhae\Checkout.aspx" />
+    <Content Include="Views\Shared\Module\Fire\phitakhae\Payment.aspx" />
+    <Content Include="Views\Shared\Module\Fire\phitakhae\Plan.aspx" />
+    <Content Include="Views\Shared\Module\Fire\romchat\Cart1.aspx" />
+    <Content Include="Views\Shared\Module\Fire\romchat\Cart2.aspx" />
+    <Content Include="Views\Shared\Module\Fire\romchat\Checkout.aspx" />
+    <Content Include="Views\Shared\Module\Fire\romchat\Payment.aspx" />
+    <Content Include="Views\Shared\Module\Fire\romchat\Plan.aspx" />
     <Content Include="Views\Shared\Module\Fire\tenement\Cart1.aspx" />
     <Content Include="Views\Shared\Module\Fire\tenement\Cart2.aspx" />
     <Content Include="Views\Shared\Module\Fire\tenement\Checkout.aspx" />
