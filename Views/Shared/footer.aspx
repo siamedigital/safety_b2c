@@ -116,46 +116,16 @@
                             <div class="footer-nav-wrapper">
                                 <div class="row">
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 matchHeight">
-                                        <h3>แผนที่รถไฟฟ้า MRT</h3>
-                                        <ul class="list-menu">
-                                            <li>
-                                                <a href="MRT-System-Map.aspx" title="แผนที่เส้นทาง">แผนที่เส้นทาง</a>
-                                                <ul class="list-menu">
-                                                    <li>
-                                                        <a href="Blue-Line-Maps.aspx" title="สายสีน้ำเงิน">สายสีน้ำเงิน</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="Purple-Line-Maps.aspx" title="สายสีม่วง">สายสีม่วง</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="Feeder-System.aspx" title="ข้อมูลระบบขนส่ง">ข้อมูลระบบขนส่ง</a>
-                                            </li>
-                                            <li>
-                                                <a href="Park-and-Ride.aspx" title="พื้นที่จอดแล้วจร">พื้นที่จอดแล้วจร</a>
-                                            </li>
-                                            <li>
-                                                <a href="MRT-System.aspx" title="ข้อมูลระบบรถไฟฟ้า ">ข้อมูลระบบรถไฟฟ้า</a>
-                                                <ul class="list-menu">
-                                                    <li>
-                                                        <a href="MRT-System-Detail.aspx" title="สายสีน้ำเงิน">สายสีน้ำเงิน</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="MRT-System-Detail.aspx" title="สายสีม่วง">สายสีม่วง</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                        <h3><a href="#nogo" title="เกี่ยวกับเรา">เกี่ยวกับเรา</a></h3>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 matchHeight">
-                                        <h3>บัตรและอัตราค่าโดยสาร</h3>
+                                        <h3><a href="#nogo" title="ประกันภัยบุคคล">ประกันภัยบุคคล</a></h3>
                                         <ul class="list-menu">
                                             <li>
-                                                <a href="Ticket-Type.aspx" title="ประเภทบัตรโดยสาร">ประเภทบัตรโดยสาร</a>
+                                                <a href="#nogo" title="ประกันภัยรถยนต์">ประกันภัยรถยนต์</a>
                                             </li>
                                             <li>
-                                                <a href="Metro-Issue-Ticket.aspx" title="การออกบัตรโดยสาร">การออกบัตรโดยสาร</a>
+                                                <a href="#nogo" title="ประกันภัยอุบัติเหตุ">ประกันภัยอุบัติเหตุ</a>
                                                 <%--<ul class="list-menu">
                                                     <li>
                                                         <a href="Metro-Issue-Blue.aspx" title="สายสีน้ำเงิน">สายสีน้ำเงิน</a>
@@ -166,80 +136,47 @@
                                                 </ul>--%>
                                             </li>
                                             <li>
-                                                <a href="Fare-Rate.aspx" title="อัตราค่าโดยสาร ">อัตราค่าโดยสาร </a>
+                                                <a href="#nogo" title="ประกันภัยเดินทาง">ประกันภัยเดินทาง </a>
                                             </li>
                                             <li>
-                                                <a href="Terms-of-Use.aspx" title="เงื่อนไขการใช้">เงื่อนไขการใช้</a>
+                                                <a href="#nogo" title="ประกันภัยบ้าน">ประกันภัยบ้าน</a>
                                             </li>
                                             <li>
-                                                <a href="Fare-Calculation.aspx" title="คำนวณค่าโดยสาร ">คำนวณค่าโดยสาร </a>
+                                                <a href="#nogo" title="ประกันภัยผู้เล่นกอล์ฟ">ประกันภัยผู้เล่นกอล์ฟ </a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 matchHeight">
-                                        <h3><a href="Priviledge.aspx" title="สิทธิประโยชน์และ MRT Club" style="text-transform: none;">สิทธิประโยชน์และ MRT Club</a></h3>
+                                        <h3><a href="#nogo" title="ประกันภัยธุรกิจ">ประกันภัยธุรกิจ</a></h3>
                                         <ul class="list-menu">
                                             <li>
-                                                <a href="Privilege.aspx" title="MRT Club" style="text-transform: none;">สิทธิประโยชน์และ MRT Club</a>
-                                                <ul class="list-menu">
-                                                    <li>
-                                                        <a href="About-MRT-Club.aspx" title="เกี่ยวกับ MRT Club" style="text-transform: none;">เกี่ยวกับ MRT Club</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="Register.aspx" title="สมัครสมาชิก">สมัครสมาชิก</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="MRT-Club-Activities.aspx" title="ร่วมสนุกกิจกรรม">ร่วมสนุกกิจกรรม</a>
-                                                    </li>
-                                                    <%--<li>
-                                                        <a href="Gallery.aspx" title="แกลลอรี่">แกลลอรี่</a>
-                                                    </li>--%>
-                                                </ul>
+                                                <a href="#nogo" title="SMEs">SMEs</a>
                                             </li>
                                             <li>
-                                                <a href="MRT-Shop.aspx" title="สินค้าของที่ระลึก">สินค้าของที่ระลึก</a>
+                                                <a href="#nogo" title="ประกันภัยทางทะเลและขนส่ง">ประกันภัยทางทะเลและขนส่ง</a>
                                             </li>
                                             <li>
-                                                <a href="Promotions.aspx" title="สิทธิประโยชน์">สิทธิประโยชน์</a>
+                                                <a href="#nogo" title="ประกันภัยทรัพย์สิน">ประกันภัยทรัพย์สิน</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 matchHeight">
-                                        <h3><a href="Route-Place.aspx" title="สถานที่รอบเส้นทาง">สถานที่รอบเส้นทาง</a></h3>
-                                        <ul class="list-menu">
-                                            <li>
-                                                <a href="Popular-Place.aspx" title="สถานที่ยอดนิยม">สถานที่ยอดนิยม</a>
-                                            </li>
-                                            <li>
-                                                <a href="Popular-Station.aspx" title="สถานีที่น่าสนใจ">สถานีที่น่าสนใจ</a>
-                                            </li>
-                                        </ul>
+                                        <h3><a href="#nogo" title="นายหน้า/ตัวแทน">นายหน้า/ตัวแทน</a></h3>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 matchHeight">
-                                        <h3><a href="Metro-News.aspx" title="ข่าวสารรถไฟฟ้า">ข่าวสารรถไฟฟ้า</a></h3>
-                                        <ul class="list-menu">
-                                            <li>
-                                                <a href="Metro-News.aspx" title="ข่าวสารรถไฟฟ้า">ข่าวสารรถไฟฟ้า</a>
-                                            </li>
-                                            <li>
-                                                <a href="Event-Calendar.aspx" title="กิจกรรมรอบเส้นทาง">กิจกรรมรอบเส้นทาง</a>
-                                            </li>
-                                        </ul>
+                                        <h3><a href="#nogo" title="สำหรับอู่">สำหรับอู่</a></h3>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 matchHeight">
-                                        <h3><a href="Safety.aspx" title="ความปลอดภัยและการบริการ">ความปลอดภัยและการบริการ</a></h3>
-                                        <ul class="list-menu">
-                                            <li>
-                                                <a href="Safety-List.aspx" title="ความปลอดภัย">ความปลอดภัย</a>
-
-                                            </li>
-                                            <li>
-                                                <a href="Services.aspx" title="การบริการ">การบริการ</a>
-                                            </li>
-                                        </ul>
+                                        <h3><a href="#nogo" title="ซื้อประกันออนไลน์">ซื้อประกันออนไลน์</a></h3>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 matchHeight">
-                                        <h3><a href="Contact-Metro.aspx" title="ติดต่อรถไฟฟ้า">ติดต่อรถไฟฟ้า</a></h3>
+                                        <h3><a href="#nogo" title="เปรียบเทียบประกันภัย">เปรียบเทียบประกันภัย</a></h3>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 matchHeight">
+                                        <h3><a href="#nogo" title="eServices">eServices</a></h3>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 matchHeight">
+                                        <h3><a href="#nogo" title="Contact us">Contact us</a></h3>
                                     </div>
                                 </div>
                             </div>
