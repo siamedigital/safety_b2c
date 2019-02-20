@@ -38,5 +38,25 @@ namespace safety_b2c.Controllers
             return View("~/Views/Fire/Housing/Buy.aspx");
         }
 
+        // > Phitakhae
+        public ActionResult Product_Phitakhae()
+        {
+            return View("~/Views/Fire/Phitakhae/Product.aspx");
+        }
+        public ActionResult Buy_Phitakhae()
+        {
+            return View("~/Views/Fire/Phitakhae/Buy.aspx");
+        }
+
+        // > Romchat
+        public ActionResult Product_Romchat()
+        {
+            return View("~/Views/Fire/Romchat/Product.aspx");
+        }
+        public ActionResult Buy_Romchat()
+        {
+            return View("~/Views/Fire/Romchat/Buy.aspx");
+        }
+
     }
 }

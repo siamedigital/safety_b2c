@@ -1,6 +1,6 @@
 ﻿<!--#include file="../../Shared/start.aspx"-->
 <!-- addition meta tag -->
-<title>ประกันภัยบ้านอยู่อาศัย : Safety Insurance</title>
+<title>ประกันอัคคีภัยสำหรับบ้านร่มฉัตร : Safety Insurance</title>
 <link href="../../Content/default/css/content/product.css" rel="stylesheet" />
 </head>
 
@@ -20,7 +20,7 @@
             <div class="index-slider slider-container">
                 <div id="foo">
                     <div class="foo-item">
-                        <img src="../../Images/bg/bg-fire-house.jpg" alt="ประกันภัยบ้านอยู่อาศัย"/>
+                        <img src="../../Images/bg/bg-fire-house.jpg" alt="ประกันภัยบ้าน"/>
                     </div>
                 </div>
                 <div class="slider-controller">
@@ -37,7 +37,8 @@
                 <div class="container">
                     <ol class="breadcrumb">
                         <li><span>หน้าแรก</span></li>
-                        <li class="active"><span>ประกันภัยบ้านอยู่อาศัย</span></li>
+                        <li><span>ประกันภัยบ้าน</span></li>
+                        <li class="active"><span>ประกันอัคคีภัยสำหรับบ้านร่มฉัตร</span></li>
                     </ol>
                 </div>
             </div>
@@ -52,7 +53,7 @@
                                         <h2 class="title">
                                             YOUR<br /> LIVING<br /> <span>PARTNER</span>
                                         </h2>
-                                        <h3 class="description">ประกันภัยบ้านอยู่อาศัย</h3>
+                                        <h3 class="description">ประกันอัคคีภัยสำหรับบ้านร่มฉัตร</h3>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +69,7 @@
             <div class="product-wrapper">
                 <div class="sub-product-wrapper">
                     <ul>
-                        <li class="active">
+                        <li>
                             <a href="/Fire/Product_Tenement">ประกันภัยบ้านอยู่อาศัย</a>
                         </li>
                         <li>
@@ -77,12 +78,11 @@
                         <li>
                             <a href="/Fire/Product_Phitakhae">ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ</a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="/Fire/Product_Romchat">ประกันอัคคีภัยสำหรับบ้านร่มฉัตร</a>
                         </li>
                     </ul>
                 </div>
-
                 <div class="product-detail-wrapper">
                     <div class="container">
                         <div class="row">
@@ -104,8 +104,8 @@
                             </div>
                             <div class="col-xs-12">
                                 <div class="title-wrapper">
-                                    <h3 class="title">ประกันภัยบ้านอยู่อาศัย บ้านสบายใจ</h3>
-                                    <p class="description">ปกป้องตัวคุณและอุปกรณ์กอล์ฟจากเหตุไม่คาดฝัน</p>
+                                    <h3 class="title">ประกันอัคคีภัยสำหรับบ้านร่มฉัตร</h3>
+                                    <p class="description">ปกป้องตัวคุณและทรัพย์สินภายในบ้านจากเหตุไม่คาดฝัน</p>
                                 </div>
                             </div>
                             <div class="col-xs-12">
@@ -127,81 +127,247 @@
                                                         <thead>
                                                             <tr>
                                                                 <th>ความคุ้มครอง</th>
-                                                                <th>จำนวนเงินเอาประกันภัย</th>
-                                                                <th>เบี้ยประกันภัย* ต่อจำนวนเงินเอาประกันภัย</th>
+                                                                <th>แบบมาตราฐาน</th>
+                                                                <th>แบบบันไดเงิน</th>
+                                                                <th>แบบบันไดทอง</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
                                                             <tr class="topic">
-                                                                <td>1. อัคคีภัย**</td>
-                                                                <td>สูงสุดไม่เกิน 25,000,000 บาท ต่อหลัง</td>
-                                                                <td>แสนละ 90 บาท</td>
-                                                            </tr>
-                                                            <tr class="topic">
-                                                                <td>2. พิเศษ</td>
+                                                                <td>1. การประกันอัคคีภัย</td>
+                                                                <td>&nbsp;</td>
                                                                 <td>&nbsp;</td>
                                                                 <td>&nbsp;</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>
                                                                     <ul class="list-styled">
-                                                                        <li><span>ค่าเช่าสำหรับที่พักอาศัยชั่วคราว กรณีเสียหายจากหมวด 1 หรือ 2 จนไม่สามารถอยู่อาศัยได้</span></li>
+                                                                        <li><span>คุ้มครองความสูญเสียจากไฟใหม้ ฟ้าผ่า การระเบิด ลมพายุ ภัยอากาศยาน ภัยเนื่องจากน้ำ แผ่นดินไหว ภัยจากยวดยานพาหนะ</span></li>
                                                                     </ul>
                                                                 </td>
                                                                 <td>
                                                                     <ul class="list-none">
-                                                                        <li>10% ของจำนวนเงินที่เลือกซื้อตามหมวกที่ 1-2 แต่ไม่เกิน 50,000 บาท
+                                                                        <li>500,000 บาท
                                                                         </li>
                                                                     </ul>
                                                                 </td>
                                                                 <td>
                                                                     <ul class="list-none">
-                                                                        <li>ฟรี
+                                                                        <li>1,000,000 บาท
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>2,000,000 บาท
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <ul class="list-styled">
+                                                                        <li><span>ภัยเพิ่มพิเศษ ภัยจากควัน ภัยจลาจล ภัยป่าเถื่อน การเสียหายต่อเครื่องไฟฟ้า</span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>100,000 บาท
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>200,000 บาท
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>400,000 บาท
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <ul class="list-styled">
+                                                                        <li><span>ค่าใช้จ่าย/ค่าเช่าสำหรับที่พักอาศัยชั่วคราว ในระยะเวลานานสูงสุดถึง 30 วัน</span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>1,200 ต่อวัน หรือ 30,000 ต่อครั้ง
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>2,400 ต่อวัน หรือ 45,000 ต่อครั้ง
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>3,600 ต่อวัน หรือ 60,000 ต่อครั้ง
                                                                         </li>
                                                                     </ul>
                                                                 </td>
                                                             </tr>
                                                             <tr class="topic">
-                                                                <td>3. พิเศษ</td>
+                                                                <td>2. การโจรกรรม การลักทรัพย์และการปล้นทรัพย์</td>
+                                                                <td>&nbsp;</td>
                                                                 <td>&nbsp;</td>
                                                                 <td>&nbsp;</td>
                                                             </tr>
                                                             <tr>
                                                                 <td>
                                                                     <ul class="list-styled">
-                                                                        <li><span>การขนย้ายซากทรัพย์สิน</span></li>
-                                                                        <li><span>ค่าวิชาชีพ</span></li>
+                                                                        <li><span>ค่าซ่อมแซมตัวอาคารถูกงัดแงะ</span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>100,000*<br />10,000 ต่อครั้ง
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>200,000*<br />30,000 ต่อครั้ง
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>400,000*<br />40,000 ต่อครั้ง
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>3. ความรับผิดชอบต่อบุคคลภายนอก</td>
+                                                                <td>&nbsp;</td>
+                                                                <td>&nbsp;</td>
+                                                                <td>&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <ul class="list-styled">
+                                                                        <li><span>ค่ารักษาพยาบาลเบื้องต้น (โดยไม่ต้องรอการพิสูจน์ความรับผิด)</span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>1,000,000*
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>2,000,000*
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>3,000,000*
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>4. อุบัติเหตุส่วนบุคคล</td>
+                                                                <td>10,000 ต่อคน</td>
+                                                                <td>20,000 ต่อคน</td>
+                                                                <td>30,000 ต่อคน</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <ul class="list-styled">
+                                                                        <li><span>(ระบุชื่อผู้เอาประกัน ไม่เกิน 5 คน) ค่ารักษาพยาบาล</span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>ไม่คุ้มครอง
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>200,000**
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>400,000**
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>5. ความคุ้มครองพิเศษ</td>
+                                                                <td>&nbsp;</td>
+                                                                <td>10,000**</td>
+                                                                <td>20,000**</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <ul class="list-styled">
                                                                         <li><span>ค่าใช้จ่ายในการดับเพลิง</span></li>
                                                                     </ul>
                                                                 </td>
                                                                 <td>
                                                                     <ul class="list-none">
-                                                                        <li>ไม่เกิน 20,000 บาท
-                                                                        </li>
-                                                                        <li>ไม่เกิน 20,000 บาท
-                                                                        </li>
-                                                                        <li>ไม่เกิน 50,000 บาท
+                                                                        <li>10,000**
                                                                         </li>
                                                                     </ul>
                                                                 </td>
                                                                 <td>
                                                                     <ul class="list-none">
-                                                                        <li>ฟรี
+                                                                        <li>10,000**
                                                                         </li>
-                                                                        <li>ฟรี
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>10,000**
                                                                         </li>
-                                                                        <li>ฟรี
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <ul class="list-styled">
+                                                                        <li><span>ค่าใช้จ่ายในการขนย้ายซากทรัพย์สิน</span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>10,000**
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>10,000**
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="list-none">
+                                                                        <li>10,000**
                                                                         </li>
                                                                     </ul>
                                                                 </td>
                                                             </tr>
                                                             <tr class="summary">
-                                                                <td>ทุนประกันภัย 1,000,000 บาท
-                                                                </td>
-                                                                <td>&nbsp;
-                                                                </td>
-                                                                <td>1,020.78 บาท
-                                                                </td>
+                                                                <td>เบี้ยประกันภัย (รวมภาษีอากร)</td>
+                                                                <td>1,800 บาท</td>
+                                                                <td>3,800 บาท</td>
+                                                                <td>6,800 บาท</td>
                                                             </tr>
                                                         </tbody>
 
@@ -252,6 +418,20 @@
                                         </div>
                                         <%--ดาวน์โหลดเอกสาร--%>
                                     </div>
+
+                                    <div class="calculate-insurance">
+                                        <div class="note-wrapper">
+                                            <p class="color-red">หมายเหตุ</p>
+                                            <p>1. ทุนประกันภัยสำหรับอัคคีภัยที่เพิ่มทุกๆ 100,000 บาท จะคำนวนเบี้ยประกันภัยเพิ่ม 150 บาท และจะเพิ่มวงเงินคุ้มครองภายใต้การโจรกรรมฯ ฟรี 10,000 บาท<br />
+                                                2. *ให้ความคุ้มครองต่อครั้งและตลอดระยะเวลาเอาประกันภัย <br />
+                                                **ให้ความคุ้มครองรวมทุกคนแล้วไม่เกินวงเงินที่ระบุไว้ <br />
+                                                *** ให้ความคุ้มครองรวมทุกคนแล้วไม่เกินวงเงินที่ระบุไว้ต่อครั้งและระยะเวลาเอาประกันภัย
+                                            </p>
+                                        </div>
+                                    </div>
+                                    
+
+
                                     <div class="btn-wrapper txt-center">
                                         <div class="gen-button inline-block">
                                             <a href="#nogo" class="btn-med btn-icon-right btn-dark" title="สอบถามข้อมูลซื้อประกัน!">สอบถามข้อมูลซื้อประกัน <i class="fas fa-angle-right" aria-hidden="true"></i></a>
@@ -260,7 +440,7 @@
                                             <a href="#nogo" class="btn-med btn-icon-right btn-dark" title="สอบถามข้อมูลออนไลน์!">สอบถามข้อมูลออนไลน์ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                         </div>
                                         <div class="gen-button inline-block">
-                                            <a href="/Fire/Buy_Tenement" class="btn-med btn-icon-right btn-primary" title="ซื้อเลย!">ซื้อเลย <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                            <a href="/Fire/Buy_Romchat" class="btn-med btn-icon-right btn-primary" title="ซื้อเลย!">ซื้อเลย <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -279,266 +459,7 @@
     <!-- #main-wrapper -->
     <div class="exit-canvas"></div>
 
-    <div class="modal fade modal-custom lightbox" tabindex="-1" role="dialog" id="popupModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">
-                            <img src="../../Images/icons/close-dark.png" /></span></button>
-                    <h4 class="modal-title">Modal title</h4>
-                </div>
-                <div class="modal-body">
-                    <p>One fine body&hellip;</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn-med btn-dark" data-dismiss="modal">Close</button>
-                    <%--<button type="button" class="btn-med btn-primary">Save changes</button>--%>
-                </div>
-            </div>
-            <!-- /.modal-content -->
-        </div>
-        <!-- /.modal-dialog -->
-    </div>
-    <!-- /.modal -->
 
-    <div class="modal fade modal-custom" tabindex="-1" role="dialog" id="SetSummaryModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">
-                            <img src="../../Images/icons/close-dark.png" /></span></button>
-                    <h4 class="modal-title">Market Summary</h4>
-                </div>
-                <div class="modal-body">
-                    <img src="../../Images/summary.png" style="max-width: 100%;" />
-                </div>
-            </div>
-            <!-- /.modal-content -->
-        </div>
-        <!-- /.modal-dialog -->
-    </div>
-    <!-- /.modal -->
-
-    <div class="modal fade modal-custom" tabindex="-1" role="dialog" id="registerTrinity">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content register-content">
-                <form>
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">
-                                <img src="../../Images/icons/close-dark.png" /></span></button>
-                        <h4 class="modal-title">สมัครใช้งาน Trinity@Home</h4>
-                    </div>
-                    <div class="modal-body">
-                        <div class="form-wrapper">
-                            <p class="label">กรุณากรอกข้อมูลด้านล่างให้ครบถ้วน</p>
-                            <div class="standard-form">
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="label-wrapper right">ชื่อ :</div>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <div class="input-wrapper">
-                                            <input name="name" size="40" placeholder="ชื่อ" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="label-wrapper right">นามสกุล :</div>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <div class="input-wrapper">
-                                            <input name="lastname" size="40" placeholder="นามสกุล" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="label-wrapper right">เลขที่บัญชี :</div>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <div class="input-wrapper style">
-                                            <input name="" class="style-1" maxlength="3" value="" type="text">
-                                            - 
-                                            <input name="" class="style-2" maxlength="6" value="" type="text">
-                                            <div class="label-wrapper left"><span>* เช่น 99 - 12345</span></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="label-wrapper right">อีเมล :</div>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <div class="input-wrapper">
-                                            <input name="email" size="40" placeholder="อีเมล" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="label-wrapper right">โทรศัพท์ :</div>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <div class="input-wrapper">
-                                            <input name="tel" size="40" placeholder="โทรศัพท์" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="condition-box">
-                                            <h3>ข้อตกลงและเงื่อนไขในการใช้บริการ "Trinity@home"</h3>
-                                            <ol>
-                                                <li>บริษัทฯ ตกลงให้บริการ "Trinity@home" แก่ลูกค้าโดยไม่คิดค่าบริการ ซึ่งลูกค้าเป็นผู้รับผิดชอบค่าใช้จ่ายในการเชื่อมต่อระบบอินเตอร์เน็ตเอง
-                                                </li>
-
-                                                <li>ลูกค้าใช้บริการ "Trinity@home" จะต้องมีธุรกรรมการซื้อขายหลักทรัพย์หรือผ่านบริษัทฯ เฉลี่ยภายใน 6 เดือน ในปริมาณไม่ต่ำกว่า 5 ล้านบาทต่อเดือน สามารถใช้บริการ "Trinity@home" เพื่อดูข้อมูลและสามารถส่งคำสั่งซื้อขายผ่านระบบอินเตอร์เน็ตได้ด้วยตนเอง
-                                                </li>
-
-                                                <li>ลูกค้ามีหน้าที่ในการตรวจสอบความถูกต้องของคำสั่งก่อนการส่งคำสั่งซื้อขายทุกครั้ง หากมีความผิดพลาดและเกิดความเสียหายจากการส่งคำสั่งของลูกค้า ลูกค้าต้องรับผิดชอบในความเสียหายที่เกิดขึ้นนั้น
-                                                </li>
-
-                                                <li>หากลูกค้ามีธุรกรรมการซื้อขายหลักทรัพย์หรือผ่านบริษัทฯ เฉลี่ยภายใน 6 เดือน ต่ำกว่าปริมาณที่กำหนดข้างต้น บริษัทฯ ขอสงวนสิทธิ์ในการยกเลิกการให้บริการ "Trinity@home" โดยทำการยกเลิกรหัสผ่านของลูกค้าได้โดยไม่ต้องแจ้งให้ลูกค้าทราบล่วงหน้า
-                                                </li>
-                                            </ol>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <div class="custom-radio">
-                                            <input value="" id="chbCondition" name="chbCondition" type="checkbox" onchange="valueChanged()">
-                                            <label for="chbCondition"></label>
-                                            <span class="content-rdo-inline">ข้าพเจ้ายอมรับข้อตกลงและเงื่อนไขในการให้บริการ "Trinity@home"</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="label">
-                                *** บริษัทฯ ขอสงวนสิทธิ์ในการพิจารณาการรับสมัคร
-                            </p>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <div class="row">
-                            <div class="col-sm-3 col-sm-offset-6">
-                                <input value="ยกเลิก" class="btn-med btn-secondary" type="reset" data-dismiss="modal">
-                            </div>
-                            <div class="col-sm-3">
-                                <input value="ตกลง" class="btn-med btn-primary" type="submit" data-dismiss="modal" id="accept1" disabled="disabled">
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <!-- /.modal-content -->
-        </div>
-        <!-- /.modal-dialog -->
-    </div>
-    <!-- /.modal -->
-
-    <div class="modal fade modal-custom" tabindex="-1" role="dialog" id="registerTrinityD">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content register-content">
-                <form>
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">
-                                <img src="../../Images/icons/close-dark.png" /></span></button>
-                        <h4 class="modal-title">สมัครใช้งาน TrinityD@Home</h4>
-                    </div>
-                    <div class="modal-body">
-                        <div class="form-wrapper">
-                            <p class="label">กรุณากรอกข้อมูลด้านล่างให้ครบถ้วน</p>
-                            <div class="standard-form">
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="label-wrapper right">ชื่อ :</div>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <div class="input-wrapper">
-                                            <input name="name" size="40" placeholder="ชื่อ" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="label-wrapper right">นามสกุล :</div>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <div class="input-wrapper">
-                                            <input name="lastname" size="40" placeholder="นามสกุล" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="label-wrapper right">เลขที่บัญชี :</div>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <div class="input-wrapper style">
-                                            <input name="" class="style-1" maxlength="3" value="" type="text">
-                                            - 
-                                            <input name="" class="style-2" maxlength="6" value="" type="text">
-                                            - 0 - 3
-                                            <div class="label-wrapper left"><span>* เช่น 99 - 12345 - 0 - 3</span></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="label-wrapper right">อีเมล :</div>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <div class="input-wrapper">
-                                            <input name="email" size="40" placeholder="อีเมล" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="label-wrapper right">โทรศัพท์ :</div>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <div class="input-wrapper">
-                                            <input name="tel" size="40" placeholder="โทรศัพท์" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="label">
-                                *** บริษัทฯ ขอสงวนสิทธิ์ในการพิจารณาการรับสมัคร
-                            </p>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <div class="row">
-                            <div class="col-sm-3 col-sm-offset-6">
-                                <input value="ยกเลิก" class="btn-med btn-secondary" type="reset" data-dismiss="modal">
-                            </div>
-                            <div class="col-sm-3">
-                                <input value="ตกลง" class="btn-med btn-primary" type="submit" data-dismiss="modal">
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <!-- /.modal-content -->
-        </div>
-        <!-- /.modal-dialog -->
-    </div>
-    <!-- /.modal -->
 
     <!--#include file="../../Shared/scripts.aspx"-->
 

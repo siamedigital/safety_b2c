@@ -76,10 +76,10 @@
                             <a href="/Fire/Product_Housing">ประกันอัคคีภัยสำหรับที่อยู่อาศัย</a>
                         </li>
                         <li>
-                            <a href="#">ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ</a>
+                            <a href="/Fire/Product_Phitakhae">ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ</a>
                         </li>
                         <li>
-                            <a href="#">ประกันอัคคีภัยสำหรับบ้านร่มฉัตร</a>
+                            <a href="/Fire/Product_Romchat">ประกันอัคคีภัยสำหรับบ้านร่มฉัตร</a>
                         </li>
                     </ul>
                 </div>
@@ -363,7 +363,7 @@
                                             <a href="#nogo" class="btn-med btn-icon-right btn-dark" title="สอบถามข้อมูลออนไลน์!">สอบถามข้อมูลออนไลน์ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                         </div>
                                         <div class="gen-button inline-block">
-                                            <a href="/Fire/Buy_Tenement" class="btn-med btn-icon-right btn-primary" title="ซื้อเลย!">ซื้อเลย <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                            <a href="/Fire/Buy_Housing" class="btn-med btn-icon-right btn-primary" title="ซื้อเลย!">ซื้อเลย <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                         </div>
                                     </div>
                                 </div>

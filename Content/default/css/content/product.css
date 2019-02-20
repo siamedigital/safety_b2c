@@ -342,11 +342,20 @@
       line-height: 40px; }
       .module-wrapper .form-content-wrapper .content-form .form-row .title-head {
         display: block;
-        padding-top: 20px;
         margin: 0 auto;
         margin-bottom: 30px;
-        color: #444;
-        border-top: 1px dotted #bfbfbf; }
+        color: #444; }
+        .module-wrapper .form-content-wrapper .content-form .form-row .title-head.inline-block {
+          display: inline-block; }
+      .module-wrapper .form-content-wrapper .content-form .form-row .tooltips-title-head {
+        display: inline-block;
+        position: relative;
+        margin-left: 15px; }
+        .module-wrapper .form-content-wrapper .content-form .form-row .tooltips-title-head .tooltip {
+          opacity: 1;
+          top: 6px; }
+        .module-wrapper .form-content-wrapper .content-form .form-row .tooltips-title-head span {
+          padding-left: 35px; }
       .module-wrapper .form-content-wrapper .content-form .form-row .note-wrapper {
         font-size: 22px;
         line-height: 26px;

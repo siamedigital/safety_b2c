@@ -36,9 +36,9 @@
                 <div class="col-sm-4">
                     <div class="gen-slc">
                         <select class="selectpicker" data-live-search="true">
-                            <option data-tokens="1">ประกันภัยบ้านอยู่อาศัย แบบที่ 1</option>
-                            <option data-tokens="2">ประกันภัยบ้านอยู่อาศัย แบบที่ 2</option>
-                            <option data-tokens="3">ประกันภัยบ้านอยู่อาศัย แบบที่ 3</option>
+                            <option data-tokens="1">ประกันอัคคีภัยสำหรับที่อยู่อาศัย แบบที่ 1</option>
+                            <option data-tokens="2">ประกันอัคคีภัยสำหรับที่อยู่อาศัย แบบที่ 2</option>
+                            <option data-tokens="3">ประกันอัคคีภัยสำหรับที่อยู่อาศัย แบบที่ 3</option>
                         </select>
                     </div>
                 </div>

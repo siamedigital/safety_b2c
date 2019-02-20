@@ -1,6 +1,6 @@
 ﻿<!--#include file="../../Shared/start.aspx"-->
 <!-- addition meta tag -->
-<title>ประกันอัคคีภัยสำหรับที่อยู่อาศัย : Safety Insurance</title>
+<title>ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ : Safety Insurance</title>
 <link href="../../Content/default/css/content/product.css" rel="stylesheet" />
 </head>
 
@@ -20,7 +20,7 @@
             <div class="index-slider slider-container">
                 <div id="foo">
                     <div class="foo-item">
-                        <img src="../../Images/bg/bg-fire-house.jpg" alt="ประกันภัยบ้านอยู่อาศัย"/>
+                        <img src="../../Images/bg/bg-fire-house.jpg" alt="ประกันภัยบ้าน"/>
                         <%--<div class="caption-outer">
                             <div class="caption-inner">
                                 <div class="caption">
@@ -51,7 +51,7 @@
                     <ol class="breadcrumb">
                         <li><span>หน้าแรก</span></li>
                         <li><span>ประกันภัยบ้าน</span></li>
-                        <li class="active"><span>ประกันอัคคีภัยสำหรับที่อยู่อาศัย</span></li>
+                        <li class="active"><span>ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ</span></li>
                     </ol>
                 </div>
             </div>
@@ -80,27 +80,27 @@
                                 if (Request.QueryString["p"] == "1")
                                 {
                             %>
-                            <!-- #include file ="../../Shared/Module/Fire/housing/Plan.aspx" -->
+                            <!-- #include file ="../../Shared/Module/Fire/phitakhae/Plan.aspx" -->
                             <%        }
                                 else if (Request.QueryString["p"] == "2")
                                 {
                             %>
-                            <!-- #include file ="../../Shared/Module/Fire/housing/Cart1.aspx" -->
+                            <!-- #include file ="../../Shared/Module/Fire/phitakhae/Cart1.aspx" -->
                             <%        }
                                 else if (Request.QueryString["p"] == "3")
                                 {
                             %>
-                            <!-- #include file ="../../Shared/Module/Fire/housing/Cart2.aspx" -->
+                            <!-- #include file ="../../Shared/Module/Fire/phitakhae/Cart2.aspx" -->
                             <%        }
                                 else if (Request.QueryString["p"] == "4")
                                 {
                             %>
-                            <!-- #include file ="../../Shared/Module/Fire/housing/Checkout.aspx" -->
+                            <!-- #include file ="../../Shared/Module/Fire/phitakhae/Checkout.aspx" -->
                             <%        }
                                 else if (Request.QueryString["p"] == "5")
                                 {
                             %>
-                            <!-- #include file ="../../Shared/Module/Fire/housing/Payment.aspx" -->
+                            <!-- #include file ="../../Shared/Module/Fire/phitakhae/Payment.aspx" -->
                             <%        }
                                 else if (Request.QueryString["p"] == "6")
                                 {
@@ -110,7 +110,7 @@
                                 else
                                 {
                             %>
-                            <!-- #include file ="../../Shared/Module/Fire/housing/Plan.aspx" -->
+                            <!-- #include file ="../../Shared/Module/Fire/phitakhae/Plan.aspx" -->
                             <%        }
                             %>
                         </div>
