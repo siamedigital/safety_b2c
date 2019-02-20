@@ -250,6 +250,147 @@
                     </div>
                 </div>
 
+                <div class="row form-row">
+                    <div class="col-sm-12">
+                        <div class="tab-form-wrapper">
+                            <ul class="nav nav-tabs tab-ta">
+                                <li class="active"><a data-toggle="tab" href="#owner1">
+                                    <div class="icon-people"></div>
+                                    คนที่ 1 </a></li>
+                                <li class=""><a data-toggle="tab" href="#owner2">
+                                    <div class="icon-people"></div>
+                                    คนที่ 2 </a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="owner1">
+                                    <!-- คำนำหน้าชื่อ -->
+                                    <div class="row form-row">
+                                        <div class="col-sm-4">
+                                            <div class="txt-label">
+                                                *<span>คำนำหน้าชื่อ</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="gen-slc">
+                                                <select class="selectpicker" title="ระบุ">
+                                                    <option data-tokens="ระบุ">ระบุ</option>
+                                                    <option data-tokens="ระบุ">ระบุ</option>
+                                                    <option data-tokens="ระบุ">ระบุ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ชื่อ -->
+                                    <div class="row form-row">
+                                        <div class="col-sm-4">
+                                            <div class="txt-label">
+                                                *<span>ชื่อ</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="gen-input">
+                                                <input class="" id="" name="" placeholder="ชื่อ" value="" autocomplete="off" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- นามสกุล -->
+                                    <div class="row form-row">
+                                        <div class="col-sm-4">
+                                            <div class="txt-label">
+                                                *<span>นามสกุล</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="gen-input">
+                                                <input class="" id="" name="" placeholder="นามสกุล" value="" autocomplete="off" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ความสัมพันธ์ -->
+                                    <div class="row form-row">
+                                        <div class="col-sm-4">
+                                            <div class="txt-label">
+                                                *<span>คำนำหน้าชื่อ</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="gen-slc">
+                                                <select class="selectpicker" title="ระบุ">
+                                                    <option data-tokens="ระบุ">ระบุ</option>
+                                                    <option data-tokens="ระบุ">ระบุ</option>
+                                                    <option data-tokens="ระบุ">ระบุ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="owner2">
+                                    <!-- คำนำหน้าชื่อ -->
+                                    <div class="row form-row">
+                                        <div class="col-sm-4">
+                                            <div class="txt-label">
+                                                *<span>คำนำหน้าชื่อ</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="gen-slc">
+                                                <select class="selectpicker" title="ระบุ">
+                                                    <option data-tokens="ระบุ">ระบุ</option>
+                                                    <option data-tokens="ระบุ">ระบุ</option>
+                                                    <option data-tokens="ระบุ">ระบุ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ชื่อ -->
+                                    <div class="row form-row">
+                                        <div class="col-sm-4">
+                                            <div class="txt-label">
+                                                *<span>ชื่อ</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="gen-input">
+                                                <input class="" id="" name="" placeholder="ชื่อ" value="" autocomplete="off" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- นามสกุล -->
+                                    <div class="row form-row">
+                                        <div class="col-sm-4">
+                                            <div class="txt-label">
+                                                *<span>นามสกุล</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="gen-input">
+                                                <input class="" id="" name="" placeholder="นามสกุล" value="" autocomplete="off" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ความสัมพันธ์ -->
+                                    <div class="row form-row">
+                                        <div class="col-sm-4">
+                                            <div class="txt-label">
+                                                *<span>คำนำหน้าชื่อ</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="gen-slc">
+                                                <select class="selectpicker" title="ระบุ">
+                                                    <option data-tokens="ระบุ">ระบุ</option>
+                                                    <option data-tokens="ระบุ">ระบุ</option>
+                                                    <option data-tokens="ระบุ">ระบุ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <%--<div class="row form-row">
                     <div class="col-sm-12">
                         <div class="note-wrapper">

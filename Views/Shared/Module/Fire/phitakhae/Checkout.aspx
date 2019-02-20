@@ -224,14 +224,14 @@
                     <div class="col-sm-4">
                         <div class="btn-wrapper">
                             <div class="gen-button">
-                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Fire/Buy?p=3'">แก้ไขข้อมูล <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Fire/Buy_Phitakhae?p=3'">แก้ไขข้อมูล <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="btn-wrapper">
                             <div class="gen-button">
-                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Fire/Buy?p=2'">ติดต่อเจ้าหน้าที่ <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Fire/Buy_Phitakhae?p=2'">ติดต่อเจ้าหน้าที่ <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>

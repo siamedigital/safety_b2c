@@ -445,20 +445,30 @@
                     margin-bottom: 30px;
                     color: #444;
                     //border-top: 1px dotted $color-gray;
-                    &.inline-block{
+                    &.inline-block {
                         display: inline-block;
+                        @media screen and (max-width: 999px) {
+                            margin-bottom: 0;
+                        }
                     }
                 }
-                .tooltips-title-head{
+
+                .tooltips-title-head {
                     display: inline-block;
                     position: relative;
                     margin-left: 15px;
-                    .tooltip{
+                    .tooltip {
                         opacity: 1;
                         top: 6px;
                     }
-                    span{
+
+                    span {
                         padding-left: 35px;
+                        line-height: 26px;
+                    }
+                    @media screen and (max-width: 999px) {
+                        margin-left: 0;
+                        margin-bottom: 20px;
                     }
                 }
 
@@ -483,6 +493,82 @@
 
                 .btn-wrapper {
                     padding: 0;
+                }
+
+                .tab-form-wrapper {
+                    margin-bottom: 20px;
+
+                    .nav-tabs {
+                        border-bottom: none;
+                        padding: 0;
+                        margin: 0;
+
+                        li {
+                            margin-bottom: 0;
+
+                            a {
+                                border-radius: 0;
+                                border: none;
+                                font-family: $font-med;
+                                font-size: 22px;
+                                background-color: #999999;
+                                color: #fff;
+                                padding: 10px 30px;
+
+                                .icon-people {
+                                    display: none;
+                                }
+
+                                span {
+                                    font-size: 18px;
+                                    position: relative;
+                                    top: -5px;
+                                }
+                            }
+                        }
+
+                        li.active {
+                            a {
+                                color: $color-primary;
+                                background-color: #F7F7F7;
+
+                                .icon-people {
+                                    display: inline-block;
+                                    margin-right: 5px;
+                                    background-image: url('../../../../Images/icon/icon-user2x.jpg');
+                                    width: 13px;
+                                    height: 16px;
+                                    background-repeat: no-repeat;
+                                }
+
+                                &:hover {
+                                    border: none;
+                                }
+
+                                &:focus {
+                                    border: none;
+                                }
+                            }
+                        }
+
+                        li.disabled {
+                            a {
+                                background-color: #d7d7d7 !important;
+                                color: #ffffff !important;
+                            }
+                        }
+                    }
+
+                    .tab-content {
+                        background-color: #F7F7F7;
+                        padding: 40px 20px 20px;
+
+                        .gen-input{
+                            input[type="text"] {
+                                background-color: #ffffff;
+                            }
+                        }
+                    }
                 }
             }
 
@@ -582,7 +668,7 @@
                 }
             }
 
-            .text-note{
+            .text-note {
                 font-family: $font-med;
                 font-size: 26px;
                 line-height: 26px;
@@ -724,6 +810,7 @@
 
                 &.fire {
                     background-color: #B64926;
+
                     .price {
                         .title {
                             color: #6D2D16;
@@ -736,8 +823,10 @@
                         }
                     }
                 }
+
                 &.fire-housing {
                     background-color: #00AC4A;
+
                     .price {
                         .title {
                             color: #006229;
@@ -836,6 +925,39 @@
                             }
                         }
                     }
+                }
+            }
+
+            .title-head {
+                display: block;
+                //padding-top: 20px;
+                margin: 0 auto;
+                margin-bottom: 30px;
+                color: #444;
+                //border-top: 1px dotted $color-gray;
+                &.inline-block {
+                    display: inline-block;
+                    @media screen and (max-width: 999px) {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .tooltips-title-head {
+                display: inline-block;
+                position: relative;
+                margin-left: 15px;
+                .tooltip {
+                    opacity: 1;
+                }
+
+                span {
+                    padding-left: 35px;
+                    font-size: 26px;
+                    line-height: 26px;
+                }
+                @media screen and (max-width: 999px) {
+                    margin-left: 0;
+                    margin-bottom: 20px;
                 }
             }
         }

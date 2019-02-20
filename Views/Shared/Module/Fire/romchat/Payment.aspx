@@ -23,7 +23,7 @@
 
     <div class="form-content-wrapper">
         <div class="title-form">
-            <h3><span>เลือกแบบประกัน</span> : ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ แผนที่ 1</h3>
+            <h3><span>เลือกแบบประกัน</span> : ประกันอัคคีภัยสำหรับบ้านร่มฉัตร แบบมาตราฐาน</h3>
         </div>
 
         <div class="payment-wrapper">
@@ -277,7 +277,7 @@
                 <div class="row">
                     <div class="col-sm-4 col-sm-offset-8">
                         <div class="gen-button">
-                            <button type="submit" class="btn-med btn-primary" onclick="location.href='/Fire/Buy_Phitakhae?p=6'" data-dismiss="modal">ชำระเบี้ยประกัน</button>
+                            <button type="submit" class="btn-med btn-primary" onclick="location.href='/Fire/Buy_Romchat?p=6'" data-dismiss="modal">ชำระเบี้ยประกัน</button>
                         </div>
                     </div>
                 </div>

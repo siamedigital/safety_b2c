@@ -23,7 +23,7 @@
 
     <div class="form-content-wrapper">
         <div class="title-form">
-            <h3><span>เลือกแบบประกัน</span> : ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ แผนที่ 1</h3>
+            <h3><span>เลือกแบบประกัน</span> : ประกันอัคคีภัยสำหรับบ้านร่มฉัตร</h3>
         </div>
 
         <div class="content-review">
@@ -47,7 +47,7 @@
                                 <div class="type matchHeight">
                                     <div class="table">
                                         <div class="cell">
-                                            <p>แผนที่ 1</p>
+                                            <p>มาตราฐาน</p>
                                         </div>
                                     </div>
                                 </div>
@@ -89,8 +89,8 @@
                                 <th>พื้นที่ภายในอาคาร</th>
                             </tr>
                             <tr>
-                                <td>
-                                    <img src="../../../../Images/icon/icon-tooltip.png" alt="icon"/> ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ แผนที่ 1
+                                <td colspan="2">
+                                    <img src="../../../../Images/icon/icon-tooltip.png" alt="icon"/> ประกันอัคคีภัยสำหรับบ้านร่มฉัตร แบบมาตราฐาน
                                 </td>
                                 <td>
                                     09/10/2561 - 09/10/2562
@@ -181,10 +181,10 @@
                             </tr>
                             <tr>
                                 <td colspan="2" class="amount">
-                                    ประกันภัยบ้านอยู่อาศัย บ้านสบายใจ
+                                    ประกันอัคคีภัยสำหรับบ้านร่มฉัตร
                                 </td>
                                 <td colspan="2" class="amount txt-right">
-                                    <h3>850.00 <span class="unit">บาท</span></h3>
+                                    <h3>1,800.00 <span class="unit">บาท</span></h3>
                                 </td>
                             </tr>
                             <tr>
@@ -192,13 +192,60 @@
                                     <span class="total-label">เบี้ยประกันภัยรวม</span>
                                 </td>
                                 <td colspan="2" class="amount txt-right">
-                                    <h3>913.78 <span class="unit">บาท</span></h3>
+                                    <h3>1,800.00 <span class="unit">บาท</span></h3>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
+
+            <div class="row form-row">
+                <div class="col-sm-12">
+                    <div class="line-dotted"></div>
+                </div>
+            </div>
+
+            <div class="row form-row">
+                <div class="col-sm-12">
+                    <h3 class="title-head inline-block">ผู้รับผลประโยชน์</h3>
+                    <div class="tooltips-title-head">
+                        <img src="/Images/icon/icon-tooltip.png" class="tooltip" data-tooltip-content="#tooltip_content" />
+                        <span>การประกันภัยอุบัติเหตุส่วนบุคคล (สำหรับแผนความคุ้มครอง บันไดเงินและบันไดทอง)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="summary-table">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <th colspan="2">ผู้รับผลประโยชน์</th>
+                                <th colspan="2">ความสัมพันธ์</th>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    นาง อำมร อำนาจ
+                                </td>
+                                <td colspan="2">
+                                    คู่สมรส
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    นาง สมพร อำนาจ
+                                </td>
+                                <td colspan="2">
+                                    มารดา
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
             <div class="condition-note">
                 <div class="row">
                     <div class="col-sm-12">
@@ -224,21 +271,21 @@
                     <div class="col-sm-4">
                         <div class="btn-wrapper">
                             <div class="gen-button">
-                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Fire/Buy?p=3'">แก้ไขข้อมูล <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Fire/Buy_Romchat?p=3'">แก้ไขข้อมูล <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="btn-wrapper">
                             <div class="gen-button">
-                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Fire/Buy?p=2'">ติดต่อเจ้าหน้าที่ <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                                <button type="button" class="btn-med btn-icon-right btn-dark" onclick="location.href='/Fire/Buy_Romchat?p=2'">ติดต่อเจ้าหน้าที่ <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="btn-wrapper">
                             <div class="gen-button">
-                                <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Fire/Buy_Phitakhae?p=5'">NEXT STEP <i class="fas fa-angle-right" aria-hidden="true"></i></button>
+                                <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Fire/Buy_Romchat?p=5'">NEXT STEP <i class="fas fa-angle-right" aria-hidden="true"></i></button>
                             </div>
                         </div>
                     </div>
