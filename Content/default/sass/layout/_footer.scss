@@ -228,239 +228,7 @@
             margin-bottom: 22px;
         }
     }
-    /*.social-network-box {
-        padding-bottom: 10px;
-        overflow: hidden;
 
-        .social-network-list {
-            margin: 0px auto;
-            width: 500px;
-            list-style-type: none;
-
-            li {
-                float: left;
-                margin-right: 40px;
-
-                &:last-child {
-                    margin-right: 0px;
-                }
-
-                a {
-                    width: 36px;
-                    height: 36px;
-                    padding: 8px 0;
-                    display: block;
-                    text-decoration: none;
-                    font-size: $text-x-small;
-                    text-align: center;
-                    color: #999;
-
-                    &.fb-social-link {
-                        // background: url("../../../images/icons/icon-facebook.png") no-repeat scroll center center;
-                    }
-
-                    &.tw-social-link {
-                        // background: url("../../../images/icons/icon-twitter.png") no-repeat scroll center center;
-                    }
-
-                    &.inst-social-link {
-                        // background: url("../../../images/icons/icon-instagram.png") no-repeat scroll center center;
-                    }
-
-                    &.pt-social-link {
-                        // background: url("../../../images/icons/icon-pinterest.png") no-repeat scroll center center;
-                    }
-
-                    &.yt-social-link {
-                        // background: url("../../../images/icons/icon-youtube.png") no-repeat scroll center center;
-                    }
-
-                    &.blog-social-link {
-                        // text-indent: -9999px;
-                        // background: url("../../../images/icons/icon-blog.png") no-repeat scroll center center;
-                    }
-
-                    &.wechat-social-link {
-                        // background: url("../../../images/icons/icon-wechat.png") no-repeat scroll center center;
-                    }
-
-                    &:hover {
-                        color: #fff;
-                    }
-                }
-            }
-        }
-
-        @media screen and (max-width: $screen-sm-min) {
-            .social-network-list {
-                width: 320px !important;
-
-                li {
-                    margin-right: 9px;
-                }
-            }
-        }
-    }
-
-    .social-network-list-box {
-        h2 {
-            text-align: center;
-            color: #fff;
-            font-family: 'Prompt', sans-serif;
-            font-size: $text-large;
-        }
-
-        @media screen and (max-width: $screen-xs-max) {
-            h2 {
-                font-size: 19px;
-            }
-        }
-    }
-
-    .data-house-type-box {
-        font-family: 'Prompt', sans-serif;
-
-        h2 {
-            border-bottom: 1px solid #626262;
-            border-top: 1px solid #626262;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-            margin-bottom: 0px;
-            font-family: 'Prompt', sans-serif;
-            font-size: $text-large;
-            cursor: pointer;
-        }
-
-        #toggleFooterMenu {
-            .icon-toggle {
-                padding: 0px 10px;
-                font-size: 18px;
-            }
-
-            .icon-toggle {
-                background: url("../../../images/icons/arrow-shortcut2.png") no-repeat scroll center center;
-                padding: 0 15px;
-                text-indent: -9999px;
-                width: 20px;
-                display: inline-block;
-                height: 17px;
-            }
-
-            &.open {
-                .icon-toggle {
-                    background: url("../../../images/icons/arrow-shortcut2u.png") no-repeat scroll center center;
-                }
-            }
-        }
-
-        .house-type-title-list {
-            display: none;
-
-            ul {
-                list-style: none;
-
-                li {
-                    float: left;
-                    font-size: $text-large;
-                    line-height: 32px;
-                    text-align: center;
-                    // padding:10px 0px;
-                    border-bottom: 1px solid #626262;
-
-                    a {
-                        color: #a8a9ad;
-                        display: block;
-                        outline-style: none;
-                        padding: 10px 0px;
-
-                        &:hover, &.active {
-                            color: #fff;
-                        }
-                    }
-
-                    &.active {
-                        border-bottom: 1px solid #232323;
-
-                        a {
-                            color: #fff;
-                        }
-                    }
-
-                    &.town-house-tab {
-                        border-left: 1px solid #626262;
-                        // border-right: 1px solid #626262;
-                    }
-                }
-            }
-
-            &.active {
-                display: block;
-            }
-
-            @media screen and (max-width: $screen-sm-min) {
-                ul {
-                    li {
-                        border-bottom: 1px solid #626262;
-                        font-size: 18px;
-                        line-height: 26px;
-                        padding: 0px 4px;
-                    }
-                }
-            }
-        }
-
-        .house-type-data-list {
-            display: none;
-
-            .row {
-                border-top: 1px solid #626262;
-                margin-top: -1px;
-                padding: 40px 20px;
-            }
-
-            &.active {
-                display: block;
-            }
-
-            ul {
-                list-style: none;
-
-                li {
-                    float: left;
-                    width: 18%;
-                    margin-right: 2%;
-                }
-
-                li {
-                    font-size: 18px;
-                    line-height: 28px;
-
-                    a {
-                        color: #a8a9ad;
-
-                        &:hover {
-                            color: #fff;
-                        }
-                    }
-                }
-            }
-
-            @media screen and (max-width: $screen-sm-min) {
-                ul {
-                    li {
-                        float: left;
-                        width: 100%;
-                        margin-right: 0;
-                    }
-                }
-            }
-        }
-    }*/
-    /*.footer-menu {
-        font-family: $font-med;
-        background-color: $color-white;
-    }*/
     .footer_sub {
         width: 100%;
         padding: 10px 0;
@@ -695,13 +463,17 @@
                 }
 
                 h3 {
+                    font-size: $text-x-small;
+                    line-height: $text-x-small;
+                    color: $color-title;
 
-                    .txt-link {
+                    a {
                         font-size: $text-x-small;
                         line-height: $text-x-small;
+                        color: $color-title;
 
                         &:hover {
-                            text-decoration: underline;
+                            color: $color-primary;
                         }
                     }
                 }
@@ -709,9 +481,6 @@
                 ul {
                     /*hide submenu footer*/
                     /*display: none;*/
-                    /*list-style-type: none;
-                    list-style-image: url("../../../../Images/icons/ico-list-white.jpg");
-                    list-style-position: outside;*/
                     list-style: square;
                     list-style-image: none;
                     padding-left: 20px;
@@ -935,39 +704,32 @@
 
 
 
+#bottom-content-box .collapsible-content .corporate-item .footer-nav-wrapper .list-menu {
+    /* display: none; */
+    list-style: square;
+    list-style-image: none;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
 
+#bottom-content-box .collapsible-content .corporate-item .footer-nav-wrapper .list-menu li {
+    color: $color-title;
+    font-size: $text-content;
+    line-height: $text-small;
+}
 
-#bottom-content-box .collapsible-content .corporate-item .footer-nav-wrapper .list-menu li a:hover {
-    color: #0E4285;
+#bottom-content-box .collapsible-content .corporate-item .footer-nav-wrapper .list-menu li:hover {
+    color: $color-primary;
 }
 
 #bottom-content-box .collapsible-content .corporate-item .footer-nav-wrapper .list-menu li a {
-    font-size: $text-x-small;
+    font-size: $text-content;
     line-height: $text-small;
-    color: #666;
+    color: $color-title;
 }
 
-a:active {
-    text-decoration: none;
-    outline: 0;
-    outline-style: none;
-}
-
-#bottom-content-box .collapsible-content .corporate-item .footer-nav-wrapper .list-menu li .list-menu li {
-    color: #0E4285;
-    font-size: $text-x-small;
-    line-height: $text-small;
-}
-
-
-#bottom-content-box .collapsible-content .corporate-item .footer-nav-wrapper .list-menu li {
-    color: #0E4285;
-    font-size: 20px;
-    line-height: $text-small;
-}
-
-#bottom-content-box .collapsible-content .corporate-item p, #bottom-content-box .collapsible-content .corporate-item li {
-    padding-bottom: 0;
+#bottom-content-box .collapsible-content .corporate-item .footer-nav-wrapper .list-menu li a:hover {
+    color: $color-primary;
 }
 
 #bottom-content-box .collapsible-content .corporate-item .footer-nav-wrapper .list-menu li .list-menu {
@@ -975,24 +737,12 @@ a:active {
     list-style-image: none;
 }
 
-#bottom-content-box .collapsible-content .corporate-item .footer-nav-wrapper .list-menu {
-    /* display: none; */
-    list-style: square;
-    list-style-image: none;
-    padding-left: 20px;
-    margin-bottom: 10px;
-
-    span {
-        font-size: $text-x-small;
-        line-height: $text-small;
-        color: #666;
-    }
+#bottom-content-box .collapsible-content .corporate-item .footer-nav-wrapper .list-menu li .list-menu li {
+    font-size: $text-content;
+    line-height: $text-small;
+    color: $color-title;
 }
 
-#bottom-content-box .collapsible-content .corporate-item .footer-nav-wrapper .list-menu {
-    /* display: none; */
-    list-style: square;
-    list-style-image: none;
-    padding-left: 20px;
-    margin-bottom: 10px;
-}
+
+
+

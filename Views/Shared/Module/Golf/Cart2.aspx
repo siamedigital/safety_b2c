@@ -30,6 +30,11 @@
             <form>
                 <div class="row form-row">
                     <div class="col-sm-12">
+                        <div class="line-dotted">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-12">
                         <h3 class="title-head">ผู้รับผลประโยชน์</h3>
                     </div>
                 </div>
@@ -87,6 +92,11 @@
 
                 <div class="row form-row">
                     <div class="col-sm-12">
+                        <div class="line-dotted">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-12">
                         <h3 class="title-head">ระยะเวลาเอาประกัน</h3>
                     </div>
                 </div>
@@ -122,6 +132,11 @@
                     </div>
                 </div>
 
+                <div class="row form-row">
+                    <div class="col-sm-12">
+                        <div class="line-dotted">&nbsp;</div>
+                    </div>
+                </div>
                 <div class="row form-row">
                     <div class="col-sm-12">
                         <h3 class="title-head">ข้อมูลเพิ่มเติม</h3>
@@ -199,6 +214,11 @@
                     </div>
                 </div>
 
+                <div class="row form-row">
+                    <div class="col-sm-12">
+                        <div class="line-dotted">&nbsp;</div>
+                    </div>
+                </div>
                 <div class="row form-row">
                     <div class="col-sm-12">
                         <h3 class="title-head">โปรดระบุจำนวนและรายละเอียดอุปกรณ์ที่ท่านเป็นเจ้าของในขณะที่เอาประกันภัย</h3>

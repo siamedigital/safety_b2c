@@ -30,6 +30,11 @@
             <form>
                 <div class="row form-row">
                     <div class="col-sm-12">
+                        <div class="line-dotted">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-sm-12">
                         <h3 class="title-head">สถานที่เอาประกันภัย</h3>
                     </div>
                 </div>
@@ -163,6 +168,11 @@
                 </div>
                 <%--สถานที่เอาประกันภัย--%>
 
+                <div class="row form-row">
+                    <div class="col-sm-12">
+                        <div class="line-dotted">&nbsp;</div>
+                    </div>
+                </div>
                 <div class="row form-row">
                     <div class="col-sm-12">
                         <h3 class="title-head">ลักษณะสิ่งปลูกสร้างที่เอาประกันภัย</h3>
@@ -332,6 +342,11 @@
                 </div>
                 <%--ลักษณะสิ่งปลูกสร้างที่เอาประกันภัย--%>
 
+                <div class="row form-row">
+                    <div class="col-sm-12">
+                        <div class="line-dotted">&nbsp;</div>
+                    </div>
+                </div>
                 <div class="row form-row">
                     <div class="col-sm-12">
                         <h3 class="title-head">ผู้รับผลประโยชน์</h3>
