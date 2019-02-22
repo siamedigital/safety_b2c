@@ -684,8 +684,8 @@
         -ms-transition: all 0.5s ease-in-out;
         -o-transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out;
-        width: 60px;
-        height: 60px;
+        /*width: 60px;
+        height: 60px;*/
 
         &.show {
             visibility: visible;

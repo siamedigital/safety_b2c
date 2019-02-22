@@ -6677,8 +6677,8 @@ if it's not present, don't show loader */
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-    width: 60px;
-    height: 60px; }
+    /*width: 60px;
+        height: 60px;*/ }
     .backtotop .totop.show {
       visibility: visible;
       cursor: pointer;
