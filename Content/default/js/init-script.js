@@ -694,14 +694,14 @@ $('.panel-collapse').on('hide.bs.collapse', function () {
 
 
 $(document).ready(function() {
-    var navpos = $('#header-Menu').offset();
+    var navpos = $('#header-Mainnav').offset();
   // console.log(navpos.top);
     $(window).bind('scroll', function() {
       if ($(window).scrollTop() > navpos.top) {
-          $('#header-Menu').addClass('fixed-top');
+          $('#header-Mainnav').addClass('fixed-top');
        }
        else {
-          $('#header-Menu').removeClass('fixed-top');
+          $('#header-Mainnav').removeClass('fixed-top');
        }
     });
 });
