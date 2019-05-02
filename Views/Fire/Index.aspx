@@ -17,22 +17,6 @@
         <!-- #header-wrapper -->
 
         <div id="main-slider" class="main-slider">
-            <div class="index-slider slider-container">
-                <div id="foo">
-                    <div class="foo-item">
-                        <img src="../../Images/bg/bg-fire-house.jpg" alt="ประกันภัยบ้านอยู่อาศัย"/>
-                    </div>
-                </div>
-                <div class="slider-controller">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div id="foo_pager"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="breadcrumb-section absolute">
                 <div class="container">
                     <ol class="breadcrumb">
@@ -41,78 +25,75 @@
                     </ol>
                 </div>
             </div>
-            <div class="index-widget-wrapper">
-                <div class="table">
-                    <div class="cell">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-3 col-md-4">
-                                    <div class="title-wrapper matchHeight">
-                                        <%--<img src="../../Images/default/txt-title-large.png" />--%>
-                                        <h2 class="title">
-                                            YOUR<br /> LIVING<br /> <span>PARTNER</span>
-                                        </h2>
-                                        <h3 class="description">Safety Insurance โดย บมจ.ประกันภัย<br />
-                                            เข้าใจชีวิต เคียงข้างคุณ</h3>
-                                        <div class="gen-button inline-block">
-                                            <a href="/Fire/Buy" class="btn-med btn-icon-right btn-primary" title="ซื้อประกันออนไลน์!">ซื้อประกันออนไลน์<i class="fas fa-angle-right" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
+            <div class="index-widget-wrapper" style="background-image: url('../../Images/bg/bg-fire-house.jpg');  min-height: 650px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="title-wrapper matchHeight">
+                                <%--<img src="../../Images/default/txt-title-large.png" />--%>
+                                <h2 class="title">YOUR<br />
+                                    LIVING<br />
+                                    <span>PARTNER</span>
+                                </h2>
+                                <h3 class="description">Safety Insurance โดย บมจ.ประกันภัย<br />
+                                    เข้าใจชีวิต เคียงข้างคุณ</h3>
+                                <div class="gen-button inline-block">
+                                    <a href="/Fire/Buy" class="btn-med btn-icon-right btn-primary" title="ซื้อประกันออนไลน์!">ซื้อประกันออนไลน์<i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                 </div>
-                                <div class="col-lg-7 col-lg-offset-1 col-md-8">
-                                    <div class="widget-menu matchHeight">
-                                        <div class="table">
-                                            <div class="cell">
-                                                <div class="row">
-                                                    <div class="col-md-6 col-sm-6">
-                                                        <a href="/Fire/Product_Tenement" class="widget-item current">
-                                                            <img src="../../Images/fire/banner-fire-insurance1.jpg" alt="ประกันภัยบ้านอยู่อาศัย"/>
-                                                            <div class="caption-outer">
-                                                                <div class="caption-inner">
-                                                                    <div class="caption">
-                                                                        <p>ประกันภัยบ้านอยู่อาศัย</p>
-                                                                    </div>
-                                                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-lg-offset-1 col-md-8">
+                            <div class="widget-menu matchHeight">
+                                <div class="table">
+                                    <div class="cell">
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6">
+                                                <a href="/Fire/Product_Tenement" class="widget-item current">
+                                                    <img src="../../Images/fire/banner-fire-insurance1.jpg" alt="ประกันภัยบ้านอยู่อาศัย" />
+                                                    <div class="caption-outer">
+                                                        <div class="caption-inner">
+                                                            <div class="caption">
+                                                                <p>ประกันภัยบ้านอยู่อาศัย</p>
                                                             </div>
-                                                        </a>
+                                                        </div>
                                                     </div>
-                                                    <div class="col-md-6 col-sm-6">
-                                                        <a href="/Fire/Product_Phitakhae" class="widget-item current">
-                                                            <img src="../../Images/fire/banner-fire-insurance2.jpg" alt="ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ"/>
-                                                            <div class="caption-outer">
-                                                                <div class="caption-inner">
-                                                                    <div class="caption">
-                                                                        <p>ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ</p>
-                                                                    </div>
-                                                                </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <a href="/Fire/Product_Phitakhae" class="widget-item current">
+                                                    <img src="../../Images/fire/banner-fire-insurance2.jpg" alt="ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ" />
+                                                    <div class="caption-outer">
+                                                        <div class="caption-inner">
+                                                            <div class="caption">
+                                                                <p>ประกันอัคคีภัยสำหรับบ้านพิทักษ์เคหะ</p>
                                                             </div>
-                                                        </a>
+                                                        </div>
                                                     </div>
-                                                    <div class="col-md-6 col-sm-6">
-                                                        <a href="/Fire/Product_Housing" class="widget-item current">
-                                                            <img src="../../Images/fire/banner-fire-insurance3.jpg" alt="ประกันอัคคีภัยสำหรับที่อยู่อาศัย"/>
-                                                            <div class="caption-outer">
-                                                                <div class="caption-inner">
-                                                                    <div class="caption">
-                                                                        <p>ประกันอัคคีภัยสำหรับที่อยู่อาศัย</p>
-                                                                    </div>
-                                                                </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <a href="/Fire/Product_Housing" class="widget-item current">
+                                                    <img src="../../Images/fire/banner-fire-insurance3.jpg" alt="ประกันอัคคีภัยสำหรับที่อยู่อาศัย" />
+                                                    <div class="caption-outer">
+                                                        <div class="caption-inner">
+                                                            <div class="caption">
+                                                                <p>ประกันอัคคีภัยสำหรับที่อยู่อาศัย</p>
                                                             </div>
-                                                        </a>
+                                                        </div>
                                                     </div>
-                                                    <div class="col-md-6 col-sm-6">
-                                                        <a href="/Fire/Product_Romchat" class="widget-item current">
-                                                            <img src="../../Images/fire/banner-fire-insurance4.jpg" alt="ประกันอัคคีภัยสำหรับบ้านร่มฉัตร"/>
-                                                            <div class="caption-outer">
-                                                                <div class="caption-inner">
-                                                                    <div class="caption">
-                                                                        <p>ประกันอัคคีภัยสำหรับบ้านร่มฉัตร</p>
-                                                                    </div>
-                                                                </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <a href="/Fire/Product_Romchat" class="widget-item current">
+                                                    <img src="../../Images/fire/banner-fire-insurance4.jpg" alt="ประกันอัคคีภัยสำหรับบ้านร่มฉัตร" />
+                                                    <div class="caption-outer">
+                                                        <div class="caption-inner">
+                                                            <div class="caption">
+                                                                <p>ประกันอัคคีภัยสำหรับบ้านร่มฉัตร</p>
                                                             </div>
-                                                        </a>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>

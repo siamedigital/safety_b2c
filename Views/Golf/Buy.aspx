@@ -21,19 +21,6 @@
                 <div id="foo">
                     <div class="foo-item">
                         <img src="../../Images/golf/main-banner.jpg" />
-                        <%--<div class="caption-outer">
-                            <div class="caption-inner">
-                                <div class="caption">
-                                    <h1 class="title">Insight to Invest</h1>
-                                    <p class="description">
-                                        เข้าใจลึกซึ้ง เข้าถึงทุกการลงทุน
-                                    </p>
-                                    <div class="btn-outer">
-                                        <a href="#" class="btn-med btn-light">Get Start <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>--%>
                     </div>
                 </div>
                 <div class="slider-controller">

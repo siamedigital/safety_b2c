@@ -146,6 +146,7 @@
     <Compile Include="Controllers\FireController.cs" />
     <Compile Include="Controllers\GolfController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MotorController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -267,6 +268,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Views\Home\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Motor\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Motor\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -459,6 +467,7 @@
     <Content Include="Views\Golf\Index.aspx" />
     <Content Include="Views\Golf\Product.aspx" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Motor\Index.aspx" />
     <Content Include="Views\Shared\canvas-menu.aspx" />
     <Content Include="Views\Shared\footer.aspx" />
     <Content Include="Views\Shared\header-business.aspx" />

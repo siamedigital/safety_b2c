@@ -17,22 +17,6 @@
         <!-- #header-wrapper -->
 
         <div id="main-slider" class="main-slider">
-            <div class="index-slider slider-container">
-                <div id="foo">
-                    <div class="foo-item">
-                        <img src="../../Images/bg/bg-sme.jpg" />
-                    </div>
-                </div>
-                <div class="slider-controller">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div id="foo_pager"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="breadcrumb-section absolute">
                 <div class="container">
                     <ol class="breadcrumb">
@@ -42,42 +26,39 @@
                     </ol>
                 </div>
             </div>
-            <div class="index-widget-wrapper">
-                <div class="table">
-                    <div class="cell">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-3 col-md-4">
-                                    <div class="title-wrapper matchHeight">
-                                        <%--<img src="../../Images/default/txt-title-large.png" />--%>
-                                        <h2 class="title">
-                                            YOUR<br /> LIVING<br /> <span>PARTNER</span>
-                                        </h2>
-                                        <h3 class="description">Safety Insurance โดย บมจ.ประกันภัย<br />
-                                            เข้าใจชีวิต เคียงข้างคุณ</h3>
-                                        <div class="gen-button inline-block">
-                                            <a href="/Golf/Buy" class="btn-med btn-icon-right btn-primary" title="ซื้อประกันออนไลน์!">ซื้อประกันออนไลน์<i class="fas fa-angle-right" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
+            <div class="index-widget-wrapper" style="background-image: url('../../Images/bg/bg-sme.jpg'); min-height: 650px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="title-wrapper matchHeight">
+                                <%--<img src="../../Images/default/txt-title-large.png" />--%>
+                                <h2 class="title">YOUR<br />
+                                    LIVING<br />
+                                    <span>PARTNER</span>
+                                </h2>
+                                <h3 class="description">Safety Insurance โดย บมจ.ประกันภัย<br />
+                                    เข้าใจชีวิต เคียงข้างคุณ</h3>
+                                <div class="gen-button inline-block">
+                                    <a href="/Golf/Buy" class="btn-med btn-icon-right btn-primary" title="ซื้อประกันออนไลน์!">ซื้อประกันออนไลน์<i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                 </div>
-                                <div class="col-lg-7 col-lg-offset-1 col-md-8">
-                                    <div class="widget-menu matchHeight">
-                                        <div class="table">
-                                            <div class="cell">
-                                                <div class="row">
-                                                    <div class="col-md-6 col-sm-6">
-                                                        <a href="/Business/Product" class="widget-item current">
-                                                            <img src="../../Images/business/banner-sme.jpg" />
-                                                            <div class="caption-outer">
-                                                                <div class="caption-inner">
-                                                                    <div class="caption">
-                                                                        <p>ประกันภัยธุรกิจขนาดย่อม</p>
-                                                                    </div>
-                                                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-lg-offset-1 col-md-8">
+                            <div class="widget-menu matchHeight">
+                                <div class="table">
+                                    <div class="cell">
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6">
+                                                <a href="/Business/Product" class="widget-item current">
+                                                    <img src="../../Images/business/banner-sme.jpg" />
+                                                    <div class="caption-outer">
+                                                        <div class="caption-inner">
+                                                            <div class="caption">
+                                                                <p>ประกันภัยธุรกิจขนาดย่อม</p>
                                                             </div>
-                                                        </a>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>

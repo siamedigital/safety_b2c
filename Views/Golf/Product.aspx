@@ -17,22 +17,6 @@
         <!-- #header-wrapper -->
 
         <div id="main-slider" class="main-slider">
-            <div class="index-slider slider-container">
-                <div id="foo">
-                    <div class="foo-item">
-                        <img src="../../Images/golf/main-banner.jpg" />
-                    </div>
-                </div>
-                <div class="slider-controller">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div id="foo_pager"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="breadcrumb-section absolute">
                 <div class="container">
                     <ol class="breadcrumb">
@@ -41,7 +25,7 @@
                     </ol>
                 </div>
             </div>
-            <div class="index-widget-wrapper">
+            <div class="index-widget-wrapper" style="background-image: url('../../Images/bg/bg-golf.jpg')">
                 <div class="table">
                     <div class="cell">
                         <div class="container">
