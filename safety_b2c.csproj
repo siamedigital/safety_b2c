@@ -319,20 +319,6 @@
     <Content Include="Content\css\tooltipster-sideTip-light.min.css" />
     <Content Include="Content\css\tooltipster.bundle.min.css" />
     <Content Include="Content\default\css\backgroundsize.htc" />
-    <Content Include="Content\default\css\content\academy.css" />
-    <Content Include="Content\default\css\content\announce.css" />
-    <Content Include="Content\default\css\content\contact.css" />
-    <Content Include="Content\default\css\content\default.css" />
-    <Content Include="Content\default\css\content\download.css" />
-    <Content Include="Content\default\css\content\faqs.css" />
-    <Content Include="Content\default\css\content\knowledge.css" />
-    <Content Include="Content\default\css\content\manual.css" />
-    <Content Include="Content\default\css\content\member.css" />
-    <Content Include="Content\default\css\content\multimedia.css" />
-    <Content Include="Content\default\css\content\openAccount.css" />
-    <Content Include="Content\default\css\content\product.css" />
-    <Content Include="Content\default\css\content\research.css" />
-    <Content Include="Content\default\css\content\seminar.css" />
     <Content Include="Content\default\css\main.css" />
     <Content Include="Content\default\css\print.css" />
     <Content Include="Content\default\js\init-script.js" />
@@ -397,6 +383,14 @@
     <Content Include="Images\logo\logo.png" />
     <Content Include="Images\logo\logo2.png" />
     <Content Include="Images\logo\logo_print.png" />
+    <Content Include="Images\motor\widgets\img-01.jpg" />
+    <Content Include="Images\motor\widgets\img-02.jpg" />
+    <Content Include="Images\motor\widgets\img-03.jpg" />
+    <Content Include="Images\motor\widgets\img-04.jpg" />
+    <Content Include="Images\motor\widgets\img-05.jpg" />
+    <Content Include="Images\motor\widgets\img-06.jpg" />
+    <Content Include="Images\motor\widgets\img-07.jpg" />
+    <Content Include="Images\motor\widgets\img-08.jpg" />
     <Content Include="Images\spritesheet.png" />
     <Content Include="Scripts\bootstrap-select.js" />
     <Content Include="Scripts\bootstrap-select.min.js" />
@@ -521,6 +515,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\default\css\content\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
