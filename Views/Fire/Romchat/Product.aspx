@@ -17,43 +17,33 @@
         <!-- #header-wrapper -->
 
         <div id="main-slider" class="main-slider">
-            <div class="index-slider slider-container">
-                <div id="foo">
-                    <div class="foo-item">
-                        <img src="../../Images/bg/bg-fire-house.jpg" alt="ประกันภัยบ้าน"/>
-                    </div>
-                </div>
-                <div class="slider-controller">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div id="foo_pager"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="breadcrumb-section absolute">
                 <div class="container">
                     <ol class="breadcrumb">
                         <li><span>หน้าแรก</span></li>
                         <li><span>ประกันภัยบ้าน</span></li>
-                        <li class="active"><span>ประกันอัคคีภัยสำหรับบ้านร่มฉัตร</span></li>
+                        <li class="active"><span>ประกันอัคคีภัยสำหรับที่อยู่อาศัย</span></li>
                     </ol>
                 </div>
             </div>
-            <div class="index-widget-wrapper">
-                <div class="table">
-                    <div class="cell">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="title-wrapper matchHeight">
-                                        <%--<img src="../../Images/default/txt-title-large.png" />--%>
-                                        <h2 class="title">
-                                            YOUR<br /> LIVING<br /> <span>PARTNER</span>
-                                        </h2>
-                                        <h3 class="description">ประกันอัคคีภัยสำหรับบ้านร่มฉัตร</h3>
+            <div class="product-widget-wrapper">
+                <div class="image-wrapper">
+                    <img src="../../Images/bg/bg-fire-house.jpg" alt="ประกันภัยบ้าน"/>
+                </div>
+                <div class="initial-wrapper">
+                    <div class="table">
+                        <div class="cell">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="title-wrapper matchHeight">
+                                            <%--<img src="../../Images/default/txt-title-large.png" />--%>
+                                            <h2 class="title">YOUR<br />
+                                                LIVING<br />
+                                                <span>PARTNER</span>
+                                            </h2>
+                                            <h3 class="description">ประกันอัคคีภัยสำหรับที่อยู่อาศัย</h3>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

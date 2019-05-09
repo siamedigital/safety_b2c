@@ -42,14 +42,3 @@
         $(".se-pre-con").fadeOut("slow");;
     });
     </script>
-    <script type="text/javascript">
-        // function addLink(event)
-        // {
-        //  event.preventDefault();
-        //  var pagelink = '... อ่านต่อที่ : ' + document.location.href,
-        //  copytext =  window.getSelection() + pagelink;
-        //  (event.clipboardData || window.clipboardData).setData('Text', copytext);
-        // }
-
-        // document.addEventListener('copy', addLink);
-    </script>

@@ -25,7 +25,7 @@
                     </ol>
                 </div>
             </div>
-            <div class="index-widget-wrapper" style="background-image: url('../../Images/bg/bg-golf.jpg');  min-height: 650px;">
+            <div class="index-widget-wrapper" style="background-image: url('../../Images/bg/bg-motor.jpg');">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
@@ -47,7 +47,7 @@
                                     <div class="cell">
                                         <div class="row">
                                             <div class="col-md-4 col-sm-6">
-                                                <a href="/Motor/Product-a" class="widget-item current">
+                                                <a href="/Motor/Product" class="widget-item current">
                                                     <img src="../../Images/motor/widgets/img-01.jpg" />
                                                     <div class="caption-outer">
                                                         <div class="caption-inner">
@@ -64,7 +64,7 @@
                                             <%--End Item--%>
 
                                             <div class="col-md-4 col-sm-6">
-                                                <a href="/Motor/Product-b" class="widget-item">
+                                                <a href="/Motor/Product" class="widget-item">
                                                     <img src="../../Images/motor/widgets/img-02.jpg" />
                                                     <div class="caption-outer">
                                                         <div class="caption-inner">
@@ -81,7 +81,7 @@
                                             <%--End Item--%>
 
                                             <div class="col-md-4 col-sm-6">
-                                                <a href="/Motor/Product-b" class="widget-item">
+                                                <a href="/Motor/Product" class="widget-item">
                                                     <img src="../../Images/motor/widgets/img-03.jpg" />
                                                     <div class="caption-outer">
                                                         <div class="caption-inner">
@@ -98,7 +98,7 @@
                                             <%--End Item--%>
 
                                             <div class="col-md-4 col-sm-6">
-                                                <a href="/Motor/Product-b" class="widget-item">
+                                                <a href="/Motor/Product" class="widget-item">
                                                     <img src="../../Images/motor/widgets/img-04.jpg" />
                                                     <div class="caption-outer">
                                                         <div class="caption-inner">
@@ -115,7 +115,7 @@
                                             <%--End Item--%>
 
                                             <div class="col-md-4 col-sm-6">
-                                                <a href="/Motor/Product-b" class="widget-item">
+                                                <a href="/Motor/Product" class="widget-item">
                                                     <img src="../../Images/motor/widgets/img-05.jpg" />
                                                     <div class="caption-outer">
                                                         <div class="caption-inner">
@@ -133,7 +133,7 @@
                                             <%--End Item--%>
 
                                             <div class="col-md-4 col-sm-6">
-                                                <a href="/Motor/Product-b" class="widget-item">
+                                                <a href="/Motor/Product" class="widget-item">
                                                     <img src="../../Images/motor/widgets/img-06.jpg" />
                                                     <div class="caption-outer">
                                                         <div class="caption-inner">
@@ -151,7 +151,7 @@
                                             <%--End Item--%>
 
                                             <div class="col-md-4 col-sm-6">
-                                                <a href="/Motor/Product-b" class="widget-item">
+                                                <a href="/Motor/Product" class="widget-item">
                                                     <img src="../../Images/motor/widgets/img-07.jpg" />
                                                     <div class="caption-outer">
                                                         <div class="caption-inner">
@@ -169,7 +169,7 @@
                                             <%--End Item--%>
 
                                             <div class="col-md-4 col-sm-6">
-                                                <a href="/Motor/Product-b" class="widget-item">
+                                                <a href="/Motor/Product" class="widget-item">
                                                     <img src="../../Images/motor/widgets/img-08.jpg" />
                                                     <div class="caption-outer">
                                                         <div class="caption-inner">

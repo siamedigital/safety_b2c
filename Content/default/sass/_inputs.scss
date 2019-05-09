@@ -16,7 +16,7 @@
         padding: 0 10px;
         font-size: $text-x-small;
         border: 1px solid $color-text;
-        background-color: transparent;
+        background-color: $color-white;
         /*&.location {
             padding-right: 35px;
             background-image: url('../../../Images/icons/icon-pin-location.fw.png');
@@ -374,6 +374,7 @@
 
         &.btn-primary {
             position: relative;
+            font-size: $text-small;
             color: $color-white;
             border: 1px solid $color-primary;
             background-color: $color-primary;
@@ -392,6 +393,19 @@
                     border: 1px solid $color-hover;
                     background-color: $color-hover;
                 }
+            }
+        }
+
+        &.btn-secondary {
+            position: relative;
+            font-size: $text-small;
+            color: $color-white;
+            border: 1px solid #ff6600;
+            background-color: #ff6600;
+
+            &:hover {
+                border: 1px solid $color-hover;
+                background-color: $color-hover;
             }
         }
 
@@ -421,9 +435,22 @@
             }
         }
 
+        &.btn-back {
+            position: relative;
+            color: $color-white;
+            border: 1px solid $color-title;
+            background-color: $color-title;
+
+            &:hover {
+                color: $color-white;
+                border: 1px solid $color-hover;
+                background-color: $color-hover;
+            }
+        }
+
         &.btn-icon-right {
             padding-right: 45px;
-            text-align: left;
+            text-align: center;
 
             i {
                 right: 15px;
@@ -432,7 +459,7 @@
 
         &.btn-icon-left {
             padding-left: 45px;
-            text-align: right;
+            text-align: center;
 
             i {
                 left: 15px;
@@ -442,7 +469,31 @@
         i {
             position: absolute;
             top: 10px;
-            font-size: $text-content;
+            font-size: 18px;
+
+            &.fa-angle-left {
+                width: 10px;
+                height: 18px;
+                background-image: url('../../../Images/icon/small-angle-left.png');
+                background-position: center center;
+                background-repeat: no-repeat;
+
+                &:before {
+                    content: "";
+                }
+            }
+
+            &.fa-angle-right {
+                width: 10px;
+                height: 18px;
+                background-image: url('../../../Images/icon/small-angle-right.png');
+                background-position: center center;
+                background-repeat: no-repeat;
+
+                &:before {
+                    content: "";
+                }
+            }
         }
     }
 
@@ -482,6 +533,38 @@
             max-width: 100%;
             float: none;
             text-align: center;
+        }
+    }
+
+    &.custom-img {
+        line-height: 70px;
+
+        input[type=radio] + label {
+            float: none;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 0;
+        }
+
+        input[type=checkbox] + label {
+            float: none;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 0;
+        }
+
+        input[type=radio]:checked + label + img + span.content-rdo-inline-block {
+            background-color: $color-primary;
+        }
+
+        input[type=checkbox]:checked + label + img + span.content-rdo-inline-block {
+            background-color: $color-primary;
+        }
+
+        span.content-rdo-inline-block {
+            float: none;
+            display: inline-block;
+            vertical-align: middle;
         }
     }
     // Radio
@@ -556,7 +639,7 @@
 
     input[type=checkbox] + label {
         background-color: $color-white;
-        background-image: url('../../../Images/icon/icon-check.png');
+        background-image: url('../../../Images/icon/icon-checkbox.png');
         background-position: 0 0;
         background-repeat: no-repeat;
         height: 32px;
@@ -570,7 +653,7 @@
 
     input[type=checkbox]:checked + label {
         background-color: $color-white;
-        background-image: url('../../../Images/icon/icon-checked.png');
+        background-image: url('../../../Images/icon/icon-checkbox-checked.png');
         background-position: 0 0;
         background-repeat: no-repeat;
     }
@@ -602,7 +685,8 @@
     span.content-rdo-inline-block {
         display: block;
         float: left;
-        width: 135px;
+        min-width: 135px;
+        padding: 0 20px;
         font-family: $font-med;
         font-size: $text-content;
         line-height: 32px;

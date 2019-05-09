@@ -2,6 +2,221 @@
 @import "../helpers/fontface";
 @import "../helpers/mixin_css3";
 
+.product-widget-wrapper {
+    position: relative;
+
+    .image-wrapper {
+        display: block;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .initial-wrapper {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+
+        .table {
+            display: table;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            background-color: transparent !important;
+
+            .cell {
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+                width: 100%;
+                padding: 0;
+                z-index: 2;
+                text-decoration: none;
+            }
+        }
+
+        .title-wrapper {
+            display: block;
+            padding: 0;
+            text-align: center;
+            overflow: hidden;
+
+            img {
+                max-width: 100%;
+            }
+
+            .title {
+                margin: 0;
+                font-family: $font-med;
+                font-size: 84px;
+                line-height: 84px;
+                color: $color-white;
+
+                span {
+                    font-size: 84px;
+                    color: $color-primary;
+                }
+            }
+
+            .description {
+                margin: 0;
+                margin-bottom: 20px;
+                font-family: $font-med;
+                font-size: $text-large;
+                line-height: $text-x-large;
+                color: $color-white;
+            }
+
+            .gen-button {
+                margin: 0;
+            }
+        }
+    }
+    // หน้า Detail
+    .menu-product-detail {
+        position: absolute;
+        bottom: 7px;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+
+            li {
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                padding: 15px 25px 15px 25px;
+                @include opacity-bg(#f7f7f7, 0.8);
+
+                .product {
+                    display: inline-block;
+                    min-width: 285px;
+                    font-family: $font-med;
+                    font-size: $text-small;
+                    line-height: $text-large;
+                    color: $color-text;
+                    text-decoration: none;
+                }
+
+                &.current {
+                    position: relative;
+                    color: $color-white;
+                    @include opacity-bg($color-primary, 0.8);
+                    padding-top: 10px;
+                    padding-bottom: 20px;
+
+                    &::after {
+                        position: absolute;
+                        width: 100%;
+                        font-size: $text-x-small;
+                        line-height: $text-x-small;
+                        text-align: center;
+                        bottom: 5px;
+                        right: 0;
+                        z-index: 2;
+                        pointer-events: none;
+                        content: url('../../../../Images/icon/small-angle-down.png');
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+
+                    .product {
+                        color: $color-white;
+                    }
+                }
+
+                &.active {
+                    .show-subproduct {
+                        transition: all 0.5s ease;
+                        -moz-transition: all 0.5s ease;
+                        -webkit-transition: all 0.5s ease;
+                        -o-transition: all 0.5s ease;
+                        max-height: 300px;
+                    }
+                }
+
+                &:hover {
+                    color: $color-white;
+                    @include opacity-bg($color-primary, 0.8);
+
+                    .product {
+                        color: $color-white;
+                    }
+                }
+
+                .show-subproduct {
+                    //display: none;
+                    width: 100%;
+                    position: absolute;
+                    z-index: 9;
+                    padding: 0 10px;
+                    @include opacity-bg($color-primary, 0.8);
+                    transition: all 0.5s ease;
+                    -moz-transition: all 0.5s ease;
+                    -webkit-transition: all 0.5s ease;
+                    -o-transition: all 0.5s ease;
+                    left: 0;
+                    bottom: 100%;
+                    max-height: 0;
+                    overflow: hidden;
+
+                    ul {
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+
+                        li {
+                            display: block;
+                            padding: 0;
+                            margin: 0;
+                            background-color: transparent;
+
+                            .text {
+                                display: block;
+                                padding: 10px 0 5px 0;
+                                font-family: $font-med;
+                                font-size: $text-content;
+                                line-height: $text-content;
+                                color: $color-white;
+                                text-align: left;
+
+                                &:before {
+                                    font-family: 'Font Awesome 5 Free';
+                                    font-style: normal;
+                                    font-variant: normal;
+                                    font-weight: 900;
+                                    line-height: 1;
+                                    text-transform: none;
+                                    content: '\f105';
+                                    color: $color-white;
+                                    padding: 0;
+                                    font-size: 14px;
+                                }
+
+                                &:hover {
+                                    color: $color-black;
+
+                                    &:before {
+                                        color: $color-black;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 .product-wrapper {
     display: block;
     position: relative;
@@ -110,7 +325,6 @@
         .transformer-tabs {
             font-family: webfont-med;
             background-color: #f7f7f7;
-            ;
 
             ul {
                 list-style: none;
@@ -245,6 +459,10 @@
             display: block;
             padding: 25px;
             background-color: $color-white;
+
+            .tab-pane{
+                margin-bottom: 30px;
+            }
 
             @media screen and (max-width: 999px) {
                 padding: 20px;
@@ -447,6 +665,7 @@
                     //border-top: 1px dotted $color-gray;
                     &.inline-block {
                         display: inline-block;
+
                         @media screen and (max-width: 999px) {
                             margin-bottom: 0;
                         }
@@ -457,6 +676,7 @@
                     display: inline-block;
                     position: relative;
                     margin-left: 15px;
+
                     .tooltip {
                         opacity: 1;
                         top: 6px;
@@ -466,6 +686,7 @@
                         padding-left: 35px;
                         line-height: 26px;
                     }
+
                     @media screen and (max-width: 999px) {
                         margin-left: 0;
                         margin-bottom: 20px;
@@ -563,7 +784,7 @@
                         background-color: #F7F7F7;
                         padding: 40px 20px 20px;
 
-                        .gen-input{
+                        .gen-input {
                             input[type="text"] {
                                 background-color: #ffffff;
                             }
@@ -676,7 +897,63 @@
                 margin-bottom: 30px;
             }
 
+            .tab-wrapper {
+                display: block;
+                margin-bottom: 30px;
+
+                .nav-tabs {
+                    > li {
+                        margin-bottom: 0;
+
+                        > a {
+                            min-width: 145px;
+                            margin-right: 0;
+                            color: #d6d6d6;
+                            text-align: center;
+                            border: 1px solid #ddd;
+                            border-bottom: none;
+                            border-radius: 0;
+                            background-color: $color-text;
+
+                            &:hover {
+                                color: $color-primary;
+                                background-color: #f7f7f7;
+                            }
+
+                            img {
+                                display: none;
+                            }
+                        }
+
+                        &.active {
+                            > a {
+                                color: $color-primary;
+                                border: 1px solid #ddd;
+                                border-bottom: 0;
+                                background-color: #f7f7f7;
+
+                                img {
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .tab-content {
+                    display: block;
+                    padding: 30px 20px;
+                    border: 1px solid #ddd;
+                    border-top: none;
+                    background-color: #f7f7f7;
+                }
+            }
+
             @media screen and (max-width: 999px) {
+                .txt-label {
+                    margin-bottom: 10px;
+                }
+
                 .form-group {
                     .item-insure {
                         .plan {
@@ -937,15 +1214,18 @@
                 //border-top: 1px dotted $color-gray;
                 &.inline-block {
                     display: inline-block;
+
                     @media screen and (max-width: 999px) {
                         margin-bottom: 0;
                     }
                 }
             }
+
             .tooltips-title-head {
                 display: inline-block;
                 position: relative;
                 margin-left: 15px;
+
                 .tooltip {
                     opacity: 1;
                 }
@@ -955,6 +1235,7 @@
                     font-size: 26px;
                     line-height: 26px;
                 }
+
                 @media screen and (max-width: 999px) {
                     margin-left: 0;
                     margin-bottom: 20px;
@@ -1182,6 +1463,826 @@
                     }
                 }
             }
+        }
+
+        .list-compare-wrapper {
+            margin: 0 auto;
+            margin-bottom: 30px;
+            font-family: $font-med;
+            font-size: $text-x-small;
+            line-height: $text-x-large;
+
+            .title-form {
+                text-align: left;
+
+                h3 {
+                    margin: 0;
+                    font-family: $font-med;
+                    font-size: $text-x-large;
+                    line-height: $text-x-large;
+                    color: $color-title;
+
+                    span {
+                        color: $color-primary;
+                    }
+                }
+
+                h4 {
+                    margin: 0;
+                    font-family: $font-med;
+                    font-size: $text-small;
+                    line-height: $text-small;
+                    color: $color-title;
+
+                    span {
+                        color: $color-primary;
+                    }
+                }
+            }
+
+            .txt-label {
+                font-size: $text-x-small;
+                line-height: $text-large;
+
+                span {
+                    color: $color-primary;
+                }
+            }
+
+            .list-item-wrapper {
+                display: block;
+
+                .list-item {
+                    margin-bottom: 55px;
+
+                    .content-list-item {
+                        /*opacity: 0.7;*/
+                        cursor: pointer;
+
+                        .check-wrapper {
+                            margin-bottom: 15px;
+                            text-align: center;
+
+                            .select-insurance {
+                                background-image: url('../../../../Images/icon/icon-check.png');
+                                background-repeat: repeat;
+                                width: 32px;
+                                height: 32px;
+                                text-align: center;
+                                margin: 0 auto;
+                                display: inline-block;
+                                vertical-align: middle;
+                            }
+
+                            .num-compare {
+                                font-family: $font-med;
+                                font-size: $base-fontsize;
+                                line-height: 32px;
+                                color: $color-primary;
+                                margin-left: 10px;
+                                display: none;
+                                vertical-align: middle;
+                            }
+                        }
+
+                        .box-detail {
+                            .main-content {
+                                .type {
+                                    position: relative;
+                                    display: block;
+                                    padding: 10px;
+                                    margin-bottom: 20px;
+
+                                    .title {
+                                        font-size: $text-large;
+                                        line-height: $text-large;
+                                    }
+                                    /*.add_on {
+                                        font-size: $text-content;
+                                        line-height: $text-content;
+                                    }
+
+                                    .price {
+                                        font-size: $text-large;
+                                        line-height: $text-large;
+                                    }*/
+                                }
+
+                                .insurance {
+                                    position: relative;
+                                    display: block;
+                                    padding: 10px;
+                                    margin-bottom: 20px;
+                                    text-align: center;
+
+
+                                    &:after {
+                                        content: '';
+                                        position: absolute;
+                                        top: 100%;
+                                        left: 50%;
+                                        margin-left: -12px;
+                                        width: 0;
+                                        height: 0;
+                                        border-top: solid 10px transparent;
+                                        border-left: solid 10px transparent;
+                                        border-right: solid 10px transparent;
+                                    }
+
+                                    .top-text {
+                                        margin-bottom: 30px;
+                                    }
+
+                                    .title {
+                                        font-size: $text-x-small;
+                                        line-height: $text-x-small;
+                                    }
+
+                                    .add_on {
+                                        font-size: $text-x-small;
+                                        line-height: $text-x-small;
+                                    }
+
+                                    .price {
+                                        font-size: $text-large;
+                                        line-height: $text-large;
+                                    }
+
+                                    .sub-price {
+                                        font-size: $text-small;
+                                        line-height: $text-small;
+                                    }
+                                }
+                            }
+
+                            .detail-content {
+                                margin-top: -20px;
+                                text-align: center;
+
+                                .title {
+                                    margin-bottom: 20px;
+                                    font-size: $text-content;
+                                    line-height: $text-content;
+                                }
+
+                                .price {
+                                    font-size: $text-large;
+                                    line-height: $text-large;
+                                }
+
+                                ul {
+                                    list-style: none;
+                                    padding: 0;
+                                    margin: 0;
+
+                                    &.insurance-coverage {
+                                        li {
+                                            padding: 20px 10px 10px 10px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .btn-wrapper {
+                                .gen-button {
+                                    cursor: not-allowed;
+
+                                    .btn-med {
+                                        pointer-events: none;
+
+                                        &.btn-primary {
+                                            border-color: $color-text !important;
+                                            background-color: $color-text !important;
+                                        }
+                                    }
+                                }
+
+                                .read-description {
+                                    a {
+                                        font-size: $text-x-small;
+                                        line-height: $text-x-small;
+                                        color: $color-text;
+
+                                        &:hover {
+                                            color: $color-hover;
+                                        }
+
+                                        .fas {
+                                            font-size: $base-fontsize;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &.theme-primary {
+                                .main-content {
+                                    .type {
+                                        .title {
+                                            color: $color-primary;
+                                        }
+                                        /*.add_on {
+                                            color: $color-primary;
+                                        }
+
+                                        .price {
+                                            color: $color-primary;
+                                        }*/
+                                    }
+
+                                    .insurance {
+                                        background-color: $color-text;
+
+                                        &:after {
+                                            border-top-color: $color-text;
+                                        }
+
+                                        .title {
+                                            color: $color-white;
+                                        }
+
+                                        .add-on {
+                                            color: $color-white;
+                                        }
+
+                                        .price {
+                                            color: $color-white;
+                                        }
+
+                                        .sub-price {
+                                            color: $color-white;
+                                        }
+                                    }
+                                }
+
+                                .detail-content {
+
+                                    .title {
+                                        color: $color-hover;
+                                    }
+
+                                    .price {
+                                        color: $color-primary;
+                                    }
+
+                                    ul {
+                                        &.insurance-coverage {
+                                            li {
+                                                background-color: #ddd;
+
+                                                &:nth-child(odd) {
+                                                    background-color: #eee;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &.active {
+                        .content-list-item {
+                            opacity: 1.0;
+
+                            .check-wrapper {
+                                .select-insurance {
+                                    background-image: url('../../../../Images/icon/icon-checked.png');
+                                }
+
+                                .num-compare {
+                                    display: inline-block;
+                                }
+                            }
+
+                            .box-detail {
+                                &.theme-primary {
+                                    .main-content {
+                                        .insurance {
+                                            background-color: $color-primary;
+
+                                            &:after {
+                                                border-top-color: $color-primary;
+                                            }
+                                        }
+                                    }
+
+                                    .btn-wrapper {
+                                        .gen-button {
+                                            cursor: pointer;
+
+                                            .btn-med {
+                                                pointer-events: auto;
+
+                                                &.btn-primary {
+                                                    border-color: $color-primary !important;
+                                                    background-color: $color-primary !important;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            /*ส่วนของผลการเแรียบเทียบ*/
+            .detail-compare-wrapper {
+                position: relative;
+                margin-bottom: 30px;
+
+                .main-detail-product-comapre {
+                    margin-left: 230px;
+
+                    .list-product-compare {
+                        float: left;
+                        padding: 0 10px;
+                        outline: none;
+
+                        .head-product-compare {
+                            height: 216px;
+
+                            .box-item {
+                                padding: 0 10px;
+                                border: 1px dotted #bfbfbf;
+                                text-align: center;
+
+                                .name-insurance {
+                                    margin-top: 15px;
+
+                                    .title {
+                                        font-family: $font-med;
+                                        font-size: $text-small;
+                                        line-height: $text-small;
+                                        color: $color-primary;
+                                        margin-bottom: 5px;
+                                        height: 60px;
+                                        overflow: hidden;
+                                    }
+
+                                    .type {
+                                        font-family: $font-regular;
+                                        font-size: 24px;
+                                        line-height: 24px;
+                                        color: #999999;
+                                        min-height: 48px;
+                                        overflow: hidden;
+
+                                        @media screen and (max-width: 999px) {
+                                            min-height: 72px;
+                                        }
+                                    }
+
+                                    .desc-more {
+                                        font-family: $font-regular;
+                                        font-size: 24px;
+                                        line-height: 24px;
+                                        color: #999999;
+                                    }
+                                }
+
+                                .insurance {
+                                    margin-top: 5px;
+                                    margin-bottom: 10px;
+
+                                    .text {
+                                        font-family: $font-regular;
+                                        font-size: $text-content;
+                                        line-height: $text-content;
+                                        color: $color-primary;
+                                    }
+                                }
+
+                                .price-of-year {
+                                    margin-bottom: 5px;
+                                    min-height: 52px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    .icon {
+                                        //float: left;
+                                        display: inline-block;
+                                        vertical-align: middle;
+                                        margin-right: 5px;
+                                    }
+
+                                    .price-wrapper {
+                                        display: inline-block;
+                                        vertical-align: middle;
+                                        //width: 85%;
+                                        text-align: left;
+                                    }
+
+                                    .price {
+                                        //float: left;
+                                        font-family: $font-med;
+                                        font-size: 28px;
+                                        line-height: 28px;
+                                        color: $color-primary;
+                                    }
+
+                                    .price_prb {
+                                        font-family: $font-regular;
+                                        font-size: 17px;
+                                        line-height: 17px;
+                                        color: $color-primary;
+                                    }
+                                }
+                            }
+
+                            &.-PA {
+                                .box-item {
+                                    .name-insurance {
+                                        .title {
+                                            color: #FF6600;
+                                        }
+
+                                        .type {
+                                            color: #999999;
+                                        }
+
+                                        .desc-more {
+                                            color: #999999;
+                                        }
+                                    }
+
+                                    .insurance {
+                                        .text {
+                                            color: #FF6600;
+                                        }
+                                    }
+
+                                    .price-of-year {
+                                        .price {
+                                            color: #FF6600;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &.-TA {
+                                .box-item {
+                                    .name-insurance {
+                                        .title {
+                                            color: #0099CC;
+                                        }
+
+                                        .type {
+                                            color: #999999;
+                                        }
+
+                                        .desc-more {
+                                            color: #999999;
+                                        }
+                                    }
+
+                                    .insurance {
+                                        .text {
+                                            color: #0099CC;
+                                        }
+                                    }
+
+                                    .price-of-year {
+                                        .price {
+                                            color: #0099CC;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .detail-product-compare {
+                            ul {
+                                margin: 0;
+                                padding: 0;
+
+                                li {
+                                    list-style: none;
+                                    text-align: center;
+                                    //padding: 15px 10px;
+                                    //border-bottom: 1px dotted #bfbfbf;
+                                    margin-right: -20px;
+                                    //height: 84px;
+                                    height: 125px;
+
+                                    .title {
+                                        display: none;
+                                    }
+
+                                    .desc {
+                                        font-family: $font-med;
+                                        font-size: 30px;
+                                        //line-height: 84px;
+                                        //line-height: 125px;
+                                        line-height: 30px;
+                                        color: $color-primary;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        height: 100%;
+                                    }
+
+                                    &.space {
+                                        background-color: #ffffff !important;
+                                        height: 84px;
+                                    }
+
+                                    &:nth-child(even) {
+                                        background-color: #cccccc;
+                                    }
+
+                                    &:nth-child(odd) {
+                                        background-color: #ffffff;
+                                    }
+
+                                    @media screen and (max-width: 1024px) {
+                                        margin-right: 0;
+                                        padding: 10px;
+                                        height: auto;
+
+                                        .title {
+                                            display: block;
+                                            font-family: $font-med;
+                                            font-size: 26px;
+                                            line-height: 26px;
+                                            margin-bottom: 10px;
+                                        }
+
+                                        .desc {
+                                            line-height: 24px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &.-PA {
+                                ul {
+                                    li {
+                                        .desc {
+                                            color: #FF6600;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &.-TA {
+                                ul {
+                                    li {
+                                        .desc {
+                                            color: #0099CC;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .list-product-compare.-last {
+                        .detail-product-compare {
+                            ul {
+                                li {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+
+                    .slick-track {
+                        margin: 0;
+                    }
+
+                    .slick-prev {
+                        background-image: url('../../../../Images/icon/icon-prev.svg');
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        width: 70px;
+                        height: 70px;
+                        text-indent: -9999px;
+                        //left: -7px;
+                        left: -60px;
+                        z-index: 999;
+                    }
+
+                    .slick-next {
+                        background-image: url('../../../../Images/icon/icon-next.svg');
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        width: 70px;
+                        height: 70px;
+                        text-indent: -9999px;
+                        //right: -7px;
+                        left: -60px;
+                        z-index: 999;
+                    }
+
+                    .slick-disabled {
+                        opacity: 0.5;
+                    }
+                    /*.slick-prev, .slick-next{
+                top: 7%;
+            }*/
+                    .slick-prev {
+                        top: 45px;
+                    }
+
+                    .slick-next {
+                        top: 170px;
+                    }
+
+                    @media screen and (max-width: 1024px) {
+                        margin-left: 0;
+                    }
+                }
+
+                .desc-detail-product-comapre {
+                    width: 230px;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+
+                    .text-title {
+                        font-family: $font-med;
+                        font-size: 28px;
+                        line-height: 28px;
+                        color: $color-primary;
+                        height: 216px;
+                    }
+
+                    .detail-protection-wrapper {
+                        ul {
+                            margin: 0;
+                            padding: 0;
+
+                            li {
+                                list-style: none;
+                                //border-top: 1px dotted #bfbfbf;
+                                //height: 84px;
+                                height: 125px;
+                                margin-right: -10px;
+
+                                &.title-head-protection {
+                                    font-family: $font-med;
+                                    font-size: 28px;
+                                    line-height: 28px;
+                                    color: $color-primary;
+                                    display: table-cell;
+                                    vertical-align: middle;
+                                    position: relative;
+                                    height: 84px;
+
+                                    span {
+                                        position: absolute;
+                                        width: 650px;
+                                        z-index: 9;
+                                    }
+                                }
+
+                                .title {
+                                    font-family: $font-med;
+                                    font-size: 24px;
+                                    line-height: 24px;
+                                    color: #333333;
+                                    margin-bottom: 5px;
+                                    display: table-cell;
+                                    vertical-align: middle;
+                                    width: 100%;
+                                    //height: 84px;
+                                    height: 125px;
+                                    padding-right: 20px;
+                                    padding-left: 20px;
+                                }
+
+                                &:nth-child(even) {
+                                    background-color: #cccccc;
+                                }
+
+                                &:nth-child(odd) {
+                                    background-color: #ffffff;
+                                }
+
+                                &:first-of-type {
+                                    border-top: none;
+                                }
+
+                                &:last-of-type {
+                                    //border-bottom: 1px dotted #bfbfbf;
+                                    //height: 84px;
+                                    height: 125px;
+                                }
+                            }
+                        }
+
+                        .list {
+                            border-top: 1px dotted #bfbfbf;
+                            height: 84px;
+                            margin-right: -10px;
+
+                            .title {
+                                font-family: $font-med;
+                                font-size: 24px;
+                                line-height: 24px;
+                                color: #333333;
+                                margin-bottom: 5px;
+                                display: table-cell;
+                                vertical-align: middle;
+                                width: 100%;
+                                height: 84px;
+                            }
+
+                            &:first-of-type {
+                                border-top: none;
+                            }
+
+                            &:last-of-type {
+                                border-bottom: 1px dotted #bfbfbf;
+                                height: 84px;
+                            }
+                        }
+
+                        .list.-check {
+                            .check {
+                                text-align: center;
+
+                                .icon-check {
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    margin-right: 10px;
+                                }
+
+                                .text {
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    color: #999999;
+                                }
+                            }
+
+                            &:last-of-type {
+                                border-bottom: none;
+                            }
+                        }
+                    }
+
+                    @media screen and (max-width: 1024px) {
+                        display: none;
+                    }
+                }
+
+                @media screen and (max-width: 999px) {
+                    margin-top: 80px;
+
+                    .main-detail-product-comapre {
+                        .slick-prev {
+                            background-image: url('../../../Images/icons/icon-prev-mobile.svg');
+                            width: 100px;
+                            height: 40px;
+                        }
+
+                        .slick-next {
+                            background-image: url('../../../Images/icons/icon-next-mobile.svg');
+                            width: 100px;
+                            height: 40px;
+                        }
+
+                        .slick-prev {
+                            top: -3%;
+                            left: 35%;
+                            right: auto;
+                        }
+
+                        .slick-next {
+                            top: -3%;
+                            right: 35%;
+                            left: auto;
+                        }
+                    }
+                }
+
+                @media screen and (max-width: 700px) {
+                    .main-detail-product-comapre {
+                        .slick-prev {
+                            left: 28%;
+                        }
+
+                        .slick-next {
+                            right: 28%;
+                        }
+                    }
+                }
+
+                @media screen and (max-width: 480px) {
+                    .main-detail-product-comapre {
+                        .slick-prev {
+                            left: 15%;
+                        }
+
+                        .slick-next {
+                            right: 15%;
+                        }
+                    }
+                }
+            }
+            /*จบส่วนผลการเปรียบเทียบ*/
         }
 
         &.summary-wrapper {

@@ -270,12 +270,26 @@
     <Compile Include="Views\Home\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\Motor\Buy.aspx.cs">
+      <DependentUpon>Buy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Motor\Buy.aspx.designer.cs">
+      <DependentUpon>Buy.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Motor\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Views\Motor\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Motor\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Motor\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -315,6 +329,8 @@
     <Content Include="Content\css\owl.carousel.min.css" />
     <Content Include="Content\css\owl.theme.default.min.css" />
     <Content Include="Content\css\selectric.css" />
+    <Content Include="Content\css\slick-theme.css" />
+    <Content Include="Content\css\slick.css" />
     <Content Include="Content\css\sweetalert2.min.css" />
     <Content Include="Content\css\tooltipster-sideTip-light.min.css" />
     <Content Include="Content\css\tooltipster.bundle.min.css" />
@@ -352,6 +368,8 @@
     <Content Include="Images\golf\main-banner.jpg" />
     <Content Include="Images\icon\icon-calculate.png" />
     <Content Include="Images\icon\icon-check.png" />
+    <Content Include="Images\icon\icon-checkbox-checked.png" />
+    <Content Include="Images\icon\icon-checkbox.png" />
     <Content Include="Images\icon\icon-checked.png" />
     <Content Include="Images\icon\icon-complete-insure.png" />
     <Content Include="Images\icon\icon-dateinput.png" />
@@ -383,6 +401,11 @@
     <Content Include="Images\logo\logo.png" />
     <Content Include="Images\logo\logo2.png" />
     <Content Include="Images\logo\logo_print.png" />
+    <Content Include="Images\motor\banner-01.jpg" />
+    <Content Include="Images\motor\banner-02.jpg" />
+    <Content Include="Images\motor\slc-img-car.jpg" />
+    <Content Include="Images\motor\slc-img-truck.jpg" />
+    <Content Include="Images\motor\slc-img-van.jpg" />
     <Content Include="Images\motor\widgets\img-01.jpg" />
     <Content Include="Images\motor\widgets\img-02.jpg" />
     <Content Include="Images\motor\widgets\img-03.jpg" />
@@ -442,6 +465,7 @@
     <Content Include="Scripts\plugins\jquery.sticky.js" />
     <Content Include="Scripts\plugins\masonry.pkgd.min.js" />
     <Content Include="Scripts\plugins\owl.carousel.min.js" />
+    <Content Include="Scripts\plugins\slick.min.js" />
     <Content Include="Scripts\plugins\sweetalert2.min.js" />
     <Content Include="Scripts\tooltipster.bundle.min.js" />
     <Content Include="Views\Business\Buy.aspx" />
@@ -461,7 +485,9 @@
     <Content Include="Views\Golf\Index.aspx" />
     <Content Include="Views\Golf\Product.aspx" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Motor\Buy.aspx" />
     <Content Include="Views\Motor\Index.aspx" />
+    <Content Include="Views\Motor\Product.aspx" />
     <Content Include="Views\Shared\canvas-menu.aspx" />
     <Content Include="Views\Shared\footer.aspx" />
     <Content Include="Views\Shared\header-business.aspx" />
@@ -500,6 +526,12 @@
     <Content Include="Views\Shared\Module\Golf\Checkout.aspx" />
     <Content Include="Views\Shared\Module\Golf\Payment.aspx" />
     <Content Include="Views\Shared\Module\Golf\Plan.aspx" />
+    <Content Include="Views\Shared\Module\Motor\Cart1.aspx" />
+    <Content Include="Views\Shared\Module\Motor\Cart2.aspx" />
+    <Content Include="Views\Shared\Module\Motor\Checkout.aspx" />
+    <Content Include="Views\Shared\Module\Motor\Compare.aspx" />
+    <Content Include="Views\Shared\Module\Motor\Payment.aspx" />
+    <Content Include="Views\Shared\Module\Motor\Plan.aspx" />
     <Content Include="Views\Shared\Module\Transaction.aspx" />
     <Content Include="Views\Shared\scripts.aspx" />
     <Content Include="Views\Shared\start.aspx" />

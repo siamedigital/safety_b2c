@@ -110,7 +110,6 @@
                     </div>
                 </div>
 
-
                 <div class="row form-row">
                     <div class="col-sm-4">
                         <div class="txt-label">
@@ -118,19 +117,17 @@
                         </div>
                     </div>
                     <div class="col-sm-8">
-                        <div class="gen-input">
-                            <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
+                        <div class="row form-row">
+                            <div class="col-sm-12">
+                                <div class="gen-input">
+                                    <input class="" id="" name="" placeholder="ระบุ" value="" autocomplete="off" type="text">
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-
-
-                <div class="row form-row">
-                    <div class="col-sm-8 col-sm-offset-4">
                         <div class="row form-row">
                             <div class="col-sm-6">
                                 <div class="gen-slc">
-                                    <select class="selectpicker" data-live-search="true" title="จังหวัด">
+                                    <select class="selectpicker" data-live-search="true" title="อำเภอ/เขต">
                                         <option data-tokens="ระบุ">ระบุ</option>
                                         <option data-tokens="ระบุ">ระบุ</option>
                                         <option data-tokens="ระบุ">ระบุ</option>
@@ -139,7 +136,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="gen-slc">
-                                    <select class="selectpicker" data-live-search="true" title="อำเภอ/เขต">
+                                    <select class="selectpicker" data-live-search="true" title="จังหวัด">
                                         <option data-tokens="ระบุ">ระบุ</option>
                                         <option data-tokens="ระบุ">ระบุ</option>
                                         <option data-tokens="ระบุ">ระบุ</option>
@@ -180,7 +177,6 @@
                     </div>
                 </div>
 
-
                 <div class="row form-row">
                     <div class="col-sm-4">
                         <div class="txt-label">
@@ -211,7 +207,6 @@
                         </div>
                     </div>
                 </div>
-
 
                 <div class="row form-row">
                     <div class="col-sm-4 col-xs-12">

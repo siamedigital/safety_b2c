@@ -5470,9 +5470,9 @@ if it's not present, don't show loader */
   position: relative;
   display: block;
   width: 100%;
-  /*min-height: 650px;*/
+  min-height: 650px;
   height: auto;
-  padding-top: 80px;
+  padding: 50px 0 0 0;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -6761,7 +6761,7 @@ if it's not present, don't show loader */
     padding: 0 10px;
     font-size: 26px;
     border: 1px solid #999;
-    background-color: transparent;
+    background-color: #fff;
     /*&.location {
             padding-right: 35px;
             background-image: url('../../../Images/icons/icon-pin-location.fw.png');
@@ -7029,6 +7029,7 @@ if it's not present, don't show loader */
     .gen-button * button.btn-med.btn-primary,
     .gen-button * button.btn-lg.btn-primary {
       position: relative;
+      font-size: 30px;
       color: #fff;
       border: 1px solid #00AC4A;
       background-color: #00AC4A; }
@@ -7057,6 +7058,25 @@ if it's not present, don't show loader */
           color: #fff;
           border: 1px solid #232323;
           background-color: #232323; }
+    .gen-button .btn-sm.btn-secondary,
+    .gen-button .btn-med.btn-secondary,
+    .gen-button .btn-lg.btn-secondary,
+    .gen-button * button.btn-sm.btn-secondary,
+    .gen-button * button.btn-med.btn-secondary,
+    .gen-button * button.btn-lg.btn-secondary {
+      position: relative;
+      font-size: 30px;
+      color: #fff;
+      border: 1px solid #ff6600;
+      background-color: #ff6600; }
+      .gen-button .btn-sm.btn-secondary:hover,
+      .gen-button .btn-med.btn-secondary:hover,
+      .gen-button .btn-lg.btn-secondary:hover,
+      .gen-button * button.btn-sm.btn-secondary:hover,
+      .gen-button * button.btn-med.btn-secondary:hover,
+      .gen-button * button.btn-lg.btn-secondary:hover {
+        border: 1px solid #232323;
+        background-color: #232323; }
     .gen-button .btn-sm.btn-dark,
     .gen-button .btn-med.btn-dark,
     .gen-button .btn-lg.btn-dark,
@@ -7095,6 +7115,25 @@ if it's not present, don't show loader */
         color: #fff;
         border: 1px solid #232323;
         background-color: #232323; }
+    .gen-button .btn-sm.btn-back,
+    .gen-button .btn-med.btn-back,
+    .gen-button .btn-lg.btn-back,
+    .gen-button * button.btn-sm.btn-back,
+    .gen-button * button.btn-med.btn-back,
+    .gen-button * button.btn-lg.btn-back {
+      position: relative;
+      color: #fff;
+      border: 1px solid #777;
+      background-color: #777; }
+      .gen-button .btn-sm.btn-back:hover,
+      .gen-button .btn-med.btn-back:hover,
+      .gen-button .btn-lg.btn-back:hover,
+      .gen-button * button.btn-sm.btn-back:hover,
+      .gen-button * button.btn-med.btn-back:hover,
+      .gen-button * button.btn-lg.btn-back:hover {
+        color: #fff;
+        border: 1px solid #232323;
+        background-color: #232323; }
     .gen-button .btn-sm.btn-icon-right,
     .gen-button .btn-med.btn-icon-right,
     .gen-button .btn-lg.btn-icon-right,
@@ -7102,7 +7141,7 @@ if it's not present, don't show loader */
     .gen-button * button.btn-med.btn-icon-right,
     .gen-button * button.btn-lg.btn-icon-right {
       padding-right: 45px;
-      text-align: left; }
+      text-align: center; }
       .gen-button .btn-sm.btn-icon-right i,
       .gen-button .btn-med.btn-icon-right i,
       .gen-button .btn-lg.btn-icon-right i,
@@ -7117,7 +7156,7 @@ if it's not present, don't show loader */
     .gen-button * button.btn-med.btn-icon-left,
     .gen-button * button.btn-lg.btn-icon-left {
       padding-left: 45px;
-      text-align: right; }
+      text-align: center; }
       .gen-button .btn-sm.btn-icon-left i,
       .gen-button .btn-med.btn-icon-left i,
       .gen-button .btn-lg.btn-icon-left i,
@@ -7133,7 +7172,43 @@ if it's not present, don't show loader */
     .gen-button * button.btn-lg i {
       position: absolute;
       top: 10px;
-      font-size: 22px; }
+      font-size: 18px; }
+      .gen-button .btn-sm i.fa-angle-left,
+      .gen-button .btn-med i.fa-angle-left,
+      .gen-button .btn-lg i.fa-angle-left,
+      .gen-button * button.btn-sm i.fa-angle-left,
+      .gen-button * button.btn-med i.fa-angle-left,
+      .gen-button * button.btn-lg i.fa-angle-left {
+        width: 10px;
+        height: 18px;
+        background-image: url("../../../Images/icon/small-angle-left.png");
+        background-position: center center;
+        background-repeat: no-repeat; }
+        .gen-button .btn-sm i.fa-angle-left:before,
+        .gen-button .btn-med i.fa-angle-left:before,
+        .gen-button .btn-lg i.fa-angle-left:before,
+        .gen-button * button.btn-sm i.fa-angle-left:before,
+        .gen-button * button.btn-med i.fa-angle-left:before,
+        .gen-button * button.btn-lg i.fa-angle-left:before {
+          content: ""; }
+      .gen-button .btn-sm i.fa-angle-right,
+      .gen-button .btn-med i.fa-angle-right,
+      .gen-button .btn-lg i.fa-angle-right,
+      .gen-button * button.btn-sm i.fa-angle-right,
+      .gen-button * button.btn-med i.fa-angle-right,
+      .gen-button * button.btn-lg i.fa-angle-right {
+        width: 10px;
+        height: 18px;
+        background-image: url("../../../Images/icon/small-angle-right.png");
+        background-position: center center;
+        background-repeat: no-repeat; }
+        .gen-button .btn-sm i.fa-angle-right:before,
+        .gen-button .btn-med i.fa-angle-right:before,
+        .gen-button .btn-lg i.fa-angle-right:before,
+        .gen-button * button.btn-sm i.fa-angle-right:before,
+        .gen-button * button.btn-med i.fa-angle-right:before,
+        .gen-button * button.btn-lg i.fa-angle-right:before {
+          content: ""; }
   .gen-button * button.btn-sm,
   .gen-button .btn-sm {
     font-size: 22px;
@@ -7166,6 +7241,26 @@ if it's not present, don't show loader */
     max-width: 100%;
     float: none;
     text-align: center; }
+  .custom-radio.custom-img {
+    line-height: 70px; }
+    .custom-radio.custom-img input[type=radio] + label {
+      float: none;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 0; }
+    .custom-radio.custom-img input[type=checkbox] + label {
+      float: none;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 0; }
+    .custom-radio.custom-img input[type=radio]:checked + label + img + span.content-rdo-inline-block {
+      background-color: #00AC4A; }
+    .custom-radio.custom-img input[type=checkbox]:checked + label + img + span.content-rdo-inline-block {
+      background-color: #00AC4A; }
+    .custom-radio.custom-img span.content-rdo-inline-block {
+      float: none;
+      display: inline-block;
+      vertical-align: middle; }
   .custom-radio input[type=radio] {
     display: none; }
   .custom-radio input[type=radio] + label {
@@ -7216,7 +7311,7 @@ if it's not present, don't show loader */
     display: none; }
   .custom-radio input[type=checkbox] + label {
     background-color: #fff;
-    background-image: url("../../../Images/icon/icon-check.png");
+    background-image: url("../../../Images/icon/icon-checkbox.png");
     background-position: 0 0;
     background-repeat: no-repeat;
     height: 32px;
@@ -7228,7 +7323,7 @@ if it's not present, don't show loader */
     cursor: pointer; }
   .custom-radio input[type=checkbox]:checked + label {
     background-color: #fff;
-    background-image: url("../../../Images/icon/icon-checked.png");
+    background-image: url("../../../Images/icon/icon-checkbox-checked.png");
     background-position: 0 0;
     background-repeat: no-repeat; }
   .custom-radio input[type=checkbox]:disabled + label + span.content-rdo-inline {
@@ -7250,7 +7345,8 @@ if it's not present, don't show loader */
   .custom-radio span.content-rdo-inline-block {
     display: block;
     float: left;
-    width: 135px;
+    min-width: 135px;
+    padding: 0 20px;
     font-family: "webfont-med";
     font-size: 22px;
     line-height: 32px;

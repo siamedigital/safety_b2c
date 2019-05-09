@@ -41,7 +41,7 @@
                     </ol>
                 </div>
             </div>
-            <div class="index-widget-wrapper" style="background-image: url('../../Images/bg/bg-golf.jpg'); min-height: 650px;">
+            <div class="index-widget-wrapper" style="background-image: url('../../Images/bg/bg-golf.jpg');">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 col-md-4">

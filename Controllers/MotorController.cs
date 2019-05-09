@@ -13,5 +13,15 @@ namespace safety_b2c.Controllers
         {
             return View();
         }
+
+        public ActionResult Product()
+        {
+            return View("~/Views/Motor/Product.aspx");
+        }
+
+        public ActionResult Buy()
+        {
+            return View("~/Views/Motor/Buy.aspx");
+        }
     }
 }

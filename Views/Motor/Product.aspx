@@ -21,13 +21,13 @@
                 <div class="container">
                     <ol class="breadcrumb">
                         <li><span>หน้าแรก</span></li>
-                        <li class="active"><span>ประกันผู้เล่นกอล์ฟ</span></li>
+                        <li class="active"><span>ประกันภัยรถยนต์</span></li>
                     </ol>
                 </div>
             </div>
             <div class="product-widget-wrapper">
                 <div class="image-wrapper">
-                    <img src="../../Images/golf/main-banner.jpg" />
+                    <img src="../../Images/motor/banner-01.jpg" />
                 </div>
                 <div class="initial-wrapper">
                     <div class="table">
@@ -41,13 +41,57 @@
                                                 LIVING<br />
                                                 <span>PARTNER</span>
                                             </h2>
-                                            <h3 class="description">ประกันภัยผู้เล่นกอล์ฟ</h3>
+                                            <h3 class="description">ประกันภัยรถยนต์</h3>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="menu-product-detail">
+                    <ul>
+                        <li class="current">
+                            <a href="#" class="product">ภาคบังคับ (พ.ร.บ.)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#nogo" class="product">ภาคสมัครใจ
+                            </a>
+                            <div class="show-subproduct">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="text">ภาคสมัครใจ (ประเภท 1)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text">ภาคสมัครใจ (ประเภท 2)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text">ภาคสมัครใจ (ประเภท 3)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text">ภาคสมัครใจ (ประเภทเฉพาะภัย 2)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text">ภาคสมัครใจ (ประเภทเฉพาะภัย 3)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text">ภาคสมัครใจ ประเภท Safety 4U Plus 2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text">ภาคสมัครใจ ประเภท Safety 4U Plus 3
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -77,8 +121,8 @@
                             </div>
                             <div class="col-xs-12">
                                 <div class="title-wrapper">
-                                    <h3 class="title">ประกันภัยผู้เล่นกอล์ฟ</h3>
-                                    <p class="description">ปกป้องตัวคุณและอุปกรณ์กอล์ฟจากเหตุไม่คาดฝัน</p>
+                                    <h3 class="title">ประกันภัยรถยนต์ภาคบังคับ (พ.ร.บ.)</h3>
+                                    <p class="description">ขับอุ่นใจในทุกเส้นทางด้วยหลากหลายความคุ้มครองจากประกันคุ้มภัย เลือกความคุ้มครองได้ สบายกระเป๋า</p>
                                 </div>
                             </div>
                             <div class="col-xs-12">
@@ -100,114 +144,79 @@
                                                         <thead>
                                                             <tr>
                                                                 <th>ความคุ้มครอง</th>
-                                                                <th>แผน 1</th>
-                                                                <th>แผน 2</th>
+                                                                <th>จำนวนเงินเอาประกันภัย (บาท)</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
                                                             <tr class="topic">
-                                                                <td>1. บุคคลภายนอก</td>
-                                                                <td>&nbsp;</td>
-                                                                <td>&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <ul class="list-styled">
-                                                                        <li><span>บาดเจ็บหรือเสียชีวิต</span></li>
-                                                                        <li><span>สูญเสียหรือเสียหายต่อทรัพย์สิน</span></li>
-                                                                    </ul>
-                                                                </td>
-                                                                <td>500,000 บาท / คน / ครั้ง
-                                                                </td>
-                                                                <td>1,000,000 บาท / คน / ครั้ง
-                                                                </td>
+                                                                <td>1. คุ้มครองไฟไหม้และการโจรกรรม</td>
+                                                                <td>250,000</td>
                                                             </tr>
                                                             <tr class="topic">
-                                                                <td>2. ผู้เอาประกันภัย</td>
-                                                                <td>&nbsp;</td>
-                                                                <td>&nbsp;</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <ul class="list-styled">
-                                                                        <li><span>สูญเสียชีวิต อวัยวะและสายตา ทุพพลภาพสิ้นเชิงถาวร</span></li>
-                                                                        <li><span>ทุพพลภาพชั่วคราวไม่เกิน 52 สิปดาห์</span></li>
-                                                                        <li><span>ค่ารักษาพยาบาล</span></li>
-                                                                    </ul>
-                                                                </td>
-                                                                <td>
-                                                                    <ul class="list-none">
-                                                                        <li>200,000 บาท
-                                                                        </li>
-                                                                        <li>1,000 บาท / สัปดาห์
-                                                                        </li>
-                                                                        <li>20,000 บาท
-                                                                        </li>
-                                                                    </ul>
-                                                                </td>
-                                                                <td>
-                                                                    <ul class="list-none">
-                                                                        <li>500,000 บาท
-                                                                        </li>
-                                                                        <li>1,000 บาท / สัปดาห์
-                                                                        </li>
-                                                                        <li>50,000 บาท
-                                                                        </li>
-                                                                    </ul>
-                                                                </td>
+                                                                <td>2. ค่ารักษาพยาบาล</td>
+                                                                <td>100,000</td>
                                                             </tr>
                                                             <tr class="topic">
-                                                                <td>3. อุปกรณ์การเล่นกอล์ฟ สูญหายหรือเสียหายต่อไม้กอล์ฟ ถุงกอล์ฟ หรือรถลากถุงกอล์ฟ</td>
-                                                                <td>20,000 บาท</td>
-                                                                <td>30,000 บาท</td>
+                                                                <td>3. สถานที่รับบริการซ่อมบำรุง</td>
+                                                                <td>อู่ประกัน</td>
                                                             </tr>
                                                             <tr class="topic">
-                                                                <td>4. โบนัสพิเศษ “Hole-in-one”</td>
-                                                                <td>&nbsp;</td>
-                                                                <td>&nbsp;</td>
+                                                                <td>4. ความรับผิดต่อบุคคลภายนอกกรณีเสียชีวิตต่อคน</td>
+                                                                <td>1,000,000</td>
                                                             </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <ul class="list-styled">
-                                                                        <li><span>การแข่งขันเป็นทางการ</span></li>
-                                                                        <li><span>การแข่งขันทั่วไป</span></li>
-                                                                    </ul>
-                                                                </td>
-                                                                <td>
-                                                                    <ul class="list-none">
-                                                                        <li>15,000 บาท / ครั้ง / ปี
-                                                                        </li>
-                                                                        <li>10,000 บาท / ครั้ง / ปี
-                                                                        </li>
-                                                                    </ul>
-                                                                </td>
-                                                                <td>
-                                                                    <ul class="list-none">
-                                                                        <li>15,000 บาท / ครั้ง / ปี
-                                                                        </li>
-                                                                        <li>10,000 บาท / ครั้ง / ปี
-                                                                        </li>
-                                                                    </ul>
-                                                                </td>
+                                                            <tr class="topic">
+                                                                <td>5. ความรับผิดต่อบุคคลภายนอกกรณีเสียชีวิตต่อครั้ง</td>
+                                                                <td>10,000,000</td>
                                                             </tr>
-                                                            <tr class="summary">
-                                                                <td>เบี้ยประกันภัยสุทธิต่อปี (ก่อนอากรแสตมป์และภาษีมูลค่าเพิ่ม)
-                                                                </td>
-                                                                <td>850 บาท
-                                                                </td>
-                                                                <td>850 บาท
-                                                                </td>
+                                                            <tr class="topic">
+                                                                <td>6. ความรับผิดต่อทรัพย์สินบุคคลภายนอกต่อครั้ง</td>
+                                                                <td>1,000,000</td>
                                                             </tr>
-                                                            <tr class="summary">
-                                                                <td>เบี้ยประกันภัยสุทธิต่อปี (หลังอากรแสตมป์และภาษีมูลค่าเพิ่ม)
-                                                                </td>
-                                                                <td>913.78 บาท
-                                                                </td>
-                                                                <td>1,483.02 บาท
-                                                                </td>
+                                                            <tr class="topic">
+                                                                <td>7. ความเสียหายส่วนแรก (ต่อบุคคลภายนอก)</td>
+                                                                <td>-</td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>8. ความเสียหายส่วนแรก (ต่อรถยนต์)</td>
+                                                                <td>-</td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>9. การประกันภัยตัวผู้ขับขี่</td>
+                                                                <td>200,000</td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>10. จำนวนผู้ขับขี่ Loss of Life</td>
+                                                                <td>1</td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>11. ผู้ขับขี่ 1 คน</td>
+                                                                <td>100,000</td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>12. จำนวนผู้โดยสาร Loss of Life</td>
+                                                                <td>6</td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>13. ผู้โดยสาร</td>
+                                                                <td>100,000</td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>14. จำนวนผู้ขับขี่ ทุพพลภาพชั่วคราว</td>
+                                                                <td>1</td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>15. ทุพพลภาพชั่วคราว ผู้ขับขี่ 1 คน</td>
+                                                                <td>ไม่คุ้มครอง</td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>16. จำนวนผู้โดยสาร ทุพพลภาพชั่วคราว</td>
+                                                                <td>6</td>
+                                                            </tr>
+                                                            <tr class="topic">
+                                                                <td>17. ทุพพลภาพชั่วคราว ผู้โดยสาร</td>
+                                                                <td>ไม่คุ้มครอง</td>
                                                             </tr>
                                                         </tbody>
-
                                                     </table>
                                                 </div>
                                             </div>
@@ -254,16 +263,31 @@
                                             </div>
                                         </div>
                                         <%--ดาวน์โหลดเอกสาร--%>
-                                    </div>
-                                    <div class="btn-wrapper txt-center">
-                                        <div class="gen-button inline-block">
-                                            <a href="#nogo" class="btn-med btn-icon-right btn-dark" title="สอบถามข้อมูลซื้อประกัน!">สอบถามข้อมูลซื้อประกัน <i class="fas fa-angle-right" aria-hidden="true"></i></a>
-                                        </div>
-                                        <div class="gen-button inline-block">
-                                            <a href="#nogo" class="btn-med btn-icon-right btn-dark" title="สอบถามข้อมูลออนไลน์!">สอบถามข้อมูลออนไลน์ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
-                                        </div>
-                                        <div class="gen-button inline-block">
-                                            <a href="/Golf/Buy" class="btn-med btn-icon-right btn-primary" title="ซื้อเลย!">ซื้อเลย <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+
+                                        <div class="btn-wrapper txt-center">
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <div class="gen-button">
+                                                        <a href="#nogo" class="btn-med btn-icon-left btn-back" title="ย้อนกลับ!"> <i class="fas fa-angle-left" aria-hidden="true"></i> ย้อนกลับ</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="gen-button">
+                                                        <a href="#nogo" class="btn-med btn-icon-right btn-dark" title="สอบถามข้อมูลซื้อประกัน!">สอบถามข้อมูลซื้อประกัน <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="gen-button">
+                                                        <a href="#nogo" class="btn-med btn-icon-right btn-dark" title="สอบถามข้อมูลออนไลน์!">สอบถามข้อมูลออนไลน์ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="gen-button">
+                                                        <a href="/Motor/Buy" class="btn-med btn-icon-right btn-primary" title="ซื้อเลย!">ซื้อเลย <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -294,7 +318,7 @@
         $('#top-menu-left li#Person').addClass('current');
 
         $('#menu li').removeClass('current');
-        $('#menu li#Golf').addClass('current');
+        $('#menu li#Motor').addClass('current');
     </script>
 
     <script src="../../Scripts/jquery.matchHeight.js"></script>
@@ -359,6 +383,14 @@
         }
 
         Tabs.init();
+    </script>
+
+    <script type="text/javascript">
+        $(".menu-product-detail ul li").hover(function () {
+            $(this).addClass('active');
+        }, function () {
+            $(this).removeClass('active');
+        });
     </script>
 </body>
 </html>

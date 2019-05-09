@@ -17,22 +17,6 @@
         <!-- #header-wrapper -->
 
         <div id="main-slider" class="main-slider">
-            <div class="index-slider slider-container">
-                <div id="foo">
-                    <div class="foo-item">
-                        <img src="../../Images/bg/bg-fire-house.jpg" alt="ประกันภัยบ้าน"/>
-                    </div>
-                </div>
-                <div class="slider-controller">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div id="foo_pager"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="breadcrumb-section absolute">
                 <div class="container">
                     <ol class="breadcrumb">
@@ -42,18 +26,24 @@
                     </ol>
                 </div>
             </div>
-            <div class="index-widget-wrapper">
-                <div class="table">
-                    <div class="cell">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="title-wrapper matchHeight">
-                                        <%--<img src="../../Images/default/txt-title-large.png" />--%>
-                                        <h2 class="title">
-                                            YOUR<br /> LIVING<br /> <span>PARTNER</span>
-                                        </h2>
-                                        <h3 class="description">ประกันอัคคีภัยสำหรับที่อยู่อาศัย</h3>
+            <div class="product-widget-wrapper">
+                <div class="image-wrapper">
+                    <img src="../../Images/bg/bg-fire-house.jpg" alt="ประกันภัยบ้าน"/>
+                </div>
+                <div class="initial-wrapper">
+                    <div class="table">
+                        <div class="cell">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="title-wrapper matchHeight">
+                                            <%--<img src="../../Images/default/txt-title-large.png" />--%>
+                                            <h2 class="title">YOUR<br />
+                                                LIVING<br />
+                                                <span>PARTNER</span>
+                                            </h2>
+                                            <h3 class="description">ประกันอัคคีภัยสำหรับที่อยู่อาศัย</h3>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -347,7 +337,8 @@
                                                     </a>
                                                 </div>
                                             </div>
-                                            <p>หากจำนวนเงินเอาประกันภัยต่ำกว่าร้อยละ 70 ของมูลค่าแท้จริงของทรัพย์สินที่เอาประกันภัยในขณะเกิดความเสียหาย อันเนื่องมาจากภัยที่ได้รับความคุ้มครองตามกรมธรรม์ประกันภัยฉบับนี้                                                ให้ถือกว่าผู้เอาประกันภัยเป็นผู้รับประกันภัยตนเองในส่วนที่แตกต่างกันกับมูลค่าที่แท้จริงของทรัพย์สินที่เอาประกันภัย 
+                                            <p>หากจำนวนเงินเอาประกันภัยต่ำกว่าร้อยละ 70 ของมูลค่าแท้จริงของทรัพย์สินที่เอาประกันภัยในขณะเกิดความเสียหาย อันเนื่องมาจากภัยที่ได้รับความคุ้มครองตามกรมธรรม์ประกันภัยฉบับนี้
+                                                ให้ถือกว่าผู้เอาประกันภัยเป็นผู้รับประกันภัยตนเองในส่วนที่แตกต่างกันกับมูลค่าที่แท้จริงของทรัพย์สินที่เอาประกันภัย 
                                                 และในการคำนวนค่าสินไหมทดแทนผู้เอาประกันภัยจะต้องรับภาระส่วนเฉลี่ยความเสียหายไปตามส่วนในทุกรายการ
                                             </p>
                                         </div>
