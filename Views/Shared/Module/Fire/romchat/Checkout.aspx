@@ -26,8 +26,8 @@
             <h3><span>เลือกแบบประกัน</span> : ประกันอัคคีภัยสำหรับบ้านร่มฉัตร</h3>
         </div>
 
-        <div class="content-review">
-            <div class="summary-plan fire">
+        <div class="content-review fire">
+            <div class="summary-plan">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="row">
@@ -47,7 +47,8 @@
                                 <div class="type matchHeight">
                                     <div class="table">
                                         <div class="cell">
-                                            <p>มาตราฐาน</p>
+                                            <p class="title">&nbsp;</p>
+                                            <p class="data">มาตราฐาน</p>
                                         </div>
                                     </div>
                                 </div>
@@ -184,7 +185,7 @@
                                     ประกันอัคคีภัยสำหรับบ้านร่มฉัตร
                                 </td>
                                 <td colspan="2" class="amount txt-right">
-                                    <h3>1,800.00 <span class="unit">บาท</span></h3>
+                                    <h3>1,800.<span>00</span> <span class="unit">บาท</span></h3>
                                 </td>
                             </tr>
                             <tr>
@@ -192,7 +193,7 @@
                                     <span class="total-label">เบี้ยประกันภัยรวม</span>
                                 </td>
                                 <td colspan="2" class="amount txt-right">
-                                    <h3>1,800.00 <span class="unit">บาท</span></h3>
+                                    <h3>1,800.<span>00</span> <span class="unit">บาท</span></h3>
                                 </td>
                             </tr>
                         </tbody>

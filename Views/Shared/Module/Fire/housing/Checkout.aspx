@@ -26,8 +26,8 @@
             <h3><span>เลือกแบบประกัน</span> : ประกันอัคคีภัยสำหรับที่อยู่อาศัย</h3>
         </div>
 
-        <div class="content-review">
-            <div class="summary-plan fire">
+        <div class="content-review fire">
+            <div class="summary-plan">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="row">
@@ -44,13 +44,13 @@
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                                <div class="detail matchHeight">
+                                <div class="type matchHeight">
                                     <p class="title">
                                         เบี้ยประกันภัย
                                     </p>
-                                    <div class="price-insured">
+                                    <p class="data">
                                         6,550
-                                    </div>
+                                    </p>
                                     <p class="unit">
                                         บาท/ปี
                                     </p>
@@ -196,7 +196,7 @@
                                     ประกันอัคคีภัยสำหรับที่อยู่อาศัย
                                 </td>
                                 <td colspan="2" class="amount txt-right">
-                                    <h3>6,550.00 <span class="unit">บาท</span></h3>
+                                    <h3>6,550.<span>00</span> <span class="unit">บาท</span></h3>
                                 </td>
                             </tr>
                             <tr>
@@ -204,7 +204,7 @@
                                     <span class="total-label">เบี้ยประกันภัยรวม</span>
                                 </td>
                                 <td colspan="2" class="amount txt-right">
-                                    <h3>6,550.00 <span class="unit">บาท</span></h3>
+                                    <h3>6,550.<span>00</span> <span class="unit">บาท</span></h3>
                                 </td>
                             </tr>
                         </tbody>

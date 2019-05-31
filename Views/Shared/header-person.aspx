@@ -24,8 +24,8 @@
                         <div class="main-nav-list">
                             <ul id="menu">
                                 <li id="Motor"><a href="/Motor" title="ประกันภัยรถยนต์">ประกันภัยรถยนต์ <span class="icon"></span></a></li>
-                                <li id="Accident"><a href="/" title="ประกันภัยอุบัติเหตุ">ประกันภัยอุบัติเหตุ <span class="icon"></span></a></li>
-                                <li id="Travel"><a href="/" title="ประกันภัยเดินทาง">ประกันภัยเดินทาง <span class="icon"></span></a></li>
+                                <li id="Accident"><a href="/Accident" title="ประกันภัยอุบัติเหตุ">ประกันภัยอุบัติเหตุ <span class="icon"></span></a></li>
+                                <li id="Travel"><a href="/Travel" title="ประกันภัยเดินทาง">ประกันภัยเดินทาง <span class="icon"></span></a></li>
                                 <li id="House"><a href="/Fire" title="ประกันภัยบ้าน">ประกันภัยบ้าน <span class="icon"></span></a></li>
                                 <li id="Golf"><a href="/Golf" title="ประกันภัยผู้เล่นกอล์ฟ">ประกันภัยผู้เล่นกอล์ฟ <span class="icon"></span></a>
                                     <%--<ul>

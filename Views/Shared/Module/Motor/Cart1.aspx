@@ -174,7 +174,7 @@
                                     <div class="clearPrefix"></div>
                                     <div class="btn-wrapper">
                                         <div class="gen-button">
-                                            <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Quotation/CompeleteQuotationMotor'">
+                                            <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Motor/Buy?p=3'">
                                                 คลิกเลือกแบบประกันนี้ <i class="fas fa-angle-right" aria-hidden="true"></i>
                                             </button>
                                         </div>
@@ -266,7 +266,7 @@
                                     <div class="clearPrefix"></div>
                                     <div class="btn-wrapper">
                                         <div class="gen-button">
-                                            <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Quotation/CompeleteQuotationMotor'">
+                                            <button type="button" class="btn-med btn-icon-right btn-primary" onclick="location.href='/Motor/Buy?p=3'">
                                                 คลิกเลือกแบบประกันนี้ <i class="fas fa-angle-right" aria-hidden="true"></i>
                                             </button>
                                         </div>

@@ -26,8 +26,8 @@
             <h3><span>เลือกแบบประกัน</span> : ประกันภัยบ้านอยู่อาศัย บ้านสบายใจ</h3>
         </div>
 
-        <div class="content-review">
-            <div class="summary-plan fire">
+        <div class="content-review fire">
+            <div class="summary-plan">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="row">
@@ -47,7 +47,8 @@
                                 <div class="type matchHeight">
                                     <div class="table">
                                         <div class="cell">
-                                            <p>บ้านสบายใจ</p>
+                                            <p class="title">&nbsp;</p>
+                                            <p class="data">บ้านสบายใจ</p>
                                         </div>
                                     </div>
                                 </div>
@@ -184,7 +185,7 @@
                                     ประกันภัยบ้านอยู่อาศัย บ้านสบายใจ
                                 </td>
                                 <td colspan="2" class="amount txt-right">
-                                    <h3>850.00 <span class="unit">บาท</span></h3>
+                                    <h3>850.<span>00</span> <span class="unit">บาท</span></h3>
                                 </td>
                             </tr>
                             <tr>
@@ -192,7 +193,7 @@
                                     <span class="total-label">เบี้ยประกันภัยรวม</span>
                                 </td>
                                 <td colspan="2" class="amount txt-right">
-                                    <h3>913.78 <span class="unit">บาท</span></h3>
+                                    <h3>913.<span>00</span> <span class="unit">บาท</span></h3>
                                 </td>
                             </tr>
                         </tbody>

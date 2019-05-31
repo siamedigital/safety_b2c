@@ -102,8 +102,8 @@
           display: inline-block;
           min-width: 285px;
           font-family: "webfont-med";
-          font-size: 30px;
-          line-height: 34px;
+          font-size: 26px;
+          line-height: 26px;
           color: #999;
           text-decoration: none; }
         .product-widget-wrapper .menu-product-detail ul li.current {
@@ -184,7 +184,7 @@
                   text-transform: none;
                   content: '\f105';
                   color: #fff;
-                  padding: 0;
+                  padding: 0 5px 0 0;
                   font-size: 14px; }
                 .product-widget-wrapper .menu-product-detail ul li .show-subproduct ul li .text:hover {
                   color: #000; }
@@ -199,7 +199,7 @@
     width: 100%;
     left: 0;
     right: 0;
-    top: -70px; }
+    top: -75px; }
     .product-wrapper .sub-product-wrapper ul {
       margin: 0;
       padding: 0;
@@ -209,27 +209,47 @@
         display: inline-block;
         background-color: #F7F7F7;
         opacity: 0.8;
-        width: 250px;
+        min-width: 250px;
+        height: 70px;
         text-align: center;
         position: relative; }
         .product-wrapper .sub-product-wrapper ul li a {
           text-decoration: none;
           display: inline-block;
           font-family: "webfont-med";
-          font-size: 24px;
-          line-height: 24px;
-          color: #777777;
-          padding: 15px 10px 25px; }
+          font-size: 26px;
+          line-height: 26px;
+          color: #777;
+          padding: 22px 10px; }
         .product-wrapper .sub-product-wrapper ul li:hover {
           background-color: #00AC4A;
           opacity: 1; }
           .product-wrapper .sub-product-wrapper ul li:hover a {
-            color: #ffffff; }
+            color: #fff; }
       .product-wrapper .sub-product-wrapper ul li.active {
         background-color: #00AC4A;
-        opacity: 1; }
+        opacity: 1;
+        /*a{
+                    color: $color-white;
+                    position: relative;
+                    top: -8px;
+                    &::after {
+                        position: absolute;
+                        width: 100%;
+                        font-size: $text-x-small;
+                        line-height: $text-x-small;
+                        text-align: center;
+                        bottom: -3px;
+                        right: 0;
+                        z-index: 2;
+                        pointer-events: none;
+                        content: url('../../../../Images/icon/small-angle-down.png');
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                }*/ }
         .product-wrapper .sub-product-wrapper ul li.active a {
-          color: #ffffff;
+          color: #fff;
           position: relative;
           top: -8px; }
           .product-wrapper .sub-product-wrapper ul li.active a::after {
@@ -272,6 +292,9 @@
             left: -5px; }
         .product-wrapper .product-detail-wrapper .tab-wrapper .note-wrapper .color-red {
           color: #d80000; }
+      .product-wrapper .product-detail-wrapper .tab-wrapper .btn-wrapper {
+        padding-left: 25px;
+        padding-right: 25px; }
     .product-wrapper .product-detail-wrapper .transformer-tabs {
       font-family: webfont-med;
       background-color: #f7f7f7; }
@@ -304,7 +327,7 @@
                 }*/ }
       .product-wrapper .product-detail-wrapper .transformer-tabs a {
         display: inline-block;
-        font-size: 30px;
+        font-size: 26px;
         line-height: 34px;
         color: #999;
         text-decoration: none;
@@ -397,6 +420,7 @@
         .product-wrapper .product-detail-wrapper .content-editor-wrapper .table-bordered thead tr th {
           font-size: 26px;
           line-height: 26px;
+          font-weight: normal;
           text-align: center;
           color: #fff;
           border: 2px solid #fff;
@@ -414,7 +438,19 @@
             text-align: left; }
         .product-wrapper .product-detail-wrapper .content-editor-wrapper .table-bordered tbody tr.topic td:first-child {
           background-color: #f7f7f7; }
+        .product-wrapper .product-detail-wrapper .content-editor-wrapper .table-bordered tbody tr.topic.txt-green td {
+          color: #00AC4A; }
+          .product-wrapper .product-detail-wrapper .content-editor-wrapper .table-bordered tbody tr.topic.txt-green td:first-child {
+            background-color: #fff; }
+        .product-wrapper .product-detail-wrapper .content-editor-wrapper .table-bordered tbody tr.topic.sum td {
+          font-size: 26px;
+          color: #232323; }
+          .product-wrapper .product-detail-wrapper .content-editor-wrapper .table-bordered tbody tr.topic.sum td:first-child {
+            font-size: 22px;
+            color: #777;
+            background-color: #fff; }
         .product-wrapper .product-detail-wrapper .content-editor-wrapper .table-bordered tbody tr.summary td {
+          font-size: 26px;
           color: #00AC4A; }
           .product-wrapper .product-detail-wrapper .content-editor-wrapper .table-bordered tbody tr.summary td:first-child {
             background-color: #f7f7f7; }
@@ -587,7 +623,7 @@
           background-color: #F7F7F7;
           padding: 40px 20px 20px; }
           .module-wrapper .form-content-wrapper .content-form .form-row .tab-form-wrapper .tab-content .gen-input input[type="text"] {
-            background-color: #ffffff; }
+            background-color: #fff; }
       .module-wrapper .form-content-wrapper .content-form .txt-label {
         font-size: 26px;
         line-height: 34px; }
@@ -684,6 +720,47 @@
           border: 1px solid #ddd;
           border-top: none;
           background-color: #f7f7f7; }
+          .module-wrapper .form-content-wrapper .content-form .tab-wrapper .tab-content .note {
+            font-size: 22px; }
+          .module-wrapper .form-content-wrapper .content-form .tab-wrapper .tab-content .beneficiary-wrapper .action-manage {
+            cursor: pointer;
+            font-size: 22px;
+            line-height: 22px;
+            color: #fff;
+            padding: 10px 15px;
+            display: inline-block;
+            margin-bottom: 5px;
+            margin-right: 5px; }
+            .module-wrapper .form-content-wrapper .content-form .tab-wrapper .tab-content .beneficiary-wrapper .action-manage i {
+              font-size: 16px;
+              padding-right: 5px; }
+            .module-wrapper .form-content-wrapper .content-form .tab-wrapper .tab-content .beneficiary-wrapper .action-manage.add {
+              background-color: #C0B932; }
+            .module-wrapper .form-content-wrapper .content-form .tab-wrapper .tab-content .beneficiary-wrapper .action-manage.del {
+              background-color: #d80000;
+              display: none; }
+      .module-wrapper .form-content-wrapper .content-form .hide-box {
+        margin-bottom: 30px; }
+        .module-wrapper .form-content-wrapper .content-form .hide-box .gen-input, .module-wrapper .form-content-wrapper .content-form .hide-box .gen-file-upload {
+          margin-bottom: 10px; }
+        .module-wrapper .form-content-wrapper .content-form .hide-box .note {
+          padding-top: 5px;
+          font-size: 22px;
+          line-height: 22px;
+          border-top: 1px dotted #999; }
+      .module-wrapper .form-content-wrapper .content-form .text-input {
+        height: 40px; }
+        .module-wrapper .form-content-wrapper .content-form .text-input .text-age {
+          color: #00AC4A;
+          text-align: left; }
+          .module-wrapper .form-content-wrapper .content-form .text-input .text-age > span {
+            display: inline-block;
+            width: 100px;
+            height: 40px;
+            color: #999;
+            text-align: center;
+            border: 1px solid #eee;
+            background-color: #f7f7f7; }
       @media screen and (max-width: 999px) {
         .module-wrapper .form-content-wrapper .content-form .txt-label {
           margin-bottom: 10px; }
@@ -695,19 +772,39 @@
       margin: 0 auto;
       margin-bottom: 30px;
       font-family: "webfont-med"; }
+      .module-wrapper .form-content-wrapper .content-review .title-head {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        color: #444; }
+        .module-wrapper .form-content-wrapper .content-review .title-head.inline-block {
+          display: inline-block; }
+          @media screen and (max-width: 999px) {
+            .module-wrapper .form-content-wrapper .content-review .title-head.inline-block {
+              margin-bottom: 0; } }
+      .module-wrapper .form-content-wrapper .content-review .tooltips-title-head {
+        display: inline-block;
+        position: relative;
+        margin-left: 15px; }
+        .module-wrapper .form-content-wrapper .content-review .tooltips-title-head .tooltip {
+          opacity: 1; }
+        .module-wrapper .form-content-wrapper .content-review .tooltips-title-head span {
+          padding-left: 35px;
+          font-size: 26px;
+          line-height: 26px; }
+        @media screen and (max-width: 999px) {
+          .module-wrapper .form-content-wrapper .content-review .tooltips-title-head {
+            margin-left: 0;
+            margin-bottom: 20px; } }
       .module-wrapper .form-content-wrapper .content-review .summary-plan {
         padding: 20px;
         text-align: center;
         background-color: #6fae28; }
-        .module-wrapper .form-content-wrapper .content-review .summary-plan.business {
-          background-color: #00698c; }
-          .module-wrapper .form-content-wrapper .content-review .summary-plan.business .price .title, .module-wrapper .form-content-wrapper .content-review .summary-plan.business .detail .title {
-            color: #00a9e0; }
         .module-wrapper .form-content-wrapper .content-review .summary-plan .price {
           display: inline-block;
           width: 260px;
           height: 260px;
-          padding: 40px 0;
+          padding: 30px 0;
           text-align: center;
           border: 2px solid #fff;
           -webkit-border-radius: 100%;
@@ -716,41 +813,48 @@
           -pie-border-radius: 100%;
           behavior: url(pie/PIE.htc); }
           .module-wrapper .form-content-wrapper .content-review .summary-plan .price .title {
-            font-size: 30px;
+            font-size: 26px;
             line-height: 30px;
             color: #336600; }
           .module-wrapper .form-content-wrapper .content-review .summary-plan .price .amount {
+            height: 100px;
             font-size: 70px;
-            line-height: 70px;
+            line-height: 100px;
             color: #fff; }
           .module-wrapper .form-content-wrapper .content-review .summary-plan .price .unit {
             font-size: 30px;
             line-height: 30px;
             color: #fff; }
         .module-wrapper .form-content-wrapper .content-review .summary-plan .type {
-          /*text-align: center;*/ }
+          display: inline-block;
+          width: 100%;
+          height: 260px;
+          padding: 30px 0;
+          text-align: center; }
           .module-wrapper .form-content-wrapper .content-review .summary-plan .type .table {
-            display: table;
-            width: 100%;
-            height: 100%;
-            padding: 0;
+            /*display: table;
+                        width: 100%;
+                        height: 100%;
+                        padding: 0;*/
             background-color: transparent !important; }
           .module-wrapper .form-content-wrapper .content-review .summary-plan .type .cell {
-            display: table-cell;
-            vertical-align: middle;
-            text-align: left;
-            width: 100%;
-            padding: 0;
-            z-index: 2;
+            /*display: table-cell;
+                        vertical-align: middle;
+                        width: 100%;
+                        padding: 0;
+                        z-index: 2;*/
             text-decoration: none; }
-          .module-wrapper .form-content-wrapper .content-review .summary-plan .type p {
+          .module-wrapper .form-content-wrapper .content-review .summary-plan .type p.title {
+            font-size: 26px;
+            line-height: 30px; }
+          .module-wrapper .form-content-wrapper .content-review .summary-plan .type p.data {
             display: inline-block;
             width: 100px;
             height: 100px;
             padding: 35px 0;
+            margin: 22px 0;
             font-size: 30px;
             line-height: 30px;
-            text-align: center;
             color: #fff;
             border: 2px solid #fff;
             -webkit-border-radius: 100%;
@@ -758,18 +862,24 @@
             border-radius: 100%;
             -pie-border-radius: 100%;
             behavior: url(pie/PIE.htc); }
+          .module-wrapper .form-content-wrapper .content-review .summary-plan .type p.unit {
+            font-size: 26px;
+            line-height: 30px;
+            color: #fff; }
         .module-wrapper .form-content-wrapper .content-review .summary-plan .detail {
-          padding: 40px 0;
+          height: 260px;
+          padding: 30px 0;
           text-align: center; }
           .module-wrapper .form-content-wrapper .content-review .summary-plan .detail .title {
-            font-size: 30px;
+            font-size: 26px;
             line-height: 30px;
             color: #336600; }
           .module-wrapper .form-content-wrapper .content-review .summary-plan .detail img {
             max-width: 100%;
-            margin: 20px 0; }
+            height: 70px;
+            margin: 36px 0; }
           .module-wrapper .form-content-wrapper .content-review .summary-plan .detail .unit {
-            font-size: 30px;
+            font-size: 26px;
             line-height: 30px;
             color: #fff; }
           .module-wrapper .form-content-wrapper .content-review .summary-plan .detail .price-insured {
@@ -782,24 +892,12 @@
             margin: 8px 0;
             font-family: "webfont-med";
             font-size: 34px;
-            color: #ffffff;
+            color: #fff;
             -webkit-border-radius: 100%;
             -moz-border-radius: 100%;
             border-radius: 100%;
             -pie-border-radius: 100%;
             behavior: url(pie/PIE.htc); }
-        .module-wrapper .form-content-wrapper .content-review .summary-plan.fire {
-          background-color: #B64926; }
-          .module-wrapper .form-content-wrapper .content-review .summary-plan.fire .price .title {
-            color: #6D2D16; }
-          .module-wrapper .form-content-wrapper .content-review .summary-plan.fire .detail .title {
-            color: #6D2D16; }
-        .module-wrapper .form-content-wrapper .content-review .summary-plan.fire-housing {
-          background-color: #00AC4A; }
-          .module-wrapper .form-content-wrapper .content-review .summary-plan.fire-housing .price .title {
-            color: #006229; }
-          .module-wrapper .form-content-wrapper .content-review .summary-plan.fire-housing .detail .title {
-            color: #006229; }
         @media screen and (max-width: 767px) {
           .module-wrapper .form-content-wrapper .content-review .summary-plan .detail {
             padding: 20px 0; } }
@@ -850,35 +948,37 @@
                 font-size: 34px;
                 line-height: 34px;
                 color: #00AC4A; }
-                .module-wrapper .form-content-wrapper .content-review .summary-table .table-bordered tbody tr td.amount h3 .unit {
-                  font-size: 22px;
-                  color: #777; }
+                .module-wrapper .form-content-wrapper .content-review .summary-table .table-bordered tbody tr td.amount h3 span {
+                  font-size: 22px; }
+                  .module-wrapper .form-content-wrapper .content-review .summary-table .table-bordered tbody tr td.amount h3 span.unit {
+                    font-size: 22px;
+                    color: #777; }
               .module-wrapper .form-content-wrapper .content-review .summary-table .table-bordered tbody tr td.amount .total-label {
                 color: #00AC4A; }
-      .module-wrapper .form-content-wrapper .content-review .title-head {
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 30px;
-        color: #444; }
-        .module-wrapper .form-content-wrapper .content-review .title-head.inline-block {
-          display: inline-block; }
-          @media screen and (max-width: 999px) {
-            .module-wrapper .form-content-wrapper .content-review .title-head.inline-block {
-              margin-bottom: 0; } }
-      .module-wrapper .form-content-wrapper .content-review .tooltips-title-head {
-        display: inline-block;
-        position: relative;
-        margin-left: 15px; }
-        .module-wrapper .form-content-wrapper .content-review .tooltips-title-head .tooltip {
-          opacity: 1; }
-        .module-wrapper .form-content-wrapper .content-review .tooltips-title-head span {
-          padding-left: 35px;
-          font-size: 26px;
-          line-height: 26px; }
-        @media screen and (max-width: 999px) {
-          .module-wrapper .form-content-wrapper .content-review .tooltips-title-head {
-            margin-left: 0;
-            margin-bottom: 20px; } }
+      .module-wrapper .form-content-wrapper .content-review.business .summary-plan {
+        background-color: #00698c; }
+        .module-wrapper .form-content-wrapper .content-review.business .summary-plan .price .title, .module-wrapper .form-content-wrapper .content-review.business .summary-plan .type .title, .module-wrapper .form-content-wrapper .content-review.business .summary-plan .detail .title {
+          color: #00a9e0; }
+      .module-wrapper .form-content-wrapper .content-review.motor .summary-plan {
+        background-color: #00AC4A; }
+        .module-wrapper .form-content-wrapper .content-review.motor .summary-plan .price .title, .module-wrapper .form-content-wrapper .content-review.motor .summary-plan .type .title, .module-wrapper .form-content-wrapper .content-review.motor .summary-plan .detail .title {
+          color: #005323; }
+      .module-wrapper .form-content-wrapper .content-review.fire .summary-plan {
+        background-color: #B64926; }
+        .module-wrapper .form-content-wrapper .content-review.fire .summary-plan .price .title, .module-wrapper .form-content-wrapper .content-review.fire .summary-plan .type .title, .module-wrapper .form-content-wrapper .content-review.fire .summary-plan .detail .title {
+          color: #6D2D16; }
+      .module-wrapper .form-content-wrapper .content-review.fire-housing .summary-plan {
+        background-color: #00AC4A; }
+        .module-wrapper .form-content-wrapper .content-review.fire-housing .summary-plan .price .title, .module-wrapper .form-content-wrapper .content-review.fire-housing .summary-plan .type .title, .module-wrapper .form-content-wrapper .content-review.fire-housing .summary-plan .detail .title {
+          color: #006229; }
+      .module-wrapper .form-content-wrapper .content-review.pa .summary-plan {
+        background-color: #ff6600; }
+        .module-wrapper .form-content-wrapper .content-review.pa .summary-plan .price .title, .module-wrapper .form-content-wrapper .content-review.pa .summary-plan .type .title, .module-wrapper .form-content-wrapper .content-review.pa .summary-plan .detail .title {
+          color: #8a3700; }
+      .module-wrapper .form-content-wrapper .content-review.ta .summary-plan {
+        background-color: #0099CC; }
+        .module-wrapper .form-content-wrapper .content-review.ta .summary-plan .price .title, .module-wrapper .form-content-wrapper .content-review.ta .summary-plan .type .title, .module-wrapper .form-content-wrapper .content-review.ta .summary-plan .detail .title {
+          color: #005A79; }
     .module-wrapper .form-content-wrapper .payment-wrapper {
       margin: 0 auto;
       margin-bottom: 30px;
@@ -1103,7 +1203,8 @@
               display: block;
               padding: 10px;
               margin-bottom: 20px;
-              text-align: center; }
+              text-align: center;
+              background-color: #999; }
               .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail .main-content .insurance:after {
                 content: '';
                 position: absolute;
@@ -1114,21 +1215,26 @@
                 height: 0;
                 border-top: solid 10px transparent;
                 border-left: solid 10px transparent;
-                border-right: solid 10px transparent; }
+                border-right: solid 10px transparent;
+                border-top-color: #999; }
               .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail .main-content .insurance .top-text {
                 margin-bottom: 30px; }
               .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail .main-content .insurance .title {
                 font-size: 26px;
-                line-height: 26px; }
+                line-height: 26px;
+                color: #fff; }
               .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail .main-content .insurance .add_on {
                 font-size: 26px;
-                line-height: 26px; }
+                line-height: 26px;
+                color: #fff; }
               .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail .main-content .insurance .price {
                 font-size: 34px;
-                line-height: 34px; }
+                line-height: 34px;
+                color: #fff; }
               .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail .main-content .insurance .sub-price {
                 font-size: 30px;
-                line-height: 30px; }
+                line-height: 30px;
+                color: #fff; }
             .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail .detail-content {
               margin-top: -20px;
               text-align: center; }
@@ -1144,8 +1250,12 @@
                 padding: 0;
                 margin: 0; }
                 .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail .detail-content ul.insurance-coverage li {
-                  padding: 20px 10px 10px 10px; }
+                  padding: 20px 10px 10px 10px;
+                  background-color: #ddd; }
+                  .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail .detail-content ul.insurance-coverage li:nth-child(odd) {
+                    background-color: #eee; }
             .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail .btn-wrapper .gen-button {
+              margin-bottom: 5px;
               cursor: not-allowed; }
               .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail .btn-wrapper .gen-button .btn-med {
                 pointer-events: none; }
@@ -1159,7 +1269,8 @@
               .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail .btn-wrapper .read-description a:hover {
                 color: #232323; }
               .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail .btn-wrapper .read-description a .fas {
-                font-size: 18px; }
+                font-size: 16px;
+                padding-right: 5px; }
             .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail.theme-primary .main-content .type {
               /*.add_on {
                                             color: $color-primary;
@@ -1186,10 +1297,30 @@
               color: #232323; }
             .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail.theme-primary .detail-content .price {
               color: #00AC4A; }
-            .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail.theme-primary .detail-content ul.insurance-coverage li {
-              background-color: #ddd; }
-              .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail.theme-primary .detail-content ul.insurance-coverage li:nth-child(odd) {
-                background-color: #eee; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail.theme-secondary .main-content .type {
+              /*.add_on {
+                                            color: $color-primary;
+                                        }
+
+                                        .price {
+                                            color: $color-primary;
+                                        }*/ }
+              .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail.theme-secondary .main-content .type .title {
+                color: #FF6600; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail.theme-secondary .detail-content .price {
+              color: #FF6600; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail.theme-third .main-content .type {
+              /*.add_on {
+                                            color: $color-primary;
+                                        }
+
+                                        .price {
+                                            color: $color-primary;
+                                        }*/ }
+              .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail.theme-third .main-content .type .title {
+                color: #0099cc; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item .content-list-item .box-detail.theme-third .detail-content .price {
+              color: #0099cc; }
           .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item.active .content-list-item {
             opacity: 1.0; }
             .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item.active .content-list-item .check-wrapper .select-insurance {
@@ -1207,6 +1338,28 @@
                 .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item.active .content-list-item .box-detail.theme-primary .btn-wrapper .gen-button .btn-med.btn-primary {
                   border-color: #00AC4A !important;
                   background-color: #00AC4A !important; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item.active .content-list-item .box-detail.theme-secondary .main-content .insurance {
+              background-color: #ff6600; }
+              .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item.active .content-list-item .box-detail.theme-secondary .main-content .insurance:after {
+                border-top-color: #ff6600; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item.active .content-list-item .box-detail.theme-secondary .btn-wrapper .gen-button {
+              cursor: pointer; }
+              .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item.active .content-list-item .box-detail.theme-secondary .btn-wrapper .gen-button .btn-med {
+                pointer-events: auto; }
+                .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item.active .content-list-item .box-detail.theme-secondary .btn-wrapper .gen-button .btn-med.btn-primary {
+                  border-color: #ff6600 !important;
+                  background-color: #ff6600 !important; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item.active .content-list-item .box-detail.theme-third .main-content .insurance {
+              background-color: #0099cc; }
+              .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item.active .content-list-item .box-detail.theme-third .main-content .insurance:after {
+                border-top-color: #0099cc; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item.active .content-list-item .box-detail.theme-third .btn-wrapper .gen-button {
+              cursor: pointer; }
+              .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item.active .content-list-item .box-detail.theme-third .btn-wrapper .gen-button .btn-med {
+                pointer-events: auto; }
+                .module-wrapper .form-content-wrapper .list-compare-wrapper .list-item-wrapper .list-item.active .content-list-item .box-detail.theme-third .btn-wrapper .gen-button .btn-med.btn-primary {
+                  border-color: #0099cc !important;
+                  background-color: #0099cc !important; }
       .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper {
         position: relative;
         margin-bottom: 30px; }
@@ -1220,7 +1373,66 @@
             padding: 0 10px;
             outline: none; }
             .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .head-product-compare {
-              height: 216px; }
+              height: 216px;
+              /*&.-PA {
+                                .box-item {
+                                    .name-insurance {
+                                        .title {
+                                            color: #FF6600;
+                                        }
+
+                                        .type {
+                                            color: #999999;
+                                        }
+
+                                        .desc-more {
+                                            color: #999999;
+                                        }
+                                    }
+
+                                    .insurance {
+                                        .text {
+                                            color: #FF6600;
+                                        }
+                                    }
+
+                                    .price-of-year {
+                                        .price, .price_prb {
+                                            color: #FF6600;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &.-TA {
+                                .box-item {
+                                    .name-insurance {
+                                        .title {
+                                            color: #0099CC;
+                                        }
+
+                                        .type {
+                                            color: #999999;
+                                        }
+
+                                        .desc-more {
+                                            color: #999999;
+                                        }
+                                    }
+
+                                    .insurance {
+                                        .text {
+                                            color: #0099CC;
+                                        }
+                                    }
+
+                                    .price-of-year {
+                                        .price {
+                                            color: #0099CC;
+                                        }
+                                    }
+                                }
+                            }*/ }
               .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .head-product-compare .box-item {
                 padding: 0 10px;
                 border: 1px dotted #bfbfbf;
@@ -1288,26 +1500,6 @@
                     font-size: 17px;
                     line-height: 17px;
                     color: #00AC4A; }
-              .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .head-product-compare.-PA .box-item .name-insurance .title {
-                color: #FF6600; }
-              .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .head-product-compare.-PA .box-item .name-insurance .type {
-                color: #999999; }
-              .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .head-product-compare.-PA .box-item .name-insurance .desc-more {
-                color: #999999; }
-              .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .head-product-compare.-PA .box-item .insurance .text {
-                color: #FF6600; }
-              .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .head-product-compare.-PA .box-item .price-of-year .price {
-                color: #FF6600; }
-              .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .head-product-compare.-TA .box-item .name-insurance .title {
-                color: #0099CC; }
-              .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .head-product-compare.-TA .box-item .name-insurance .type {
-                color: #999999; }
-              .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .head-product-compare.-TA .box-item .name-insurance .desc-more {
-                color: #999999; }
-              .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .head-product-compare.-TA .box-item .insurance .text {
-                color: #0099CC; }
-              .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .head-product-compare.-TA .box-item .price-of-year .price {
-                color: #0099CC; }
             .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .detail-product-compare ul {
               margin: 0;
               padding: 0; }
@@ -1316,30 +1508,13 @@
                 text-align: center;
                 margin-right: -20px;
                 height: 125px; }
-                .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .detail-product-compare ul li .title {
-                  display: none; }
-                .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .detail-product-compare ul li .desc {
-                  font-family: "webfont-med";
-                  font-size: 30px;
-                  line-height: 30px;
-                  color: #00AC4A;
-                  display: -webkit-box;
-                  display: -ms-flexbox;
-                  display: flex;
-                  -webkit-box-align: center;
-                  -ms-flex-align: center;
-                  align-items: center;
-                  -webkit-box-pack: center;
-                  -ms-flex-pack: center;
-                  justify-content: center;
-                  height: 100%; }
                 .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .detail-product-compare ul li.space {
-                  background-color: #ffffff !important;
+                  background-color: #fff !important;
                   height: 84px; }
                 .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .detail-product-compare ul li:nth-child(even) {
-                  background-color: #cccccc; }
+                  background-color: #eee; }
                 .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .detail-product-compare ul li:nth-child(odd) {
-                  background-color: #ffffff; }
+                  background-color: #f7f7f7; }
                 @media screen and (max-width: 1024px) {
                   .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .detail-product-compare ul li {
                     margin-right: 0;
@@ -1353,10 +1528,63 @@
                       margin-bottom: 10px; }
                     .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .detail-product-compare ul li .desc {
                       line-height: 24px; } }
-            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .detail-product-compare.-PA ul li .desc {
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .detail-product-compare .title {
+              display: none; }
+              @media screen and (max-width: 1024px) {
+                .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .detail-product-compare .title {
+                  display: block;
+                  font-family: "webfont-med";
+                  font-size: 26px;
+                  line-height: 26px;
+                  margin-bottom: 10px; } }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .detail-product-compare .desc {
+              font-family: "webfont-med";
+              font-size: 30px;
+              line-height: 30px;
+              color: #00AC4A;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center;
+              height: 100%; }
+              @media screen and (max-width: 1024px) {
+                .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .detail-product-compare .desc {
+                  line-height: 24px; } }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-PA .head-product-compare .box-item .name-insurance .title {
               color: #FF6600; }
-            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare .detail-product-compare.-TA ul li .desc {
-              color: #0099CC; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-PA .head-product-compare .box-item .name-insurance .type {
+              color: #999999; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-PA .head-product-compare .box-item .name-insurance .desc-more {
+              color: #999999; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-PA .head-product-compare .box-item .insurance .text {
+              color: #777; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-PA .head-product-compare .box-item .price-of-year .price, .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-PA .head-product-compare .box-item .price-of-year .price_prb {
+              color: #FF6600; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-PA .detail-product-compare .desc {
+              color: #ff6600; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-TA .head-product-compare .box-item .name-insurance .title {
+              color: #0099cc; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-TA .head-product-compare .box-item .name-insurance .type {
+              color: #999999; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-TA .head-product-compare .box-item .name-insurance .desc-more {
+              color: #999999; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-TA .head-product-compare .box-item .insurance .text {
+              color: #777; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-TA .head-product-compare .box-item .price-of-year .price, .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-TA .head-product-compare .box-item .price-of-year .price_prb {
+              color: #0099cc; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-TA .head-product-compare .gen-button .btn-secondary {
+              border: 1px solid #0099cc;
+              background-color: #0099cc; }
+              .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-TA .head-product-compare .gen-button .btn-secondary:hover {
+                border: 1px solid #232323;
+                background-color: #232323; }
+            .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-TA .detail-product-compare .desc {
+              color: #0099cc; }
           .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .list-product-compare.-last .detail-product-compare ul li {
             margin-right: 0; }
           .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .slick-track {
@@ -1432,9 +1660,9 @@
                 padding-right: 20px;
                 padding-left: 20px; }
               .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .desc-detail-product-comapre .detail-protection-wrapper ul li:nth-child(even) {
-                background-color: #cccccc; }
+                background-color: #eee; }
               .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .desc-detail-product-comapre .detail-protection-wrapper ul li:nth-child(odd) {
-                background-color: #ffffff; }
+                background-color: #f7f7f7; }
               .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .desc-detail-product-comapre .detail-protection-wrapper ul li:first-of-type {
                 border-top: none; }
               .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .desc-detail-product-comapre .detail-protection-wrapper ul li:last-of-type {
@@ -1502,6 +1730,16 @@
             left: 15%; }
           .module-wrapper .form-content-wrapper .list-compare-wrapper .detail-compare-wrapper .main-detail-product-comapre .slick-next {
             right: 15%; } }
+      .module-wrapper .form-content-wrapper .list-compare-wrapper .note-warning {
+        margin-bottom: 30px; }
+        .module-wrapper .form-content-wrapper .list-compare-wrapper .note-warning h3 {
+          margin-top: 21px;
+          margin-bottom: 10.5px;
+          line-height: 30px;
+          color: #d80000; }
+        .module-wrapper .form-content-wrapper .list-compare-wrapper .note-warning p {
+          font-size: 22px;
+          line-height: 26px; }
     .module-wrapper .form-content-wrapper.summary-wrapper .title-form {
       text-align: left; }
       .module-wrapper .form-content-wrapper.summary-wrapper .title-form h3 {

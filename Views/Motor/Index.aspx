@@ -28,7 +28,7 @@
             <div class="index-widget-wrapper" style="background-image: url('../../Images/bg/bg-motor.jpg');">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-5">
                             <div class="title-wrapper matchHeight">
                                 <h2 class="title">YOUR<br />
                                     LIVING<br />
@@ -37,11 +37,11 @@
                                 <h3 class="description">Safety Insurance โดย บมจ.ประกันภัย<br />
                                     เข้าใจชีวิต เคียงข้างคุณ</h3>
                                 <div class="gen-button inline-block">
-                                    <a href="/Golf/Buy" class="btn-med btn-icon-right btn-primary" title="ซื้อประกันออนไลน์!">ซื้อประกันออนไลน์<i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                    <a href="/Motor/Buy" class="btn-med btn-icon-right btn-primary" title="ซื้อประกันออนไลน์!">ซื้อประกันออนไลน์<i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-lg-8 col-md-7">
                             <div class="widget-menu matchHeight">
                                 <div class="table">
                                     <div class="cell">

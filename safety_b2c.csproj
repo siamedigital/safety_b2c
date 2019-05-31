@@ -142,15 +142,59 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccidentController.cs" />
     <Compile Include="Controllers\BusinessController.cs" />
     <Compile Include="Controllers\FireController.cs" />
     <Compile Include="Controllers\GolfController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MotorController.cs" />
+    <Compile Include="Controllers\TravelController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Accident\Buy.aspx.cs">
+      <DependentUpon>Buy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Accident\Buy.aspx.designer.cs">
+      <DependentUpon>Buy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Accident\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Accident\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Accident\Type1\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Accident\Type1\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Accident\Type2\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Accident\Type2\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Accident\Type3\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Accident\Type3\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Accident\Type4\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Accident\Type4\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Business\Buy.aspx.cs">
       <DependentUpon>Buy.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -291,6 +335,27 @@
     <Compile Include="Views\Motor\Product.aspx.designer.cs">
       <DependentUpon>Product.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\Travel\Asia\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Travel\Asia\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Travel\Buy.aspx.cs">
+      <DependentUpon>Buy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Travel\Buy.aspx.designer.cs">
+      <DependentUpon>Buy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Travel\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Travel\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\all.css" />
@@ -352,7 +417,10 @@
     </Content>
     <Content Include="Images\bg\bg-fire-house.jpg" />
     <Content Include="Images\bg\bg-golf.jpg" />
+    <Content Include="Images\bg\bg-motor.jpg" />
+    <Content Include="Images\bg\bg-pa.jpg" />
     <Content Include="Images\bg\bg-sme.jpg" />
+    <Content Include="Images\bg\bg-ta.jpg" />
     <Content Include="Images\building\icon-building1.png" />
     <Content Include="Images\building\icon-building2.png" />
     <Content Include="Images\business\banner-business.jpg" />
@@ -366,6 +434,8 @@
     <Content Include="Images\golf\icon-golf-club.png" />
     <Content Include="Images\golf\icon-golf.png" />
     <Content Include="Images\golf\main-banner.jpg" />
+    <Content Include="Images\icon\icon-baht-green.png" />
+    <Content Include="Images\icon\icon-baht-orange.png" />
     <Content Include="Images\icon\icon-calculate.png" />
     <Content Include="Images\icon\icon-check.png" />
     <Content Include="Images\icon\icon-checkbox-checked.png" />
@@ -373,13 +443,17 @@
     <Content Include="Images\icon\icon-checked.png" />
     <Content Include="Images\icon\icon-complete-insure.png" />
     <Content Include="Images\icon\icon-dateinput.png" />
+    <Content Include="Images\icon\icon-next.svg" />
     <Content Include="Images\icon\icon-online.png" />
+    <Content Include="Images\icon\icon-prev.svg" />
     <Content Include="Images\icon\icon-rdo-line.png" />
     <Content Include="Images\icon\icon-rdo-lined.png" />
     <Content Include="Images\icon\icon-sex-female.png" />
     <Content Include="Images\icon\icon-sex-male.png" />
     <Content Include="Images\icon\icon-tel.png" />
+    <Content Include="Images\icon\icon-times.png" />
     <Content Include="Images\icon\icon-tooltip.png" />
+    <Content Include="Images\icon\icon-user.png" />
     <Content Include="Images\icon\icon-user2x.jpg" />
     <Content Include="Images\icon\payment\icon-counter.png" />
     <Content Include="Images\icon\payment\icon-credit.png" />
@@ -414,7 +488,23 @@
     <Content Include="Images\motor\widgets\img-06.jpg" />
     <Content Include="Images\motor\widgets\img-07.jpg" />
     <Content Include="Images\motor\widgets\img-08.jpg" />
+    <Content Include="Images\pa\banner-01.jpg" />
+    <Content Include="Images\pa\banner-02.jpg" />
+    <Content Include="Images\pa\icon\icon-pa-age.png" />
+    <Content Include="Images\pa\icon\icon-pa-type.png" />
+    <Content Include="Images\pa\widgets\img-01.jpg" />
+    <Content Include="Images\pa\widgets\img-02.jpg" />
+    <Content Include="Images\pa\widgets\img-03.jpg" />
+    <Content Include="Images\pa\widgets\img-04.jpg" />
     <Content Include="Images\spritesheet.png" />
+    <Content Include="Images\ta\banner-01.jpg" />
+    <Content Include="Images\ta\icon\icon-group.png" />
+    <Content Include="Images\ta\icon\icon-person.png" />
+    <Content Include="Images\ta\icon\icon-time.png" />
+    <Content Include="Images\ta\icon\icon-type.png" />
+    <Content Include="Images\ta\icon\icon-yearly.png" />
+    <Content Include="Images\ta\widgets\img-01.jpg" />
+    <Content Include="Images\ta\widgets\img-02.jpg" />
     <Content Include="Scripts\bootstrap-select.js" />
     <Content Include="Scripts\bootstrap-select.min.js" />
     <Content Include="Scripts\ie8\css3-mediaqueries.js" />
@@ -468,6 +558,12 @@
     <Content Include="Scripts\plugins\slick.min.js" />
     <Content Include="Scripts\plugins\sweetalert2.min.js" />
     <Content Include="Scripts\tooltipster.bundle.min.js" />
+    <Content Include="Views\Accident\Buy.aspx" />
+    <Content Include="Views\Accident\Index.aspx" />
+    <Content Include="Views\Accident\Type1\Product.aspx" />
+    <Content Include="Views\Accident\Type2\Product.aspx" />
+    <Content Include="Views\Accident\Type3\Product.aspx" />
+    <Content Include="Views\Accident\Type4\Product.aspx" />
     <Content Include="Views\Business\Buy.aspx" />
     <Content Include="Views\Business\Index.aspx" />
     <Content Include="Views\Business\Product.aspx" />
@@ -494,6 +590,12 @@
     <Content Include="Views\Shared\header-common.aspx" />
     <Content Include="Views\Shared\header-person.aspx" />
     <Content Include="Views\Shared\header.aspx" />
+    <Content Include="Views\Shared\Module\Accident\Cart1.aspx" />
+    <Content Include="Views\Shared\Module\Accident\Cart2.aspx" />
+    <Content Include="Views\Shared\Module\Accident\Checkout.aspx" />
+    <Content Include="Views\Shared\Module\Accident\Compare.aspx" />
+    <Content Include="Views\Shared\Module\Accident\Payment.aspx" />
+    <Content Include="Views\Shared\Module\Accident\Plan.aspx" />
     <Content Include="Views\Shared\Module\Business\Cart1.aspx" />
     <Content Include="Views\Shared\Module\Business\Cart2.aspx" />
     <Content Include="Views\Shared\Module\Business\Checkout.aspx" />
@@ -533,8 +635,17 @@
     <Content Include="Views\Shared\Module\Motor\Payment.aspx" />
     <Content Include="Views\Shared\Module\Motor\Plan.aspx" />
     <Content Include="Views\Shared\Module\Transaction.aspx" />
+    <Content Include="Views\Shared\Module\Travel\Cart1.aspx" />
+    <Content Include="Views\Shared\Module\Travel\Cart2.aspx" />
+    <Content Include="Views\Shared\Module\Travel\Checkout.aspx" />
+    <Content Include="Views\Shared\Module\Travel\Compare.aspx" />
+    <Content Include="Views\Shared\Module\Travel\Payment.aspx" />
+    <Content Include="Views\Shared\Module\Travel\Plan.aspx" />
     <Content Include="Views\Shared\scripts.aspx" />
     <Content Include="Views\Shared\start.aspx" />
+    <Content Include="Views\Travel\Asia\Product.aspx" />
+    <Content Include="Views\Travel\Buy.aspx" />
+    <Content Include="Views\Travel\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

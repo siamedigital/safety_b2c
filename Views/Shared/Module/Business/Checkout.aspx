@@ -26,8 +26,8 @@
             <h3><span>เลือกแบบประกัน</span> : ประกันภัยผู้เล่นกอล์ฟ แผนที่ 1</h3>
         </div>
 
-        <div class="content-review">
-            <div class="summary-plan business">
+        <div class="content-review business">
+            <div class="summary-plan">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="row">
@@ -47,7 +47,14 @@
                                 <div class="type matchHeight">
                                     <div class="table">
                                         <div class="cell">
-                                            <p>แผนที่ 1</p>
+                                            <p class="title">
+                                                &nbsp;
+                                            </p>
+                                            <p class="data">แผนที่ 1
+                                            </p>
+                                            <p class="unit">
+                                                &nbsp;
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -206,7 +213,7 @@
                                     ประกันภัยธุรกิจขนาดย่อม กลุ่มที่ 1
                                 </td>
                                 <td colspan="2" class="amount txt-right">
-                                    <h3>850.00 <span class="unit">บาท</span></h3>
+                                    <h3>850.<span>00</span> <span class="unit">บาท</span></h3>
                                 </td>
                             </tr>
                             <tr>
@@ -214,7 +221,7 @@
                                     อากรแสตมป์และภาษีมูลค่าเพิ่ม
                                 </td>
                                 <td colspan="2" class="amount txt-right">
-                                    <h3>63.78 <span class="unit">บาท</span></h3>
+                                    <h3>63.<span>00</span> <span class="unit">บาท</span></h3>
                                 </td>
                             </tr>
                             <tr>
@@ -222,7 +229,7 @@
                                     <span class="total-label">เบี้ยประกันภัยรวม</span>
                                 </td>
                                 <td colspan="2" class="amount txt-right">
-                                    <h3>913.78 <span class="unit">บาท</span></h3>
+                                    <h3>913.<span>00</span> <span class="unit">บาท</span></h3>
                                 </td>
                             </tr>
                         </tbody>

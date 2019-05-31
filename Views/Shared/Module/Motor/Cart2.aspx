@@ -286,7 +286,7 @@
                         <div class="row form-row">
                             <div class="col-sm-6">
                                 <div class="gen-slc">
-                                    <select class="selectpicker" data-live-search="true" title="อำเภอ/เขต">
+                                    <select class="selectpicker" data-live-search="true" title="จังหวัด">
                                         <option data-tokens="ระบุ">ระบุ</option>
                                         <option data-tokens="ระบุ">ระบุ</option>
                                         <option data-tokens="ระบุ">ระบุ</option>
@@ -295,13 +295,13 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="gen-slc">
-                                    <select class="selectpicker" data-live-search="true" title="จังหวัด">
+                                    <select class="selectpicker" data-live-search="true" title="อำเภอ/เขต">
                                         <option data-tokens="ระบุ">ระบุ</option>
                                         <option data-tokens="ระบุ">ระบุ</option>
                                         <option data-tokens="ระบุ">ระบุ</option>
                                     </select>
                                 </div>
-                            </div>
+                            </div>                            
                         </div>
                         <div class="row form-row">
                             <div class="col-sm-6">
@@ -571,7 +571,7 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="custom-radio">
-                                <input value="rdo_invoice_type_1" id="rdo_invoice_type_1" name="rdo_invoice_type" type="radio">
+                                <input value="rdo_invoice_type_1" id="rdo_invoice_type_1" name="rdo_invoice_type" type="radio" checked="checked">
                                 <label for="rdo_invoice_type_1"></label>
                                 <span class="content-rdo-inline-block">บุคคลธรรมดา</span>
                             </div>
@@ -673,7 +673,7 @@
                                     <div class="row form-row">
                                         <div class="col-sm-6">
                                             <div class="gen-slc">
-                                                <select class="selectpicker" data-live-search="true" title="อำเภอ/เขต">
+                                                <select class="selectpicker" data-live-search="true" title="จังหวัด">
                                                     <option data-tokens="ระบุ">ระบุ</option>
                                                     <option data-tokens="ระบุ">ระบุ</option>
                                                     <option data-tokens="ระบุ">ระบุ</option>
@@ -682,13 +682,13 @@
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="gen-slc">
-                                                <select class="selectpicker" data-live-search="true" title="จังหวัด">
+                                                <select class="selectpicker" data-live-search="true" title="อำเภอ/เขต">
                                                     <option data-tokens="ระบุ">ระบุ</option>
                                                     <option data-tokens="ระบุ">ระบุ</option>
                                                     <option data-tokens="ระบุ">ระบุ</option>
                                                 </select>
                                             </div>
-                                        </div>
+                                        </div>                                      
                                     </div>
                                     <div class="row form-row">
                                         <div class="col-sm-6">

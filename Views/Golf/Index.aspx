@@ -44,7 +44,7 @@
             <div class="index-widget-wrapper" style="background-image: url('../../Images/bg/bg-golf.jpg');">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-4 col-md-5">
                             <div class="title-wrapper matchHeight">
                                 <h2 class="title">YOUR<br />
                                     LIVING<br />
@@ -57,7 +57,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-7 col-lg-offset-1 col-md-8">
+                        <div class="col-lg-6 col-md-6">
                             <div class="widget-menu matchHeight">
                                 <div class="table">
                                     <div class="cell">

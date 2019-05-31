@@ -295,6 +295,12 @@
         }
     }
 
+    @media screen and (max-width: 1280px) {
+        min-height: 1px;
+        padding-bottom: 50px;
+        background-size: cover;
+    }
+
     @media screen and (max-width: 999px) {
         position: relative;
 
@@ -631,7 +637,7 @@
 
     .mail {
         font-family: $font-med !important;
-        font-size: $text-x-small !important;
+        font-size: $text-content !important;
         line-height: $text-x-small !important;
         color: $color-text;
 
